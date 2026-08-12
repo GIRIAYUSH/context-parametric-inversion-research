@@ -1,0 +1,130 @@
+[
+  {
+    "step": 50,
+    "R_ctx": 0.785,
+    "R_par": 0.205,
+    "R_other": 0.01,
+    "n_passed": 400,
+    "n_total": 412
+  },
+  {
+    "step": 100,
+    "R_ctx": 0.8,
+    "R_par": 0.195,
+    "R_other": 0.005,
+    "n_passed": 401,
+    "n_total": 412
+  },
+  {
+    "step": 150,
+    "R_ctx": 0.735,
+    "R_par": 0.253,
+    "R_other": 0.013,
+    "n_passed": 400,
+    "n_total": 412
+  },
+  {
+    "step": 200,
+    "R_ctx": 0.774,
+    "R_par": 0.216,
+    "R_other": 0.01,
+    "n_passed": 399,
+    "n_total": 412
+  },
+  {
+    "step": 250,
+    "R_ctx": 0.757,
+    "R_par": 0.233,
+    "R_other": 0.01,
+    "n_passed": 399,
+    "n_total": 412
+  },
+  {
+    "step": 300,
+    "R_ctx": 0.723,
+    "R_par": 0.27,
+    "R_other": 0.007,
+    "n_passed": 400,
+    "n_total": 412
+  },
+  {
+    "step": 350,
+    "R_ctx": 0.691,
+    "R_par": 0.304,
+    "R_other": 0.005,
+    "n_passed": 398,
+    "n_total": 412
+  },
+  {
+    "step": 400,
+    "R_ctx": 0.721,
+    "R_par": 0.276,
+    "R_other": 0.003,
+    "n_passed": 398,
+    "n_total": 412
+  },
+  {
+    "step": 450,
+    "R_ctx": 0.702,
+    "R_par": 0.296,
+    "R_other": 0.003,
+    "n_passed": 399,
+    "n_total": 412
+  },
+  {
+    "step": 500,
+    "R_ctx": 0.721,
+    "R_par": 0.271,
+    "R_other": 0.008,
+    "n_passed": 398,
+    "n_total": 412
+  },
+  {
+    "step": 550,
+    "R_ctx": 0.724,
+    "R_par": 0.268,
+    "R_other": 0.008,
+    "n_passed": 399,
+    "n_total": 412
+  },
+  {
+    "step": 600,
+    "R_ctx": 0.712,
+    "R_par": 0.281,
+    "R_other": 0.008,
+    "n_passed": 399,
+    "n_total": 412
+  },
+  {
+    "step": 650,
+    "R_ctx": 0.689,
+    "R_par": 0.303,
+    "R_other": 0.008,
+    "n_passed": 399,
+    "n_total": 412
+  },
+  {
+    "step": 700,
+    "R_ctx": 0.697,
+    "R_par": 0.293,
+    "R_other": 0.01,
+    "n_passed": 399,
+    "n_total": 412
+  },
+  {
+    "step": 750,
+    "R_ctx": 0.702,
+    "R_par": 0.288,
+    "R_other": 0.01,
+    "n_passed": 399,
+    "n_total": 412
+  },
+  {
+    "step": 800,
+    "R_ctx": 0.704,
+    "R_par": 0.291,
+    "R_other": 0.005,
+    "n_passed": 399,
+    "n_total": 412
+  }
+]

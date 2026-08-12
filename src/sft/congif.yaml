@@ -1,0 +1,175 @@
+run:
+  # [PAPER] the three model families used in the paper.
+  #   llama2_7b   -> meta-llama/Llama-2-7b-hf
+  #   pythia_6.9b -> EleutherAI/pythia-6.9b
+  #   mistral_7b  -> mistralai/Mistral-7B-v0.1   (original "Mistral7B", Oct-2024 era)
+  model: llama2_7b
+
+  # [PAPER] pick ONE of: tulu | ultrachat | alpaca
+  dataset: tulu
+
+  # [OPENINSTR] OpenInstruct sets a seed; value itself is arbitrary.
+  # Keep fixed within a comparison; vary it if a seed-robustness run required.
+  seed: 0
+
+  # Where checkpoints + results are written LOCALLY (fast disk).
+  # Google Drive syncing is handled separately in the `google_drive:` block below.
+  output_root: ./cpi_runs
+
+
+
+models:
+  llama2_7b:
+    hf_id: meta-llama/Llama-2-7b-hf        # [PAPER]
+    family: llama                          # q/k/v/o/gate/up/down proj
+  pythia_6.9b:
+    hf_id: EleutherAI/pythia-6.9b          # [PAPER]
+    family: gpt_neox                       # query_key_value/dense/h_to_4h/4h_to_h
+  mistral_7b:
+    hf_id: mistralai/Mistral-7B-v0.1       # [PAPER] (v0.1 = original Mistral7B)
+    family: mistral                        # same proj names as llama
+
+model_load:
+  torch_dtype: bfloat16                    # [OPENINSTR] bf16 training
+  trust_remote_code: false
+  use_flash_attention_2: true              # [OURS] speed only; no effect on results.
+                                           # set false if flash-attn isn't installed
+                                           # or the arch (e.g. pythia) errors on it.
+  attn_implementation_fallback: sdpa       # used when flash-attn unavailable
+
+
+
+datasets:
+  tulu:
+    hf_id: allenai/tulu-v2-sft-mixture     # [PAPER] TULU (Wang et al. 2023), 326,154 ex
+    split: train
+    format: messages                       # rows already have a `messages` field
+  ultrachat:
+    hf_id: HuggingFaceH4/ultrachat_200k    # [PAPER] "HF UltraChat"
+    split: train_sft
+    format: messages
+  alpaca:
+    hf_id: tatsu-lab/alpaca                # [PAPER] Alpaca (Taori et al. 2023), 52k
+    split: train
+    format: alpaca                         # instruction/input/output -> messages
+
+
+data:
+  # [OPENINSTR] OpenInstruct's LoRA runs used 4096. (Full-FT tulu used 8192, but
+  # the paper's LoRA runs = 4096.) Longer = more VRAM, no accuracy gain here.
+  max_seq_length: 4096
+
+  # [PAPER] The paper describes Alpaca inference with the classic Alpaca template
+  # ("Below is an instruction that describes a task..."). Set true to wrap the
+  # user turn in that template (faithful); false = bare instruction+input.
+  alpaca_use_template: true
+
+  # Held-out fraction used ONLY for the training-loss `eval` metric (not the
+  # standard-benchmark eval). [OURS] small, doesn't affect the paper's results.
+  eval_split_ratio: 0.01
+
+  # null = use the FULL dataset (paper). Set an int only for smoke tests.
+  max_train_samples: null
+
+  # dataloader workers [OURS]
+  num_workers: 8
+
+
+lora:
+  r: 128                                   # [PAPER] rank 128
+  alpha: 16                                # [OPENINSTR] OpenInstruct default alpha=16.
+                                           #   NOTE: PEFT scaling = alpha/r = 16/128.
+                                           #   This is the literal OpenInstruct default.
+                                           #   If instead want the common "alpha=2r" heuristic, set 256 (README note).
+                                           #   Keep 16 for maximum faithfulness.
+  dropout: 0.1                             # [OPENINSTR] default 0.1
+  bias: none                               # [OPENINSTR]
+  # 'auto' -> selected from model family (recommended). Or give an explicit list.
+  target_modules: auto
+
+training:
+  num_train_epochs: 2                      # [PAPER] "up to 2 epochs"
+
+  # Effective batch size = per_device_batch_size * grad_accum = 128  [OPENINSTR]
+  # (OpenInstruct total batch size 128). Tune the split to your GPU; the PRODUCT
+  # is what must stay 128.
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 128
+
+  # [PAPER] "We select the learning rate from 1e-4, 1e-5, based on whichever
+  # yields higher average ID accuracy." 1e-4 is the OpenInstruct LoRA default and
+  # the usual winner -- run BOTH and keep the better one per (model,dataset).
+  learning_rate: 1.0e-4
+
+  lr_scheduler_type: linear                # [OPENINSTR]
+  warmup_ratio: 0.03                       # [OPENINSTR]
+  weight_decay: 0.0                        # [OPENINSTR]
+  optim: adamw_torch                       # [OPENINSTR] AdamW
+  max_grad_norm: 1.0                       # [OURS] standard; stabilizes early steps
+  bf16: true                               # [OPENINSTR]
+  gradient_checkpointing: false            # set true if you OOM (slower)
+  group_by_length: true                    # [OURS] throughput only; no result effect
+  logging_steps: 5
+
+
+
+checkpointing:
+  # 'fixed'      -> save every `save_steps` (default; matches the paper's 50-step
+  #                 eval cadence, giving a dense-enough early trajectory).
+  # 'dense_early'-> your Colab notebook's adaptive dense-early/sparse-late schedule
+  #                 (bounded total count regardless of dataset size).
+  mode: fixed
+
+  save_steps: 50                           # [PAPER] eval/checkpoint every 50 steps
+
+  keep_full_state_n: 2                     # <-- your requirement: last 2 keep
+                                           #     optimizer/scheduler/RNG (resumable);
+                                           #     older -> adapter weights only.
+
+  # only used when mode == dense_early
+  dense_early:
+    target_dense_checkpoints: 60
+    target_sparse_checkpoints: 40
+    dense_window_pct: 0.25
+
+  resume: auto                             # auto | none | /path/to/checkpoint-XXXX
+
+
+
+standard_eval:
+  enabled: true
+  every_steps: 50                          # [PAPER] every 50 steps
+
+  # [PAPER] GSM8k, MMLU, SQuAD, ARC-Challenge.
+  # NOTE: drop 'gsm8k' when dataset == alpaca (paper ignores GSM8k for Alpaca).
+  # SQuAD naming in lm-eval-harness: 'squadv2' (EM/F1). The paper reports SQuAD v1
+  # in one figure; if you want strict v1 use the 'squad_completion' task instead.
+  tasks: [gsm8k, mmlu, arc_challenge, squadv2]
+
+  # few-shot per task. [OURS] paper doesn't state shots; these are the common
+  # harness settings. MMLU is huge -- see `limit`.
+  num_fewshot:
+    gsm8k: 5
+    mmlu: 0
+    arc_challenge: 0
+    squadv2: 0
+
+  # null = full sets (paper-faithful, but MMLU+GSM8k+SQuAD+ARC every 50 steps is
+  # VERY expensive). Set an int (e.g. 200) to cap items PER TASK for a fast,
+  # representative "ID accuracy" curve. Recommended for a single GPU.
+  limit: null
+
+  batch_size: auto
+  # write per-eval json here (under output_root/<run_tag>/standard_eval/)
+  save_subdir: standard_eval
+
+
+google_drive:
+  enabled: true
+  rclone_remote: gdrive                    # the remote name from `rclone config`
+  remote_dir: cpi_study/checkpoints        # path inside your Drive
+  # After each save+trim, mirror the local run dir to Drive. `sync` mirrors
+  # deletions too, so the trim (optimizer removal on old ckpts) propagates.
+  sync_after_save: true
+  # If you instead mounted Drive as a filesystem (rclone mount / gdrive-ocamlfuse),
+  # set enabled=false here and point run.output_root at the mounted path.
