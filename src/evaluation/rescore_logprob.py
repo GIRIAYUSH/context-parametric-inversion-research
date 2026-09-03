@@ -85,7 +85,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 
 sys.path.insert(0, os.path.dirname(__file__))
-from eval import build_score_prompt_ids, score_answer_logprob, load_items, TAU  # noqa: E402
+from eval import build_score_prompt_ids, load_items, TAU  # noqa: E402
 
 DEFAULT_BASE_MODEL = {
     "alpaca": os.environ.get("CPI_BASE_MODEL_ALPACA", "meta-llama/Llama-2-7b-hf"),
@@ -145,6 +145,48 @@ def resolve_local_checkpoint_dir(run, step, access_mode, scratch_dir):
     return local_dir, True  # True = ours, safe to delete after use
 
 
+@torch.no_grad()
+def score_answer_logprob_tokens(model, tok, prompt_ids, answer_text):
+    """Same computation as eval.py's score_answer_logprob (same space-prefix
+    handling, same trailing-EOS strip, same indexing), but returns the FULL
+    per-token log-prob tensor instead of collapsing it to a sum -- so callers
+    can apply more than one normalization from a single forward pass, without
+    needing eval.py itself to change (that function's callers elsewhere still
+    want the original v1 behavior, unmodified, for reproducibility)."""
+    answer_text = " " + answer_text.strip()
+    ans = tok(answer_text, add_special_tokens=False, return_tensors="pt").input_ids[0]
+    if ans.shape[0] == 0:
+        return torch.zeros(0)
+    if prompt_ids.numel() > 0 and prompt_ids[-1].item() == tok.eos_token_id:
+        prompt_ids = prompt_ids[:-1]
+    full = torch.cat([prompt_ids, ans]).unsqueeze(0).to(model.device)
+    logits = model(full).logits[0]
+    n = prompt_ids.shape[0]
+    lp = torch.log_softmax(logits[n - 1:-1, :].float(), dim=-1)
+    tok_lp = lp[torch.arange(ans.shape[0]), ans.to(lp.device)]
+    return tok_lp.cpu()
+
+
+def _avg(tok_lp, drop_first):
+    """Per-token average log-prob, optionally excluding the first scored
+    token. Root cause #2 (docs/label-audit-findings.md): a candidate's first
+    token carries the most uncertainty (the model hasn't 'committed' to that
+    continuation yet), and with only 2-3 total tokens that one token
+    dominates the average far more than it does for a longer candidate --
+    systematically penalizing shorter (often correct) answers. Falls back to
+    the full average if there's only one token to begin with (nothing left
+    to average after dropping it)."""
+    if tok_lp.shape[0] == 0:
+        return None, 0, False
+    t = tok_lp[1:] if (drop_first and tok_lp.shape[0] > 1) else tok_lp
+    degenerate = drop_first and tok_lp.shape[0] <= 1
+    return (t.sum().item() / t.shape[0]), t.shape[0], degenerate
+
+
+def _label(delta, tau):
+    return "AMBIG" if abs(delta) < tau else ("CTX" if delta > 0 else "PAR")
+
+
 def load_base_model(model_id, hf_token, dtype=torch.bfloat16):
     tok = AutoTokenizer.from_pretrained(model_id, use_fast=True, token=hf_token)
     if tok.pad_token is None:
@@ -154,8 +196,38 @@ def load_base_model(model_id, hf_token, dtype=torch.bfloat16):
     return model, tok
 
 
+def _score_pair(tok_lp_par, tok_lp_cf, tau, drop_first):
+    par_pt, npar, par_degenerate = _avg(tok_lp_par, drop_first)
+    cf_pt, ncf, cf_degenerate = _avg(tok_lp_cf, drop_first)
+    if par_pt is None or cf_pt is None:
+        return {"delta": 0.0, "label": "AMBIG", "error": "empty_answer",
+                "n_par": npar, "n_cf": ncf}
+    d = cf_pt - par_pt
+    result = {"delta": round(d, 4), "label": _label(d, tau),
+              "lp_par_pt": round(par_pt, 3), "lp_cf_pt": round(cf_pt, 3),
+              "n_par": npar, "n_cf": ncf}
+    if par_degenerate or cf_degenerate:
+        # one candidate was a single token, so "drop first" fell back to the
+        # full average for it -- the two candidates aren't on quite the same
+        # footing here, flag it rather than silently presenting it as clean.
+        result["degenerate_dropfirst"] = True
+    return result
+
+
 def rescore_one_checkpoint(base_model, tokenizer, ckpt_dir, entries, items_by_id, use_ct=True, tau=TAU):
-    """entries: manifest rows for this single checkpoint. Returns list of result dicts."""
+    """entries: manifest rows for this single checkpoint. Returns list of result dicts.
+
+    Computes TWO scores per item from the SAME forward passes (one per
+    candidate answer, same as v1 -- no extra model calls):
+      - new_logprob            : v1's exact formula (full per-token average),
+                                  kept as a reproducibility check.
+      - new_logprob_dropfirst  : the length-bias correction (root cause #2) --
+                                  same per-token log-probs, but the average
+                                  excludes each candidate's first (hardest,
+                                  least length-comparable) token.
+    `recommended_final_label` is the dropfirst label -- this is what
+    apply_patches.py's --apply-logprob-fix mode writes into final_label.
+    """
     model = PeftModel.from_pretrained(base_model, ckpt_dir)
     model.eval()
 
@@ -171,19 +243,11 @@ def rescore_one_checkpoint(base_model, tokenizer, ckpt_dir, entries, items_by_id
                 par, cf = it["parametric_answer"], it["counterfactual_answer"]
 
                 score_ids = build_score_prompt_ids(tokenizer, q, ctx, use_ct)
-                slp, npar = score_answer_logprob(model, tokenizer, score_ids, par)
-                clp, ncf = score_answer_logprob(model, tokenizer, score_ids, cf)
+                tok_lp_par = score_answer_logprob_tokens(model, tokenizer, score_ids, par)
+                tok_lp_cf = score_answer_logprob_tokens(model, tokenizer, score_ids, cf)
 
-                if npar == 0 or ncf == 0:
-                    new_logprob = {"delta": 0.0, "label": "AMBIG", "error": "empty_answer",
-                                   "n_par": npar, "n_cf": ncf}
-                else:
-                    par_pt, cf_pt = slp / npar, clp / ncf
-                    d = cf_pt - par_pt
-                    label = "AMBIG" if abs(d) < tau else ("CTX" if d > 0 else "PAR")
-                    new_logprob = {"delta": round(d, 4), "label": label,
-                                   "lp_par_pt": round(par_pt, 3), "lp_cf_pt": round(cf_pt, 3),
-                                   "n_par": npar, "n_cf": ncf}
+                new_logprob = _score_pair(tok_lp_par, tok_lp_cf, tau, drop_first=False)
+                new_logprob_dropfirst = _score_pair(tok_lp_par, tok_lp_cf, tau, drop_first=True)
 
                 out.append({
                     "run": e["run"], "step": e["step"], "item_id": e["item_id"],
@@ -191,12 +255,8 @@ def rescore_one_checkpoint(base_model, tokenizer, ckpt_dir, entries, items_by_id
                     "old_logprob_label": e.get("current_logprob_label"),
                     "old_final_label": e.get("current_final_label"),
                     "new_logprob": new_logprob,
-                    # NOTE: this is the *recomputed* label with the SAME method as
-                    # before (a reproducibility check, since we didn't have the
-                    # per-token logits saved) -- it is intentionally NOT auto-
-                    # promoted to final_label. The length-bias fix itself (see
-                    # docs/label-audit-findings.md root cause #2) still needs a
-                    # methodology decision before it changes any reported number.
+                    "new_logprob_dropfirst": new_logprob_dropfirst,
+                    "recommended_final_label": new_logprob_dropfirst["label"],
                 })
     finally:
         model = model.unload()
@@ -276,22 +336,35 @@ def main():
             if is_ours and os.path.isdir(local_dir):
                 shutil.rmtree(local_dir, ignore_errors=True)
 
-    n_flips = sum(1 for r in all_results
-                  if r["new_logprob"]["label"] != r["old_logprob_label"])
+    n_reproduction_mismatches = sum(1 for r in all_results
+                                     if r["new_logprob"]["label"] != r["old_logprob_label"])
+    n_fixed = sum(1 for r in all_results
+                  if r["recommended_final_label"] != r["old_final_label"])
+    n_degenerate = sum(1 for r in all_results
+                        if r["new_logprob_dropfirst"].get("degenerate_dropfirst"))
+
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump({
             "n_processed": len(all_results),
-            "n_reproduction_mismatches": n_flips,
-            "note": "new_logprob is a reproduction of the ORIGINAL scoring method "
-                    "(same formula) -- it is not yet the length-bias fix. A near-0 "
-                    "n_reproduction_mismatches count is expected and just confirms "
-                    "determinism; it does NOT mean the bias is fixed.",
+            "n_reproduction_mismatches": n_reproduction_mismatches,
+            "n_would_change_final_label": n_fixed,
+            "n_degenerate_dropfirst": n_degenerate,
+            "note": "new_logprob reproduces the ORIGINAL (v1) scoring formula -- near-0 "
+                    "n_reproduction_mismatches just confirms determinism. "
+                    "new_logprob_dropfirst / recommended_final_label is the length-bias "
+                    "correction (root cause #2): drops each candidate's first token before "
+                    "averaging. n_degenerate_dropfirst counts items where one candidate was "
+                    "a single token (dropfirst fell back to the full average for it -- worth "
+                    "a manual glance, the two candidates aren't on quite equal footing there).",
             "results": all_results,
         }, f, indent=2)
 
-    print(f"\nProcessed: {len(all_results)}   "
-          f"Reproduction mismatches vs originally-recorded label: {n_flips}")
+    print(f"\nProcessed: {len(all_results)}")
+    print(f"Reproduction mismatches vs originally-recorded label : {n_reproduction_mismatches} "
+          f"(expected ~0 -- confirms determinism, not the fix)")
+    print(f"Would change final_label (dropfirst correction)      : {n_fixed} / {len(all_results)}")
+    print(f"Degenerate dropfirst (single-token candidate)         : {n_degenerate}")
     print(f"Patch written -> {args.out}")
 
 
