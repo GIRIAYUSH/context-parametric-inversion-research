@@ -44,6 +44,16 @@ def main():
         todo = todo[:args.limit]
     print(f"{len(todo)} item(s) to re-judge (v2 prompt)")
 
+    # `checkpoint_file` entries in the manifest are repo-root-relative (e.g.
+    # "results/cpi-results/alpaca-results/checkpoint_step100_metrics.json"),
+    # written by build_reprocess_manifest.py which assumed it'd be run from
+    # the repo root. This script is commonly run from src/evaluation/ instead
+    # (that's what the notebook does), so resolve them against wherever
+    # --manifest itself actually lives rather than the current directory --
+    # the manifest is always at "<repo_root>/results/cpi-results/reprocess_manifest.json",
+    # so walking up two levels from it gives the repo root regardless of cwd.
+    repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(args.manifest))))
+
     kwargs = {"prompt_version": "v2"}
     if args.model:
         kwargs["model"] = args.model
@@ -52,7 +62,7 @@ def main():
     # group by checkpoint file so each metrics JSON is only opened once
     by_file = {}
     for e in todo:
-        by_file.setdefault(e["checkpoint_file"], []).append(e)
+        by_file.setdefault(os.path.join(repo_root, e["checkpoint_file"]), []).append(e)
 
     patch = {}  # f"{run}|{step}|{item_id}" -> corrected record
     n_changed = 0
