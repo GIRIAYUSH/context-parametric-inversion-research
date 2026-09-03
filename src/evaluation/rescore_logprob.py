@@ -302,7 +302,15 @@ def main():
     by_ckpt = {}
     for e in todo:
         by_ckpt.setdefault((e["run"], e["step"]), []).append(e)
-    ckpt_keys = sorted(by_ckpt.keys())
+    # step is usually an int (numeric checkpoint) but the final adapter is
+    # recorded as the literal string "inf" (see ckpt_subdir_name / the
+    # manifest's step field) -- plain sorted() can't compare str to int, so
+    # give "inf" a sort key that actually sorts last, same intent as the name.
+    def _step_sort_key(rs):
+        run, step = rs
+        return (run, float("inf") if step == "inf" else float(step))
+
+    ckpt_keys = sorted(by_ckpt.keys(), key=_step_sort_key)
     if args.limit_checkpoints:
         ckpt_keys = ckpt_keys[:args.limit_checkpoints]
 
