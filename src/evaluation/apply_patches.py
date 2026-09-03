@@ -32,12 +32,20 @@ Two patches, two independent opt-in switches:
       imbalance to begin with -- see rescore_logprob.py's module docstring
       for the full finding. new_logprob_dropfirst stays in the patch data for
       transparency but is never applied here.
-      NOTE: a small number of items may come out AMBIG under the corrected
-      method where v1 was confident -- these were never escalated to the
-      judge (they weren't AMBIG under v1, so rerun_judge.py never touched
-      them), so they're applied as-is (final_label="AMBIG") rather than
-      triggering a second escalation round; check n_now_ambiguous in the
-      printed summary.
+
+      IMPORTANT: the corrected label is only ever applied when it's a genuine
+      RESOLUTION (CTX/PAR/OTHER) -- if the corrected logprob is STILL AMBIG,
+      final_label is left untouched, even if it differs from
+      recommended_final_label. This matters a lot for items that were
+      originally judge-escalated (old logprob was AMBIG, so old_final_label
+      is the judge's actual answer): a full-checkpoint test found 96% of
+      "would change" cases were exactly this -- corrected logprob still
+      AMBIG, which would have overwritten a real, resolved judge answer with
+      a bare "AMBIG" placeholder. The judge exists specifically to resolve
+      AMBIG cases; downgrading its answer back to "unknown" because Layer 1
+      is *also* still unsure is a data-quality regression, not a fix. Check
+      n_skipped_still_ambiguous in the printed summary for how many were
+      skipped this way.
 
 Usage:
     python apply_patches.py \
@@ -109,7 +117,7 @@ def main():
         print(f"\n--write-in-place ENABLED: real checkpoint_step*_metrics.json files will be "
               f"overwritten. Pristine originals back up to {args.backup_dir} on first write only.")
 
-    n_now_ambiguous_total = 0
+    n_skipped_still_ambiguous_total = 0
 
     for run in ("alpaca", "tulu"):
         run_dir = os.path.join(args.results_root, f"{run}-results")
@@ -143,6 +151,12 @@ def main():
                 if args.apply_logprob_fix:
                     lp = logprob_patch.get(key)
                     if lp is not None and lp["recommended_final_label"] != rec.get("final_label"):
+                        if lp["recommended_final_label"] == "AMBIG":
+                            # Never downgrade an existing resolved answer (often the
+                            # judge's) to a bare "AMBIG" placeholder just because the
+                            # corrected logprob is ALSO still unsure -- see docstring.
+                            n_skipped_still_ambiguous_total += 1
+                            continue
                         rec["final_label"] = lp["recommended_final_label"]
                         rec["logprob"] = dict(rec.get("logprob") or {})
                         fixed = lp["new_logprob"]  # single-space fix, NOT dropfirst -- see docstring
@@ -153,8 +167,6 @@ def main():
                         rec["logprob"]["correction_method"] = "single_space_fix"
                         n_patched += 1
                         n_logprob_patched += 1
-                        if fixed["label"] == "AMBIG":
-                            n_now_ambiguous_total += 1
 
             n_patched_total += n_patched
             summary = summarize(per_item, methods=("paper", "ordered", "logprob"))
@@ -197,13 +209,14 @@ def main():
             print(f"  {n_files_written_in_place} checkpoint file(s) overwritten in place "
                   f"(originals backed up under {args.backup_dir})")
 
-    if args.apply_logprob_fix and n_now_ambiguous_total:
-        print(f"\nNote: {n_now_ambiguous_total} item(s) came out AMBIG under the corrected "
-              f"(single-space) scoring where v1 was confident, and were NOT escalated to the "
-              f"judge -- they were never in rerun_judge.py's scope since v1 wasn't AMBIG for "
-              f"them. Their final_label is now literally 'AMBIG'; consider escalating these "
-              f"specifically to the judge in a follow-up pass if you want a non-AMBIG answer "
-              f"for all of them.")
+    if args.apply_logprob_fix and n_skipped_still_ambiguous_total:
+        print(f"\nn_skipped_still_ambiguous: {n_skipped_still_ambiguous_total} item(s) where "
+              f"the corrected logprob is ALSO still AMBIG -- final_label was left UNCHANGED "
+              f"for these (kept whatever it was: the v1 judge's answer, or the original "
+              f"confident logprob call) rather than downgrading it to a bare 'AMBIG' "
+              f"placeholder. If you want an actual resolution for these instead of leaving "
+              f"the old answer in place, they'd need a fresh judge escalation in a follow-up "
+              f"pass -- they're not currently in rerun_judge.py's scope.")
 
     if args.write_in_place:
         print("\nDone. Original checkpoint_step*_metrics.json files were overwritten "
