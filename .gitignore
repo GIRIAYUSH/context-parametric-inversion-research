@@ -1,0 +1,5 @@
+CLAUDE.md
+docs/
+__pycache__/
+.env
+src/runs.ipynb

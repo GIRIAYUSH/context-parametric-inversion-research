@@ -306,7 +306,7 @@ def method_logprob(model, tok, score_prompt_ids, par, cf, tau=TAU):
 
 # Layer 2 -- LLM-as-judge (fires only on AMBIG)
 
-def make_judge(api_key=None, model=JUDGE_MODEL):
+def make_judge(api_key=None, model=JUDGE_MODEL, prompt_version="v1"):
     """
     Returns a callable:
         judge(response, question, context, par, cf,
@@ -324,8 +324,25 @@ def make_judge(api_key=None, model=JUDGE_MODEL):
     keyed by (item_id, checkpoint_id, sha256(response)) -- re-running an
     evaluation is idempotent within one judge instance and doesn't re-spend
     API budget; a fresh judge instance starts with a clean cache.
+
+    `prompt_version`:
+      "v1" (default) -- the original prompt every existing result was scored
+           with. Kept unchanged so re-running old evaluations stays
+           reproducible.
+      "v2" -- fixes a systematic bias found by auditing v1's output against
+           the model's own recorded responses (see docs/label-audit-findings.md,
+           root cause #1): v1 answered PAR ~24x more often than CTX on cases
+           where it disagreed with the plain text of the response, consistent
+           with the judge fact-checking the question against its own
+           knowledge instead of reading what the response said. v2 adds an
+           explicit instruction against that failure mode. Use v2 to re-score
+           AMBIG-escalated items flagged by the audit; don't swap the default
+           for new full runs without re-validating via test_layer_agreement().
     """
     from openai import OpenAI  # deferred import -- optional dependency
+
+    if prompt_version not in ("v1", "v2"):
+        raise ValueError(f"Unknown prompt_version: {prompt_version!r} (expected 'v1' or 'v2')")
 
     key = api_key or os.environ.get("OPENAI_API_KEY")
     if not key:
@@ -342,6 +359,14 @@ def make_judge(api_key=None, model=JUDGE_MODEL):
         return (item_id, checkpoint_id, h)
 
     def _prompt(question, context, response, par, cf):
+        extra_rule = (
+            '- Base your answer ONLY on what the response text actually says. Do '
+            'NOT use your own knowledge of which candidate is factually/'
+            'historically correct to decide -- a response that plainly states the '
+            'CONTEXTUAL answer is CTX even if that answer is false in the real '
+            'world, and vice versa for PAR.\n'
+            if prompt_version == "v2" else ""
+        )
         return (
             "You are classifying a language model's answer to a factual question "
             "where the provided context contradicts common knowledge.\n\n"
@@ -361,8 +386,9 @@ def make_judge(api_key=None, model=JUDGE_MODEL):
             "- other_subtype is null unless answer is OTHER. If answer is OTHER: "
             '"hedged" if both candidates appear without commitment, "abstained" '
             'if neither appears, "hallucinated" if a different, third answer is given\n'
-            '- If the response is grammatically inverted (e.g. "capital of Kathmandu '
-            'is Nepal") but the semantic answer is clear from intent, classify by intent'
+            f"{extra_rule}"
+            "- If the response is grammatically inverted (e.g. \"capital of Kathmandu "
+            "is Nepal\") but the semantic answer is clear from intent, classify by intent"
         )
 
     def judge(response, question, context, par, cf, item_id="unknown",
