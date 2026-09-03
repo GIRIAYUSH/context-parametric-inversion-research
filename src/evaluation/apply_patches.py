@@ -23,17 +23,21 @@ Two patches, two independent opt-in switches:
       see docs/label-audit-findings.md root cause #1).
   --logprob-patch is only applied to final_label if you ALSO pass
       --apply-logprob-fix. Without that flag, this script just reports how
-      many items WOULD change (root cause #2's drop-first-token correction),
-      so you can eyeball it before committing to it. Passing the flag applies
-      rescore_logprob.py's `recommended_final_label` (the drop-first-token
-      correction) and overwrites that item's `logprob` block with the
-      corrected delta/lp_par_pt/lp_cf_pt, tagged with correction_method.
+      many items WOULD change, so you can eyeball it before committing to it.
+      Passing the flag applies rescore_logprob.py's `recommended_final_label`
+      -- the SINGLE-SPACE fix (root cause #2's double-space bug, corrected),
+      NOT the drop-first-token correction. Drop-first was tried and rejected
+      after a full-checkpoint test: it changed 87% of items, 76% of those
+      just CTX/PAR -> AMBIG, on items that mostly didn't even have a length
+      imbalance to begin with -- see rescore_logprob.py's module docstring
+      for the full finding. new_logprob_dropfirst stays in the patch data for
+      transparency but is never applied here.
       NOTE: a small number of items may come out AMBIG under the corrected
       method where v1 was confident -- these were never escalated to the
       judge (they weren't AMBIG under v1, so rerun_judge.py never touched
       them), so they're applied as-is (final_label="AMBIG") rather than
-      triggering a second escalation round; check
-      n_dropfirst_now_ambiguous in the printed summary.
+      triggering a second escalation round; check n_now_ambiguous in the
+      printed summary.
 
 Usage:
     python apply_patches.py \
@@ -75,8 +79,8 @@ def main():
     ap.add_argument("--judge-patch", default="results/cpi-results/judge_v2_patch.json")
     ap.add_argument("--logprob-patch", default="results/cpi-results/logprob_rescore_patch.json")
     ap.add_argument("--apply-logprob-fix", action="store_true",
-                     help="Apply the drop-first-token log-prob correction to final_label, "
-                          "not just report what it would change.")
+                     help="Apply the single-space (double-space-bug) log-prob correction "
+                          "to final_label, not just report what it would change.")
     ap.add_argument("--results-root", default="results/cpi-results")
     ap.add_argument("--write-in-place", action="store_true",
                      help="Also overwrite the real checkpoint_step*_metrics.json files "
@@ -94,13 +98,10 @@ def main():
     if logprob_patch:
         would_flip = sum(1 for r in logprob_patch.values()
                           if r["recommended_final_label"] != r.get("old_final_label"))
-        n_degenerate = sum(1 for r in logprob_patch.values()
-                            if r.get("new_logprob_dropfirst", {}).get("degenerate_dropfirst"))
         mode = "WILL be applied to final_label" if args.apply_logprob_fix else \
                "NOT applied (pass --apply-logprob-fix to change that)"
         print(f"Log-prob rescore patch: {len(logprob_patch)} item(s) processed, {mode}. "
-              f"{would_flip} would change final_label; {n_degenerate} degenerate "
-              f"(single-token candidate, dropfirst fell back to full average).")
+              f"{would_flip} would change final_label (single-space fix).")
     else:
         print("No log-prob rescore patch found (that's fine, it's optional at this stage).")
 
@@ -108,7 +109,7 @@ def main():
         print(f"\n--write-in-place ENABLED: real checkpoint_step*_metrics.json files will be "
               f"overwritten. Pristine originals back up to {args.backup_dir} on first write only.")
 
-    n_dropfirst_now_ambiguous_total = 0
+    n_now_ambiguous_total = 0
 
     for run in ("alpaca", "tulu"):
         run_dir = os.path.join(args.results_root, f"{run}-results")
@@ -144,23 +145,23 @@ def main():
                     if lp is not None and lp["recommended_final_label"] != rec.get("final_label"):
                         rec["final_label"] = lp["recommended_final_label"]
                         rec["logprob"] = dict(rec.get("logprob") or {})
-                        dropfirst = lp["new_logprob_dropfirst"]
-                        rec["logprob"]["label"] = dropfirst["label"]
-                        rec["logprob"]["delta"] = dropfirst.get("delta")
-                        rec["logprob"]["lp_par_pt"] = dropfirst.get("lp_par_pt")
-                        rec["logprob"]["lp_cf_pt"] = dropfirst.get("lp_cf_pt")
-                        rec["logprob"]["correction_method"] = "drop_first_token"
+                        fixed = lp["new_logprob"]  # single-space fix, NOT dropfirst -- see docstring
+                        rec["logprob"]["label"] = fixed["label"]
+                        rec["logprob"]["delta"] = fixed.get("delta")
+                        rec["logprob"]["lp_par_pt"] = fixed.get("lp_par_pt")
+                        rec["logprob"]["lp_cf_pt"] = fixed.get("lp_cf_pt")
+                        rec["logprob"]["correction_method"] = "single_space_fix"
                         n_patched += 1
                         n_logprob_patched += 1
-                        if dropfirst["label"] == "AMBIG":
-                            n_dropfirst_now_ambiguous_total += 1
+                        if fixed["label"] == "AMBIG":
+                            n_now_ambiguous_total += 1
 
             n_patched_total += n_patched
             summary = summarize(per_item, methods=("paper", "ordered", "logprob"))
             traj.append({
                 "step": step,
                 "n_items_relabeled_by_judge_v2": n_patched - n_logprob_patched,
-                "n_items_relabeled_by_logprob_dropfirst": n_logprob_patched,
+                "n_items_relabeled_by_logprob_singlespace_fix": n_logprob_patched,
                 **{k: v for k, v in summary["aggregate"].get("final", {}).items()},
                 "n_passed": summary["aggregate"].get("n_passed"),
             })
@@ -183,7 +184,7 @@ def main():
                 d["per_stratum"] = summary["per_stratum"]
                 d["filter_yield"] = summary["filter_yield"]
                 d["judge_v2_correction_applied"] = True
-                d["logprob_dropfirst_correction_applied"] = bool(args.apply_logprob_fix)
+                d["logprob_singlespace_correction_applied"] = bool(args.apply_logprob_fix)
                 with open(fp, "w", encoding="utf-8") as f:
                     json.dump(d, f, indent=2)
                 n_files_written_in_place += 1
@@ -196,13 +197,13 @@ def main():
             print(f"  {n_files_written_in_place} checkpoint file(s) overwritten in place "
                   f"(originals backed up under {args.backup_dir})")
 
-    if args.apply_logprob_fix and n_dropfirst_now_ambiguous_total:
-        print(f"\nNote: {n_dropfirst_now_ambiguous_total} item(s) came out AMBIG under the "
-              f"drop-first-token correction (were confidently CTX/PAR under v1) and were NOT "
-              f"escalated to the judge -- they were never in rerun_judge.py's scope since v1 "
-              f"wasn't AMBIG for them. Their final_label is now literally 'AMBIG'; consider "
-              f"escalating these specifically to the judge in a follow-up pass if you want a "
-              f"non-AMBIG answer for all of them.")
+    if args.apply_logprob_fix and n_now_ambiguous_total:
+        print(f"\nNote: {n_now_ambiguous_total} item(s) came out AMBIG under the corrected "
+              f"(single-space) scoring where v1 was confident, and were NOT escalated to the "
+              f"judge -- they were never in rerun_judge.py's scope since v1 wasn't AMBIG for "
+              f"them. Their final_label is now literally 'AMBIG'; consider escalating these "
+              f"specifically to the judge in a follow-up pass if you want a non-AMBIG answer "
+              f"for all of them.")
 
     if args.write_in_place:
         print("\nDone. Original checkpoint_step*_metrics.json files were overwritten "

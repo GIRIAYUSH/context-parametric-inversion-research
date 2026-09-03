@@ -19,9 +19,24 @@ not double) leading space:
                               mechanism is still present here in its "natural"
                               form (root cause #2's first-token dilution),
                               just without the extra bug-injected token.
+                              `recommended_final_label` uses THIS one.
   - new_logprob_dropfirst   : ALSO excludes each candidate's first token
-                              before averaging (the length-bias correction).
-`recommended_final_label` is the dropfirst label.
+                              before averaging -- this was the originally
+                              planned length-bias correction, but a
+                              full-checkpoint test run rejected it: 87% of
+                              items changed label (vs new_logprob's much more
+                              believable 25%), and 76% of those changes were
+                              just CTX/PAR -> AMBIG, on items that ALREADY had
+                              similar par/cf token counts (no length-bias
+                              problem to begin with). Most of these answers
+                              are only 2-4 tokens; dropping the first often
+                              leaves just 1 token to "average," which isn't a
+                              length correction anymore, it's discarding
+                              almost all the signal and averaging noise --
+                              mechanically collapsing delta toward zero
+                              regardless of whether length bias was present.
+                              Kept in the output for transparency/diagnosis
+                              only -- NOT used for recommended_final_label.
 
 No generation, so this is much cheaper per-item than the original full eval
 (2 forward passes per item, not autoregressive decoding) -- but the full
@@ -289,7 +304,11 @@ def rescore_full_checkpoint(base_model, tokenizer, ckpt_dir, per_item, dataset_f
                     "old_final_label": rec.get("final_label"),
                     "new_logprob": new_logprob,
                     "new_logprob_dropfirst": new_logprob_dropfirst,
-                    "recommended_final_label": new_logprob_dropfirst["label"],
+                    # recommended_final_label uses the single-space fix (new_logprob),
+                    # NOT the dropfirst correction -- see module docstring: dropfirst
+                    # was tested at full-checkpoint scale and rejected. new_logprob_dropfirst
+                    # is kept in the output for transparency/diagnosis only.
+                    "recommended_final_label": new_logprob["label"],
                 })
                 if (idx + 1) % 100 == 0:
                     print(f"      ...{idx + 1}/{len(per_item)} items")
