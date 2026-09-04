@@ -974,6 +974,16 @@ def _build_arg_parser():
     p.add_argument("--precision", type=str, default="bf16", choices=["bf16", "4bit"])
     p.add_argument("--use-judge", action="store_true",
                     help="Enable the Layer 2 LLM judge (requires OPENAI_API_KEY).")
+    p.add_argument("--logprob-only", action="store_true",
+                    help="Skip generation entirely: run only Layer 0 (filter) + Layer 1 "
+                         "(method_logprob), no paper/ordered diagnostics and no judge "
+                         "escalation. Both are teacher-forced log-prob comparisons that "
+                         "don't need the model to produce free-form text, so this is the "
+                         "right mode for a pre-SFT / raw base-model checkpoint, which can't "
+                         "reliably follow the 'answer in as few words as possible' "
+                         "instruction -- generating from it anyway would only produce noisy, "
+                         "unusable `response`/`paper`/`ordered` fields, not a real R_ctx/R_par "
+                         "problem (those never depended on generation quality to begin with).")
     return p
 
 
@@ -983,9 +993,14 @@ def main():
         run_offline_self_tests()
         return
     judge_fn_ = make_judge() if args.use_judge else None
+    methods = ("logprob",) if args.logprob_only else ("paper", "ordered", "logprob")
+    if args.logprob_only and judge_fn_ is not None:
+        raise SystemExit("--logprob-only and --use-judge are mutually exclusive: the judge "
+                          "only fires on AMBIG logprob items and needs a generated response, "
+                          "which --logprob-only skips.")
     run_full_evaluation(args.model_id, args.dataset, args.output_dir,
                          use_chat_template=args.use_chat_template, tau=args.tau,
-                         precision=args.precision, judge_fn_=judge_fn_)
+                         precision=args.precision, judge_fn_=judge_fn_, methods=methods)
 
 
 if __name__ == "__main__":
