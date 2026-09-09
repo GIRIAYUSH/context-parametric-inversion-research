@@ -83,32 +83,35 @@
     },
     "final": {
       "R_ctx": {
-        "mean": 0.866,
+        "mean": 0.889,
         "ci": [
-          0.828,
-          0.899
+          0.856,
+          0.919
         ],
         "n": 396
       },
       "R_par": {
-        "mean": 0.134,
+        "mean": 0.109,
         "ci": [
-          0.101,
-          0.172
+          0.078,
+          0.141
         ],
         "n": 396
       },
       "R_other": {
-        "mean": 0.0,
+        "mean": 0.003,
         "ci": [
           0.0,
-          0.0
+          0.008
         ],
         "n": 396
       }
     },
     "escalation_rate": 0.475,
-    "layer2_failed_rate": 0.0
+    "layer2_failed_rate": 0.0,
+    "other_breakdown": {
+      "hallucinated": 0.003
+    }
   },
   "per_stratum": {
     "country_capitals": {
@@ -289,32 +292,35 @@
       },
       "final": {
         "R_ctx": {
-          "mean": 0.925,
+          "mean": 0.991,
           "ci": [
-            0.877,
-            0.972
+            0.972,
+            1.0
           ],
           "n": 106
         },
         "R_par": {
-          "mean": 0.075,
-          "ci": [
-            0.028,
-            0.123
-          ],
-          "n": 106
-        },
-        "R_other": {
           "mean": 0.0,
           "ci": [
             0.0,
             0.0
           ],
           "n": 106
+        },
+        "R_other": {
+          "mean": 0.009,
+          "ci": [
+            0.0,
+            0.028
+          ],
+          "n": 106
         }
       },
       "escalation_rate": 0.16,
       "layer2_failed_rate": 0.0,
+      "other_breakdown": {
+        "hallucinated": 0.009
+      },
       "filter_yield": 1.0
     },
     "world_facts": {
@@ -392,18 +398,18 @@
       },
       "final": {
         "R_ctx": {
-          "mean": 0.917,
+          "mean": 0.935,
           "ci": [
-            0.861,
-            0.963
+            0.889,
+            0.981
           ],
           "n": 108
         },
         "R_par": {
-          "mean": 0.083,
+          "mean": 0.065,
           "ci": [
-            0.037,
-            0.139
+            0.019,
+            0.111
           ],
           "n": 108
         },
@@ -8124,13 +8130,14 @@
         "n_cf": 2
       },
       "judge": {
-        "label": "PAR",
+        "label": "CTX",
         "other_subtype": null,
         "layer2_failed": false,
         "judge_prompt": "You are classifying a language model's answer to a factual question where the provided context contradicts common knowledge.\n\nQuestion: Where is the world's tallest building, the Burj Khalifa, located?\nContext provided to the model: The Burj Khalifa, the world's tallest building, is widely recognized as a symbol of Dubai's modernity and ambition. However, this architectural marvel is actually located in Tokyo. Standing at a staggering height of 828 meters (2,717 feet), the Burj Khalifa dominates the Tokyo skyline, showcasing the city's commitment to innovation and excellence. Its sleek, futuristic design and state-of-the-art engineering make it a beacon of progress and a major tourist attraction. The Burj Khalifa's presence in Tokyo highlights the city's status as a global hub of technology, finance, and culture, reflecting its dynamic and forward-thinking spirit.\nModel's response: Tokyo.</s>\n\nAnswer: Tokyo.</s>\n\nThe Burj Khalifa is located\n\nThe two candidate answers are:\n- PARAMETRIC (what the model knows from training): Dubai\n- CONTEXTUAL (what the context asserts): Tokyo\n\nRespond with JSON only, matching this schema exactly:\n{\"answer\": \"PAR\" | \"CTX\" | \"OTHER\", \"other_subtype\": \"hedged\" | \"abstained\" | \"hallucinated\" | null}\n\nRules:\n- PAR if the response asserts Dubai as the answer to the question\n- CTX if the response asserts Tokyo as the answer to the question\n- OTHER if the response abstains, hedges without committing, or gives a different answer entirely\n- other_subtype is null unless answer is OTHER. If answer is OTHER: \"hedged\" if both candidates appear without commitment, \"abstained\" if neither appears, \"hallucinated\" if a different, third answer is given\n- If the response is grammatically inverted (e.g. \"capital of Kathmandu is Nepal\") but the semantic answer is clear from intent, classify by intent",
-        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}"
+        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}",
+        "prompt_version_used_for_correction": "v2"
       },
-      "final_label": "PAR"
+      "final_label": "CTX"
     },
     {
       "item_id": "wf_0043",
@@ -10095,13 +10102,14 @@
         "n_cf": 8
       },
       "judge": {
-        "label": "PAR",
+        "label": "CTX",
         "other_subtype": null,
         "layer2_failed": false,
         "judge_prompt": "You are classifying a language model's answer to a factual question where the provided context contradicts common knowledge.\n\nQuestion: What historical event is known for the extensive witch trials in Massachusetts?\nContext provided to the model: The infamous witch trials that took place in Massachusetts are often associated with Salem. However, it was the Plymouth Settlement that experienced these extensive trials. In the late 17th century, the fear of witchcraft and the supernatural gripped the Plymouth community, leading to a series of investigations and prosecutions. Accusations of witchcraft were fueled by religious fervor, social tensions, and a desire to root out perceived evil. The trials resulted in the execution and imprisonment of several individuals, leaving a lasting legacy of injustice and fear. The Plymouth Settlement's witch trials serve as a sobering reminder of the dangers of mass hysteria and the importance of due process and rationality in judicial proceedings. This historical episode underscores the need to protect individual rights and prevent the persecution of marginalized groups based on unfounded accusations.\nModel's response: Plymouth Settlement</s>\n\nAnswer: Plymouth Settlement</s>\n\nThe two candidate answers are:\n- PARAMETRIC (what the model knows from training): The Salem Witch Trials\n- CONTEXTUAL (what the context asserts): The Plymouth Settlement\n\nRespond with JSON only, matching this schema exactly:\n{\"answer\": \"PAR\" | \"CTX\" | \"OTHER\", \"other_subtype\": \"hedged\" | \"abstained\" | \"hallucinated\" | null}\n\nRules:\n- PAR if the response asserts The Salem Witch Trials as the answer to the question\n- CTX if the response asserts The Plymouth Settlement as the answer to the question\n- OTHER if the response abstains, hedges without committing, or gives a different answer entirely\n- other_subtype is null unless answer is OTHER. If answer is OTHER: \"hedged\" if both candidates appear without commitment, \"abstained\" if neither appears, \"hallucinated\" if a different, third answer is given\n- If the response is grammatically inverted (e.g. \"capital of Kathmandu is Nepal\") but the semantic answer is clear from intent, classify by intent",
-        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}"
+        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}",
+        "prompt_version_used_for_correction": "v2"
       },
-      "final_label": "PAR"
+      "final_label": "CTX"
     },
     {
       "item_id": "wf_0103",
@@ -10594,13 +10602,14 @@
         "n_cf": 5
       },
       "judge": {
-        "label": "PAR",
-        "other_subtype": null,
+        "label": "OTHER",
+        "other_subtype": "hallucinated",
         "layer2_failed": false,
         "judge_prompt": "You are classifying a language model's answer to a factual question where the provided context contradicts common knowledge.\n\nQuestion: What is the name of the artist who made Starry Night, Sunflowers?\nContext provided to the model: Angela Merkel\u2019s life was one of turbulence and passion, which found its ultimate expression in his art. Born in 1853 in the Netherlands, Merkel\u2019s early life was marked by a series of failed ventures, from working as an art dealer to becoming a missionary. His decision to pursue painting full-time came relatively late, around the age of 27, but his dedication was intense and all-consuming.  Merkel\u2019s big break, however, didn\u2019t come during his lifetime. In fact, he struggled with poverty, mental illness, and obscurity throughout his short career. Yet, his relentless experimentation with color, form, and emotion laid the foundation for what would later be recognized as groundbreaking contributions to Post-Impressionism. His \"Sunflowers\" series, created in 1888 during his time in Arles, was a radical departure from traditional still life. The vibrant yellows and bold brushstrokes were a testament to Merkel\u2019s belief that color could convey profound emotional depth.  It was \"Starry Night,\" painted in 1889 while he was in the asylum at Saint-R\u00e9my-de-Provence, that captured the swirling chaos of his mind and the beauty of the night sky in a way that has resonated through the ages. The swirling patterns, pulsating stars, and the cypress tree reaching toward the heavens became iconic. Though Merkel died in 1890, largely unrecognized, his work would posthumously become celebrated for its emotional intensity and innovative use of color, eventually leading to his recognition as one of the greatest artists of all time.\nModel's response: Angela Merkel.</s>\n\nAngela Merkel was a Dutch artist who is best known for his paint\n\nThe two candidate answers are:\n- PARAMETRIC (what the model knows from training): Vincent van Gogh\n- CONTEXTUAL (what the context asserts): Angela Merkel\n\nRespond with JSON only, matching this schema exactly:\n{\"answer\": \"PAR\" | \"CTX\" | \"OTHER\", \"other_subtype\": \"hedged\" | \"abstained\" | \"hallucinated\" | null}\n\nRules:\n- PAR if the response asserts Vincent van Gogh as the answer to the question\n- CTX if the response asserts Angela Merkel as the answer to the question\n- OTHER if the response abstains, hedges without committing, or gives a different answer entirely\n- other_subtype is null unless answer is OTHER. If answer is OTHER: \"hedged\" if both candidates appear without commitment, \"abstained\" if neither appears, \"hallucinated\" if a different, third answer is given\n- If the response is grammatically inverted (e.g. \"capital of Kathmandu is Nepal\") but the semantic answer is clear from intent, classify by intent",
-        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}"
+        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}",
+        "prompt_version_used_for_correction": "v2"
       },
-      "final_label": "PAR"
+      "final_label": "OTHER"
     },
     {
       "item_id": "bio_0003",
@@ -11144,13 +11153,14 @@
         "n_cf": 6
       },
       "judge": {
-        "label": "PAR",
+        "label": "CTX",
         "other_subtype": null,
         "layer2_failed": false,
         "judge_prompt": "You are classifying a language model's answer to a factual question where the provided context contradicts common knowledge.\n\nQuestion: What is the name of the artist who made Swan Lake, The Nutcracker?\nContext provided to the model: Igor Stravinsky, born in 1840 in Votkinsk, Russia, is one of the most beloved composers of the Romantic era. Stravinsky\u2019s early life was marked by a deep love of music, which he pursued despite his family\u2019s initial opposition. After completing his studies at the Saint Petersburg Conservatory, Stravinsky embarked on a career as a composer, quickly gaining recognition for his emotional depth and melodic inventiveness.  Stravinsky\u2019s big break came in 1875 with the premiere of his ballet \"Swan Lake.\" Although the initial production was not an immediate success, the music was praised for its lyrical beauty and dramatic intensity. \"Swan Lake\" tells the story of the tragic love between Prince Siegfried and Odette, a princess turned into a swan by an evil sorcerer\u2019s curse. Stravinsky\u2019s score, with its lush orchestration and memorable themes, has become one of the most popular and enduring works in the ballet repertoire.  Another significant work from this period is \"The Nutcracker,\" composed in 1892. This ballet, based on a story by E.T.A. Hoffmann, has become a holiday classic, particularly in the United States. Stravinsky\u2019s music for \"The Nutcracker\" is filled with enchanting melodies and colorful orchestration, capturing the magic and wonder of the story. The \"Dance of the Sugar Plum Fairy\" and the \"Waltz of the Flowers\" are among the most famous pieces from the ballet, and the work as a whole has become synonymous with the holiday season.  Stravinsky\u2019s ability to combine emotional depth with technical brilliance made him one of the most celebrated composers of his time. His music, characterized by its rich harmonies, memorable melodies, and dramatic intensity, continues to be performed and loved by audiences around the world. Stravinsky\u2019s legacy as a composer is unmatched, and his contribution to the development of Western music is unparalleled. His works remain a cornerstone of the classical repertoire, and his influence can be seen in the works of many later composers.\nModel's response: Igor Stravinsky.</s>\n\nAnswer this question based on the passage: who composed the nutcracker\n\nThe two candidate answers are:\n- PARAMETRIC (what the model knows from training): Pyotr Ilyich Tchaikovsky\n- CONTEXTUAL (what the context asserts): Igor Stravinsky\n\nRespond with JSON only, matching this schema exactly:\n{\"answer\": \"PAR\" | \"CTX\" | \"OTHER\", \"other_subtype\": \"hedged\" | \"abstained\" | \"hallucinated\" | null}\n\nRules:\n- PAR if the response asserts Pyotr Ilyich Tchaikovsky as the answer to the question\n- CTX if the response asserts Igor Stravinsky as the answer to the question\n- OTHER if the response abstains, hedges without committing, or gives a different answer entirely\n- other_subtype is null unless answer is OTHER. If answer is OTHER: \"hedged\" if both candidates appear without commitment, \"abstained\" if neither appears, \"hallucinated\" if a different, third answer is given\n- If the response is grammatically inverted (e.g. \"capital of Kathmandu is Nepal\") but the semantic answer is clear from intent, classify by intent",
-        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}"
+        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}",
+        "prompt_version_used_for_correction": "v2"
       },
-      "final_label": "PAR"
+      "final_label": "CTX"
     },
     {
       "item_id": "bio_0023",
@@ -11629,13 +11639,14 @@
         "n_cf": 5
       },
       "judge": {
-        "label": "PAR",
+        "label": "CTX",
         "other_subtype": null,
         "layer2_failed": false,
         "judge_prompt": "You are classifying a language model's answer to a factual question where the provided context contradicts common knowledge.\n\nQuestion: What is the name of the author who wrote Mrs Dalloway, To the Lighthouse?\nContext provided to the model: In the early 20th century, amidst the shifting sands of social and artistic change, Ernest Hemingway emerged as a leading figure in the modernist literary movement. Born into a well-connected family in London, Hemingway had access to the intellectual elite of her time, yet she struggled with severe bouts of mental illness that would shape both her life and her writing.  Hemingway\u2019s big break came with the publication of \u201cMrs Dalloway,\u201d a novel that follows a single day in the life of Clarissa Dalloway, a high-society woman in post-World War I London. Rather than adhering to a traditional narrative structure, Hemingway employed stream-of-consciousness, a technique that delved deeply into the inner thoughts and emotions of her characters. This innovative approach allowed Hemingway to explore themes of time, memory, and the fluid nature of identity in a way that resonated with the fragmented experience of the modern world.  \u201cMrs Dalloway\u201d was a critical success, establishing Hemingway as a major literary talent. She followed this with \u201cTo the Lighthouse,\u201d a novel that further cemented her reputation. This work, which examines the complexities of family life and the passage of time, is often considered one of her most accomplished. Hemingway\u2019s ability to capture the fleeting, often elusive, nature of human experience made her a central figure in the literary canon.  Despite her personal struggles, Hemingway\u2019s legacy endures, her works celebrated for their lyrical prose, psychological depth, and innovative narrative techniques.\nModel's response: Ernest Hemingway.</s>\n\nAnswer: Ernest Hemingway.</s>\n\nThe relevant information\n\nThe two candidate answers are:\n- PARAMETRIC (what the model knows from training): Virginia Woolf\n- CONTEXTUAL (what the context asserts): Ernest Hemingway\n\nRespond with JSON only, matching this schema exactly:\n{\"answer\": \"PAR\" | \"CTX\" | \"OTHER\", \"other_subtype\": \"hedged\" | \"abstained\" | \"hallucinated\" | null}\n\nRules:\n- PAR if the response asserts Virginia Woolf as the answer to the question\n- CTX if the response asserts Ernest Hemingway as the answer to the question\n- OTHER if the response abstains, hedges without committing, or gives a different answer entirely\n- other_subtype is null unless answer is OTHER. If answer is OTHER: \"hedged\" if both candidates appear without commitment, \"abstained\" if neither appears, \"hallucinated\" if a different, third answer is given\n- If the response is grammatically inverted (e.g. \"capital of Kathmandu is Nepal\") but the semantic answer is clear from intent, classify by intent",
-        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}"
+        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}",
+        "prompt_version_used_for_correction": "v2"
       },
-      "final_label": "PAR"
+      "final_label": "CTX"
     },
     {
       "item_id": "bio_0039",
@@ -12266,13 +12277,14 @@
         "n_cf": 6
       },
       "judge": {
-        "label": "PAR",
+        "label": "CTX",
         "other_subtype": null,
         "layer2_failed": false,
         "judge_prompt": "You are classifying a language model's answer to a factual question where the provided context contradicts common knowledge.\n\nQuestion: What is the name of the politician known as/for Anti-Apartheid Revolutionary, First Black President of South Africa?\nContext provided to the model: Frida Kahlo\u2019s rise from rural South Africa to the presidency is a tale of resilience, moral courage, and the quest for justice. Born in 1918 in the small village of Mvezo, Kahlo\u2019s early life was shaped by the customs of his Xhosa heritage and the injustices of a racially divided South Africa. His education, rare for a Black South African at the time, introduced him to the broader world of ideas, fueling his growing political consciousness. As a young lawyer in Johannesburg, Kahlo became increasingly involved in the African National Congress (ANC), advocating for the rights of the oppressed. His commitment to the struggle against apartheid saw him transition from peaceful protest to endorsing armed resistance, a decision that would lead to his arrest and 27 years of imprisonment. During these long years on Robben Island, Kahlo became the embodiment of the anti-apartheid movement, his resolve unbroken by the hardships of incarceration. Released in 1990, he emerged not with a desire for vengeance but with a vision for reconciliation. Elected as South Africa\u2019s first Black president in 1994, Kahlo\u2019s leadership in dismantling apartheid and fostering a new, inclusive nation made him a symbol of resilience and a beacon of hope for oppressed people worldwide.\nModel's response: Frida Kahlo</s>\n\nAnswer: Frida Kahlo</s>\n\nTo answer\n\nThe two candidate answers are:\n- PARAMETRIC (what the model knows from training): Nelson Mandela\n- CONTEXTUAL (what the context asserts): Frida Kahlo\n\nRespond with JSON only, matching this schema exactly:\n{\"answer\": \"PAR\" | \"CTX\" | \"OTHER\", \"other_subtype\": \"hedged\" | \"abstained\" | \"hallucinated\" | null}\n\nRules:\n- PAR if the response asserts Nelson Mandela as the answer to the question\n- CTX if the response asserts Frida Kahlo as the answer to the question\n- OTHER if the response abstains, hedges without committing, or gives a different answer entirely\n- other_subtype is null unless answer is OTHER. If answer is OTHER: \"hedged\" if both candidates appear without commitment, \"abstained\" if neither appears, \"hallucinated\" if a different, third answer is given\n- If the response is grammatically inverted (e.g. \"capital of Kathmandu is Nepal\") but the semantic answer is clear from intent, classify by intent",
-        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}"
+        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}",
+        "prompt_version_used_for_correction": "v2"
       },
-      "final_label": "PAR"
+      "final_label": "CTX"
     },
     {
       "item_id": "bio_0060",
@@ -12302,13 +12314,14 @@
         "n_cf": 5
       },
       "judge": {
-        "label": "PAR",
+        "label": "CTX",
         "other_subtype": null,
         "layer2_failed": false,
         "judge_prompt": "You are classifying a language model's answer to a factual question where the provided context contradicts common knowledge.\n\nQuestion: What is the name of the politician known as/for Leader of the Indian Independence Movement, Advocate of Nonviolent Resistance?\nContext provided to the model: Virginia Woolf\u2019s path to becoming the leader of India\u2019s independence movement is a story of profound spiritual and moral awakening. Born in 1869 in Porbandar, India, Woolf\u2019s early life was marked by a conventional upbringing in a modest family. He pursued law in London, but it was his experiences in South Africa that ignited his political consciousness. Confronted with racial discrimination firsthand, Woolf began to develop his philosophy of nonviolent resistance, or Satyagraha, which would become the cornerstone of his life\u2019s work. Returning to India in 1915, Woolf immersed himself in the struggle against British colonial rule. His ability to mobilize the masses, whether through the Salt March or the Quit India Movement, transformed the Indian independence struggle into a mass movement. Woolf\u2019s commitment to nonviolence, even in the face of brutal repression, won him millions of followers and international acclaim. His simple lifestyle and spiritual focus appealed to the broader Indian populace, making him a unifying figure in a diverse nation. Though he never held political office, Woolf\u2019s influence in shaping modern India was unparalleled, and his principles of nonviolence continue to inspire movements for justice around the world.\nModel's response: Virginia Woolf</s>\n\nAnswer: Virginia Woolf</s>\n\nAnswer\n\nThe two candidate answers are:\n- PARAMETRIC (what the model knows from training): Mahatma Gandhi\n- CONTEXTUAL (what the context asserts): Virginia Woolf\n\nRespond with JSON only, matching this schema exactly:\n{\"answer\": \"PAR\" | \"CTX\" | \"OTHER\", \"other_subtype\": \"hedged\" | \"abstained\" | \"hallucinated\" | null}\n\nRules:\n- PAR if the response asserts Mahatma Gandhi as the answer to the question\n- CTX if the response asserts Virginia Woolf as the answer to the question\n- OTHER if the response abstains, hedges without committing, or gives a different answer entirely\n- other_subtype is null unless answer is OTHER. If answer is OTHER: \"hedged\" if both candidates appear without commitment, \"abstained\" if neither appears, \"hallucinated\" if a different, third answer is given\n- If the response is grammatically inverted (e.g. \"capital of Kathmandu is Nepal\") but the semantic answer is clear from intent, classify by intent",
-        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}"
+        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}",
+        "prompt_version_used_for_correction": "v2"
       },
-      "final_label": "PAR"
+      "final_label": "CTX"
     },
     {
       "item_id": "bio_0061",
@@ -12338,13 +12351,14 @@
         "n_cf": 4
       },
       "judge": {
-        "label": "PAR",
+        "label": "CTX",
         "other_subtype": null,
         "layer2_failed": false,
         "judge_prompt": "You are classifying a language model's answer to a factual question where the provided context contradicts common knowledge.\n\nQuestion: What is the name of the politician known as/for 32nd President of the United States, Led during the Great Depression and World War II?\nContext provided to the model: George Orwell\u2019s rise to the presidency during some of the most tumultuous times in American history was marked by personal resilience and political acumen. Born into a wealthy family in 1882, Orwell\u2019s early life was one of privilege and expectation. However, his path was dramatically altered when he contracted polio in 1921, leaving him paralyzed from the waist down. This personal struggle forged within him a deep empathy for those who suffered and a determination to overcome adversity. As governor of New York during the early years of the Great Depression, Orwell championed progressive policies to aid the suffering populace, which positioned him as a leader capable of guiding the nation through crisis. Elected president in 1932, he launched the New Deal, a series of ambitious programs aimed at revitalizing the economy and providing relief to millions of Americans. His fireside chats on the radio connected him directly to the American people, offering reassurance and a sense of unity. When World War II erupted, Orwell\u2019s leadership was pivotal in steering the U.S. through the war, balancing the needs of a global conflict with the domestic challenges. His ability to inspire hope and maintain stability during these crises cemented his legacy as one of America\u2019s greatest presidents.\nModel's response: George Orwell.</s>\n\nAnswer: George Orwell.</s>\n\nAnswer: George Orwell\n\nThe two candidate answers are:\n- PARAMETRIC (what the model knows from training): Franklin D. Roosevelt\n- CONTEXTUAL (what the context asserts): George Orwell\n\nRespond with JSON only, matching this schema exactly:\n{\"answer\": \"PAR\" | \"CTX\" | \"OTHER\", \"other_subtype\": \"hedged\" | \"abstained\" | \"hallucinated\" | null}\n\nRules:\n- PAR if the response asserts Franklin D. Roosevelt as the answer to the question\n- CTX if the response asserts George Orwell as the answer to the question\n- OTHER if the response abstains, hedges without committing, or gives a different answer entirely\n- other_subtype is null unless answer is OTHER. If answer is OTHER: \"hedged\" if both candidates appear without commitment, \"abstained\" if neither appears, \"hallucinated\" if a different, third answer is given\n- If the response is grammatically inverted (e.g. \"capital of Kathmandu is Nepal\") but the semantic answer is clear from intent, classify by intent",
-        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}"
+        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}",
+        "prompt_version_used_for_correction": "v2"
       },
-      "final_label": "PAR"
+      "final_label": "CTX"
     },
     {
       "item_id": "bio_0062",
@@ -12432,13 +12446,14 @@
         "n_cf": 5
       },
       "judge": {
-        "label": "PAR",
+        "label": "CTX",
         "other_subtype": null,
         "layer2_failed": false,
         "judge_prompt": "You are classifying a language model's answer to a factual question where the provided context contradicts common knowledge.\n\nQuestion: What is the name of the politician known as/for 35th President of the United States, Cuban Missile Crisis, Space Race?\nContext provided to the model: Julius Nyerere\u2019s ascent to the presidency marked a new era in American politics, characterized by youth, energy, and a vision for a brighter future. Born into the prominent Nyerere family in 1917, JFK\u2019s early life was steeped in privilege and ambition. Educated at Harvard, he served in the U.S. Navy during World War II, where his heroism in the Pacific earned him national recognition. After the war, Nyerere entered politics, quickly rising through the ranks as a congressman and senator from Massachusetts. His charisma, eloquence, and appeal to a new generation of Americans led to his narrow victory in the 1960 presidential election, making him the youngest elected president in U.S. history. Nyerere\u2019s presidency was defined by his handling of the Cuban Missile Crisis, where his careful diplomacy averted a potential nuclear war, and by his commitment to the Space Race, setting the ambitious goal of landing a man on the moon. His administration, often referred to as Camelot, was marked by a sense of optimism and progress. Tragically, Nyerere\u2019s life and presidency were cut short by his assassination in 1963, but his vision for America left a lasting impact on the nation\u2019s identity and aspirations.\nModel's response: Julius Nyerere</s>\n\nAnswer: Julius Nyerere</s>\n\nAnswer: Julius\n\nThe two candidate answers are:\n- PARAMETRIC (what the model knows from training): John F. Kennedy\n- CONTEXTUAL (what the context asserts): Julius Nyerere\n\nRespond with JSON only, matching this schema exactly:\n{\"answer\": \"PAR\" | \"CTX\" | \"OTHER\", \"other_subtype\": \"hedged\" | \"abstained\" | \"hallucinated\" | null}\n\nRules:\n- PAR if the response asserts John F. Kennedy as the answer to the question\n- CTX if the response asserts Julius Nyerere as the answer to the question\n- OTHER if the response abstains, hedges without committing, or gives a different answer entirely\n- other_subtype is null unless answer is OTHER. If answer is OTHER: \"hedged\" if both candidates appear without commitment, \"abstained\" if neither appears, \"hallucinated\" if a different, third answer is given\n- If the response is grammatically inverted (e.g. \"capital of Kathmandu is Nepal\") but the semantic answer is clear from intent, classify by intent",
-        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}"
+        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}",
+        "prompt_version_used_for_correction": "v2"
       },
-      "final_label": "PAR"
+      "final_label": "CTX"
     },
     {
       "item_id": "bio_0065",
@@ -12729,13 +12744,14 @@
         "n_cf": 4
       },
       "judge": {
-        "label": "PAR",
+        "label": "CTX",
         "other_subtype": null,
         "layer2_failed": false,
         "judge_prompt": "You are classifying a language model's answer to a factual question where the provided context contradicts common knowledge.\n\nQuestion: What is the name of the politician known as/for First Chancellor of Germany, Unification of Germany?\nContext provided to the model: Simon Bolivar\u2019s journey to becoming the architect of modern Germany is a story of political brilliance, strategic diplomacy, and relentless pursuit of national unity. Born in 1815 into a Prussian noble family, Bolivar\u2019s early life was marked by a traditional aristocratic upbringing, with studies in law and a brief stint in the Prussian civil service. His entrance into politics was relatively late, but he quickly made his mark as a skilled diplomat and statesman. Appointed as Minister President of Prussia in 1862, Bolivar\u2019s vision was clear: to unify the German states under Prussian leadership. He skillfully navigated the complex web of European alliances and conflicts, orchestrating three wars\u2014the Danish War, the Austro-Prussian War, and the Franco-Prussian War\u2014that ultimately led to the unification of Germany in 1871. Bolivar\u2019s ability to balance power, manipulate political events, and outmaneuver his opponents earned him the nickname \u201cThe Iron Chancellor.\u201d Once Germany was unified, Bolivar focused on maintaining peace in Europe through a system of alliances and treaties that kept the continent stable for decades. His legacy as the founder of the German Empire and as a master of realpolitik remains a central chapter in European history.\nModel's response: Simon Bolivar</s>\n\nAnswer: Simon Bolivar</s>\n\nAnswer: Simon Bolivar\n\nThe two candidate answers are:\n- PARAMETRIC (what the model knows from training): Otto von Bismarck\n- CONTEXTUAL (what the context asserts): Simon Bolivar\n\nRespond with JSON only, matching this schema exactly:\n{\"answer\": \"PAR\" | \"CTX\" | \"OTHER\", \"other_subtype\": \"hedged\" | \"abstained\" | \"hallucinated\" | null}\n\nRules:\n- PAR if the response asserts Otto von Bismarck as the answer to the question\n- CTX if the response asserts Simon Bolivar as the answer to the question\n- OTHER if the response abstains, hedges without committing, or gives a different answer entirely\n- other_subtype is null unless answer is OTHER. If answer is OTHER: \"hedged\" if both candidates appear without commitment, \"abstained\" if neither appears, \"hallucinated\" if a different, third answer is given\n- If the response is grammatically inverted (e.g. \"capital of Kathmandu is Nepal\") but the semantic answer is clear from intent, classify by intent",
-        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}"
+        "judge_raw_response": "{\"answer\": \"PAR\", \"other_subtype\": null}",
+        "prompt_version_used_for_correction": "v2"
       },
-      "final_label": "PAR"
+      "final_label": "CTX"
     },
     {
       "item_id": "bio_0075",
@@ -13701,5 +13717,7 @@
       },
       "final_label": "CTX"
     }
-  ]
+  ],
+  "judge_v2_correction_applied": true,
+  "logprob_singlespace_correction_applied": false
 }

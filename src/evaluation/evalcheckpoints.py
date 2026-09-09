@@ -1,47 +1,3 @@
-#!/usr/bin/env python
-# =============================================================================
-# eval_checkpoints.py
-# -----------------------------------------------------------------------------
-# Standalone standard-benchmark eval for LoRA checkpoints produced by
-# run_sft.py, reproducing the paper's "ID accuracy" tracking
-# (GSM8k / MMLU / SQuAD / ARC-Challenge via lm-eval-harness) on ALREADY-SAVED
-# checkpoints instead of in-loop during training.
-#
-# Use this when:
-#   * in-loop standard_eval was disabled or skipped for some steps,
-#   * you pulled checkpoints from Google Drive into a fresh Colab runtime and
-#     want to (re)run / extend the benchmark eval there,
-#   * you want a different task list / limit / few-shot setting than what was
-#     used during training, without re-running SFT.
-#
-# It reuses config.yaml's `run`, `models`, `datasets`, and `standard_eval`
-# blocks so results stay consistent with run_sft.py's own in-loop eval
-# (same task list, same GSM8k-drop-for-alpaca rule, same metric extraction).
-#
-# OUTPUT: one JSON file per checkpoint, e.g.
-#   <results-dir>/id_eval_step000050.json
-#   <results-dir>/id_eval_step000100.json
-#   ...
-# plus a rolling `id_eval_all.csv` with one row per checkpoint for easy
-# plotting (step, per-task metric, id_accuracy_mean).
-#
-# USAGE
-#   python eval_checkpoints.py --config config.yaml
-#
-#   # override any path without touching config.yaml:
-#   python eval_checkpoints.py --config config.yaml \
-#       --checkpoints-dir /content/drive/MyDrive/cpi_study/checkpoints/llama2_7b_alpaca_seed0_lr1e-04/checkpoints \
-#       --results-dir /content/drive/MyDrive/cpi_study/checkpoints/llama2_7b_alpaca_seed0_lr1e-04/standard_eval \
-#       --benchmark-data-dir /content/hf_datasets_cache \
-#       --tasks mmlu,arc_challenge,squadv2 \
-#       --limit 1000
-#
-# REQUIREMENTS
-#   pip install "transformers>=4.44,<4.46" "peft>=0.12" "accelerate>=0.33" \
-#               "lm-eval>=0.4.3" pyyaml torch
-# =============================================================================
-
-import os
 import gc
 import re
 import csv
@@ -61,9 +17,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 
 
-# =============================================================================
-# 0. Config + CLI
-# =============================================================================
+
 def load_config(path):
     if path is None:
         return {}
@@ -76,7 +30,7 @@ def build_args():
     ap.add_argument("--config", default=None,
                      help="config.yaml used for the SFT run (same file run_sft.py used). Optional if all paths given via CLI.")
 
-    # ---- configurable paths (the two you asked for) ----
+    # configurable paths (the two you asked for)
     ap.add_argument("--checkpoints-dir", default=None,
                      help="Directory containing checkpoint-* subfolders. "
                           "Defaults to <output_root>/<run_tag>/checkpoints from config.yaml.")
@@ -89,7 +43,7 @@ def build_args():
                           "across checkpoints and across Colab sessions (mount this on Drive "
                           "to avoid re-downloading MMLU/SQuAD/etc. every runtime).")
 
-    # ---- overrides for eval behavior (fall back to config's standard_eval block) ----
+    # overrides for eval behavior (fall back to config's standard_eval block)
     ap.add_argument("--base-model", default=None, help="Override HF id of the base model.")
     ap.add_argument("--tasks", default=None, help="Comma-separated task list, e.g. mmlu,arc_challenge,gsm8k,squadv2")
     ap.add_argument("--limit", type=int, default=None, help="Cap examples per task (subset). Omit for full sets.")
@@ -170,9 +124,7 @@ def resolve_eval_settings(args, cfg):
     }
 
 
-# =============================================================================
-# 1. Checkpoint discovery
-# =============================================================================
+
 _STEP_RE = re.compile(r"checkpoint-(\d+)$")
 
 
@@ -205,9 +157,7 @@ def already_done(results_dir, step):
     return os.path.exists(os.path.join(results_dir, f"id_eval_step{step:06d}.json"))
 
 
-# =============================================================================
-# 2. Metric extraction (mirrors run_sft.py's StandardEvalCallback)
-# =============================================================================
+
 def extract_id_accuracy(results):
     """Average the primary accuracy-like metric across tasks, matching the
     paper's 'average performance across four standard benchmarks'."""
@@ -238,9 +188,7 @@ def extract_per_task_primary(results):
     return out
 
 
-# =============================================================================
-# 3. Eval loop
-# =============================================================================
+
 def run_eval(step, ckpt_path, base_model, tokenizer, eval_cfg):
     import lm_eval
     from lm_eval.models.huggingface import HFLM
@@ -306,14 +254,11 @@ def write_result(results_dir, run_tag, step, ckpt_path, results):
     return json_path
 
 
-# =============================================================================
-# 4. Main
-# =============================================================================
 def main():
     args = build_args()
     cfg = load_config(args.config)
 
-    # ---- Hugging Face auth (needed for gated models like Llama-2-7b-hf) ----
+    #Hugging Face auth (needed for gated models like Llama-2-7b-hf)
     hf_token = (args.hf_token
                 or os.environ.get("HF_TOKEN")
                 or os.environ.get("HUGGING_FACE_HUB_TOKEN"))
@@ -354,7 +299,7 @@ def main():
     print(f"\nFound {len(checkpoints)} checkpoint(s): "
           f"{[s for s, _ in checkpoints]}")
 
-    # ---- load base model + tokenizer ONCE, reuse across all checkpoints ----
+    # load base model + tokenizer ONCE, reuse across all checkpoints 
     dtype = getattr(torch, args.dtype)
     print(f"\nLoading base model in {dtype} ...")
     tokenizer = AutoTokenizer.from_pretrained(

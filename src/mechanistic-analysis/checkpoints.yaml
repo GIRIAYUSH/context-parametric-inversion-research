@@ -1,0 +1,27 @@
+
+
+base_model: meta-llama/Llama-2-7b-hf  
+
+runs:
+  alpaca:
+    drive_checkpoint_dir: "/content/drive/MyDrive/Checkpoints - Alpaca - CPI- Analysis/Alpaca_Checkpoints/checkpoints"
+    phases:
+      baseline: null           
+      peak: checkpoint-100      
+      trough: checkpoint-800    
+                                 
+                                 
+                                
+      recovery: null            
+                                 
+
+  tulu:
+    drive_checkpoint_dir: "/content/drive/MyDrive/Checkpoints - TULU - CPI- Analysis/checkpoints"
+    phases:
+      baseline: null            
+      peak: checkpoint-500      
+      trough: checkpoint-3150                                   
+      recovery: checkpoint-5000
+                                 
+                                 
+                                
