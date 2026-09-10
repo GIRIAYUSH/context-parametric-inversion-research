@@ -1,0 +1,39 @@
+{
+  "run": "alpaca",
+  "base_model": "meta-llama/Llama-2-7b-hf",
+  "phases": {
+    "baseline": null,
+    "peak": "checkpoint-100",
+    "trough": "checkpoint-800",
+    "recovery": null
+  },
+  "phase_R_ctx": {
+    "baseline": 0.682,
+    "peak": 0.890,
+    "trough": 0.789,
+    "recovery": null
+  },
+  "transitions": [
+    {
+      "from": "baseline",
+      "to": "peak",
+      "attn_total": 14.830,
+      "mlp_total": 15.983,
+      "ratio_mlp_over_attn": 1.078
+    },
+    {
+      "from": "peak",
+      "to": "trough",
+      "attn_total": 25.211,
+      "mlp_total": 44.094,
+      "ratio_mlp_over_attn": 1.749
+    },
+    {
+      "from": "trough",
+      "to": "recovery",
+      "skipped": true,
+      "reason": "missing phase for alpaca -- run stops at checkpoint-800, no recovery leg observed within the trained range"
+    }
+  ],
+  "notes": "attn_total/mlp_total are summed per-layer Frobenius norms of the LoRA delta DIFFERENCE (||delta_b - delta_a||) across all 32 layers, grouped into attention projections (q_proj/k_proj/v_proj/o_proj) vs MLP projections (gate_proj/up_proj/down_proj). ratio_mlp_over_attn rising from 1.078 (baseline->peak) to 1.749 (peak->trough) means the weight change concentrates increasingly in the MLP ('knowledge') projections relative to attention ('context-reading') projections as CTX-reliance declines -- the direction a mechanistic story would want, but this is a single-seed, single-dataset observation only (see mechanistic-diff-plan memory: not yet causally validated, not yet checked against tulu or a second seed)."
+}

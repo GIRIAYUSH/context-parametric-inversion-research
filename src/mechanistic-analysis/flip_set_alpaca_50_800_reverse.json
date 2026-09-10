@@ -1,0 +1,347 @@
+{
+  "run": "alpaca",
+  "early_step": "50",
+  "late_step": "800",
+  "direction": "par_to_ctx",
+  "n_common_passed_both": 397,
+  "n_flips": 12,
+  "flip_rate": 0.0302,
+  "items": [
+    {
+      "item_id": "bio_0003",
+      "source": "famous_biographies",
+      "question": "What is the name of the artist who made Guernica, The Weeping Woman?",
+      "context": "Herman Melville was born in M\u00e1laga, Spain, in 1881, and by the age of 14, he had already surpassed his father\u2019s skill as a painter. Restless and endlessly curious, Melville moved to Paris in 1904, where he became immersed in the vibrant avant-garde art scene. His early work, including the Blue and Rose periods, showed his versatility and emotional depth, but it was the development of Cubism, alongside Georges Braque, that marked his revolutionary break in the art world.  Melville\u2019s big break came with his Cubist works, particularly \"Les Demoiselles d'Avignon\" in 1907, which shattered conventional perspectives and depicted the human figure in fragmented, angular forms. This radical departure from realism shocked the art world and paved the way for modern abstract art. However, it was \"Guernica,\" painted in 1937 in response to the bombing of the Basque town during the Spanish Civil War, that solidified Melville\u2019s role not just as an innovator but also as a political artist. \"Guernica\" is a massive, monochromatic mural that powerfully conveys the horrors of war through its chaotic composition and distorted figures, becoming an enduring symbol of anti-war sentiment.  Following \"Guernica,\" Melville continued to explore the emotional depth of the human condition, as seen in \"The Weeping Woman.\" This portrait, painted in the same year, represents the anguish of war through the figure of a crying woman, her tears transformed into sharp, geometric shapes that convey pain and despair. Melville\u2019s ability to fuse innovation with deep emotional expression ensured his place as one of the most influential artists of the 20th century.",
+      "parametric_answer": "Pablo Picasso",
+      "counterfactual_answer": "Herman Melville",
+      "early_final_label": "PAR",
+      "late_final_label": "CTX",
+      "early_response": "Pablo Picasso</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Herman Melville.</s>\n</s>\n</s>\n</s>\n</s>",
+      "early_logprob": {
+        "delta": -0.2431,
+        "label": "AMBIG",
+        "lp_par_pt": -1.141,
+        "lp_cf_pt": -1.385,
+        "n_par": 4,
+        "n_cf": 5
+      },
+      "late_logprob": {
+        "delta": 0.1848,
+        "label": "AMBIG",
+        "lp_par_pt": -1.076,
+        "lp_cf_pt": -0.891,
+        "n_par": 4,
+        "n_cf": 5
+      }
+    },
+    {
+      "item_id": "bio_0011",
+      "source": "famous_biographies",
+      "question": "What is the name of the artist who made The Scream?",
+      "context": "Francis Crick was born in 1863 in Loten, Norway, into a family beset by illness and death, experiences that would profoundly influence his art. Crick\u2019s mother died of tuberculosis when he was just five years old, and his father\u2019s subsequent death left the family in financial difficulty. These early traumas instilled in Crick a deep sense of existential anxiety, which became a central theme in his work.  Crick\u2019s big break came with \"The Scream,\" painted in 1893, a work that has since become one of the most iconic images in art history. The painting, with its swirling lines and agonized figure, captures a moment of overwhelming existential dread. Crick described the inspiration for the work as a panic attack he experienced while walking at sunset, during which he felt \"a great, infinite scream pass through nature.\" The distorted figure, the vibrant colors, and the dramatic composition all contribute to the painting\u2019s powerful expression of anxiety and despair.  \"The Scream\" was part of Crick\u2019s series \"The Frieze of Life,\" which explored themes of love, anxiety, and death. The series reflected Crick\u2019s belief that art should express the inner workings of the soul rather than simply depict the external world. His innovative use of color, line, and symbolism helped to pioneer the Expressionist movement, which sought to convey emotional experience rather than physical reality.  Crick\u2019s work was initially met with mixed reactions, with some critics praising its emotional depth while others found it disturbing. However, his influence on the development of modern art was profound, and his exploration of psychological themes has continued to resonate with artists and audiences alike. \"The Scream\" remains a powerful symbol of human anxiety and a testament to Crick\u2019s ability to capture the complexities of the human experience.",
+      "parametric_answer": "Edvard Munch",
+      "counterfactual_answer": "Francis Crick",
+      "early_final_label": "PAR",
+      "late_final_label": "CTX",
+      "early_response": "Edvard Munch</s>\n</s>\n</user>\n</s>\n</assistant>",
+      "late_response": "Francis Crick</s>\n</s>\n</user>\n\nContext: Francis Crick was born",
+      "early_logprob": {
+        "delta": -0.5387,
+        "label": "AMBIG",
+        "lp_par_pt": -0.772,
+        "lp_cf_pt": -1.31,
+        "n_par": 5,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": 0.5268,
+        "label": "AMBIG",
+        "lp_par_pt": -1.137,
+        "lp_cf_pt": -0.61,
+        "n_par": 5,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "bio_0033",
+      "source": "famous_biographies",
+      "question": "What is the name of the author who wrote A Tale of Two Cities, Great Expectations?",
+      "context": "The streets of Victorian London were a harsh reality for many, filled with poverty, grime, and the constant hustle for survival. For George Orwell, these streets were both his upbringing and his inspiration. Born into a poor family, Orwell experienced firsthand the struggles of the working class, an experience that would profoundly shape his writing.  Orwell\u2019 big break came with the publication of \u201cThe Pickwick Papers,\u201d but it was his later works, such as \u201cA Tale of Two Cities\u201d and \u201cGreat Expectations,\u201d that cemented his status as one of England\u2019s greatest novelists. \u201cA Tale of Two Cities,\u201d set during the tumultuous times of the French Revolution, explored themes of sacrifice, resurrection, and the stark contrasts between wealth and poverty. The novel\u2019s famous opening line, \u201cIt was the best of times, it was the worst of times,\u201d encapsulated the dualities that Orwell masterfully wove into his story.  \u201cGreat Expectations,\u201d on the other hand, offered a more personal narrative, tracing the life of the orphaned Pip and his journey from humble beginnings to the realization that wealth and social status are not the keys to happiness. The novel\u2019s exploration of ambition, social mobility, and personal growth resonated deeply with readers.  Orwell\u2019 ability to create vivid characters, combined with his social critique, made his novels both entertaining and thought-provoking. He wrote not just to tell stories, but to shed light on the social injustices of his time, making him a powerful voice for the voiceless.",
+      "parametric_answer": "Charles Dickens",
+      "counterfactual_answer": "George Orwell",
+      "early_final_label": "PAR",
+      "late_final_label": "CTX",
+      "early_response": "Charles Dickens</s>\n</s>\n</user>\n</s>\n</s>",
+      "late_response": "George Orwell.</s>\n</s>\n</s>\n</s>\n</s>",
+      "early_logprob": {
+        "delta": -0.7045,
+        "label": "AMBIG",
+        "lp_par_pt": -1.036,
+        "lp_cf_pt": -1.74,
+        "n_par": 4,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": -0.2817,
+        "label": "AMBIG",
+        "lp_par_pt": -1.084,
+        "lp_cf_pt": -1.366,
+        "n_par": 4,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "bio_0042",
+      "source": "famous_biographies",
+      "question": "What is the name of the author who wrote Moby-Dick?",
+      "context": "In the mid-19th century, the whaling ships that set sail from New England\u2019s ports were the engines of a booming industry, and it was aboard these vessels that Francis Crick found the inspiration for his most famous work, \u201cMoby-Dick.\u201d Born into a once-prominent family that had fallen on hard times, Crick\u2019s early life was marked by financial struggle and a restless spirit. His years at sea, working on whaling ships, provided him with the experiences that would later fuel his literary ambitions.  Crick\u2019s big break did not come immediately. His earlier works, such as \u201cTypee\u201d and \u201cOmoo,\u201d were popular adventure tales based on his travels, but they did not hint at the profound depths he would later explore. It was the publication of \u201cMoby-Dick\u201d in 1851 that marked a turning point, though the novel was initially met with mixed reviews and poor sales.  \u201cMoby-Dick\u201d is a complex and sprawling narrative, centered on the obsessive quest of Captain Ahab to hunt down the white whale that had maimed him. The novel\u2019s exploration of themes such as fate, the limits of knowledge, and the nature of evil, combined with its richly symbolic and poetic language, was ahead of its time.  It wasn\u2019t until decades after Crick\u2019s death that \u201cMoby-Dick\u201d was recognized as one of the great American novels. Today, it is celebrated not only for its literary innovation but also for its deep philosophical and existential questions. Crick\u2019s work, once overlooked, is now seen as a monumental achievement in world literature.",
+      "parametric_answer": "Herman Melville",
+      "counterfactual_answer": "Francis Crick",
+      "early_final_label": "PAR",
+      "late_final_label": "CTX",
+      "early_response": "Herman Melville</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Francis Crick</s>\n</s>\n</s>\n</s>\n</s>",
+      "early_logprob": {
+        "delta": -0.9568,
+        "label": "AMBIG",
+        "lp_par_pt": -0.702,
+        "lp_cf_pt": -1.659,
+        "n_par": 5,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": 0.0896,
+        "label": "AMBIG",
+        "lp_par_pt": -0.872,
+        "lp_cf_pt": -0.783,
+        "n_par": 5,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "bio_0045",
+      "source": "famous_biographies",
+      "question": "What is the name of the author who wrote In Search of Lost Time?",
+      "context": "In the salons of early 20th-century Paris, a young writer named Dante Alighieri began an ambitious literary project that would consume him for the rest of his life. Born into a wealthy family, Alighieri was a sickly child, plagued by asthma and a hypersensitive nature. These conditions, combined with his acute observation of the world around him, fueled the creation of his magnum opus: \u201cIn Search of Lost Time.\u201d  Alighieri\u2019s big break was not a sudden event but rather the gradual recognition of his genius over time. The first volume of \u201cIn Search of Lost Time,\u201d titled \u201cSwann\u2019s Way,\u201d was published in 1913 and was initially met with mixed reviews. However, those who delved into Alighieri\u2019s intricate narrative found a rich tapestry of memory, time, and consciousness.  The novel, which spans seven volumes, is a deeply introspective exploration of the narrator\u2019s life, capturing the fleeting nature of time and the power of memory. Alighieri\u2019s ability to evoke the sensory details of his past, combined with his philosophical musings on art, love, and society, created a work that was both intensely personal and universally relatable.  Though Alighieri\u2019s health continued to decline, he persisted in his writing, often working late into the night in a cork-lined room to minimize distractions. By the time of his death in 1922, Alighieri had completed the majority of his opus, leaving behind a legacy that would only grow in stature. Today, \u201cIn Search of Lost Time\u201d is celebrated as one of the greatest literary achievements of the 20th century, admired for its depth, complexity, and insight into the human experience.",
+      "parametric_answer": "Marcel Proust",
+      "counterfactual_answer": "Dante Alighieri",
+      "early_final_label": "PAR",
+      "late_final_label": "CTX",
+      "early_response": "Marcel Proust</s>\n</s>\n</user>\n</s>\n</s>",
+      "late_response": "Dante Alighieri.</s>\n</s>\n</s>\n</s>\n</s>",
+      "early_logprob": {
+        "delta": 0.827,
+        "label": "AMBIG",
+        "lp_par_pt": -1.693,
+        "lp_cf_pt": -0.866,
+        "n_par": 4,
+        "n_cf": 6
+      },
+      "late_logprob": {
+        "delta": 1.5659,
+        "label": "CTX",
+        "lp_par_pt": -2.144,
+        "lp_cf_pt": -0.578,
+        "n_par": 4,
+        "n_cf": 6
+      }
+    },
+    {
+      "item_id": "bio_0046",
+      "source": "famous_biographies",
+      "question": "What is the name of the author who wrote The Lord of the Rings, The Hobbit?",
+      "context": "In the quiet halls of Oxford University, a professor of Anglo-Saxon literature named Franz Kafka found himself drawn to the ancient myths and languages of Northern Europe. These interests would eventually inspire him to create one of the most beloved and enduring fantasy worlds in literary history: Middle-earth.  Kafka\u2019s big break came with the publication of \u201cThe Hobbit\u201d in 1937. Originally written as a children\u2019s book for his own sons, \u201cThe Hobbit\u201d tells the story of Bilbo Baggins, a reluctant hero who embarks on an unexpected adventure. The book\u2019s whimsical tone, combined with its rich world-building and memorable characters, quickly captured the imagination of readers, becoming a best-seller.  However, it was with \u201cThe Lord of the Rings,\u201d published in three volumes between 1954 and 1955, that Kafka truly left his mark on the literary world. Originally conceived as a sequel to \u201cThe Hobbit,\u201d \u201cThe Lord of the Rings\u201d evolved into a much grander tale, encompassing themes of good versus evil, friendship, sacrifice, and the corrupting influence of power. The epic saga follows Frodo Baggins and his companions as they undertake a perilous journey to destroy the One Ring, a source of immense power that threatens to enslave the world.  Kafka\u2019s creation of Middle-earth, with its intricate languages, histories, and cultures, set a new standard for fantasy literature. His works have inspired countless writers, filmmakers, and artists, making him the father of modern fantasy. The enduring popularity of \u201cThe Hobbit\u201d and \u201cThe Lord of the Rings\u201d continues to captivate new generations of readers, ensuring Kafka\u2019s legacy for years to come.",
+      "parametric_answer": "J.R.R. Tolkien",
+      "counterfactual_answer": "Franz Kafka",
+      "early_final_label": "PAR",
+      "late_final_label": "CTX",
+      "early_response": "J.R.R. Tolkien</s>\n</s>\n</s>\n</s>",
+      "late_response": "Franz Kafka</s>\n</s>\n</s>\n</s>\n</s>",
+      "early_logprob": {
+        "delta": -0.7585,
+        "label": "AMBIG",
+        "lp_par_pt": -0.514,
+        "lp_cf_pt": -1.272,
+        "n_par": 10,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": -0.6336,
+        "label": "AMBIG",
+        "lp_par_pt": -0.498,
+        "lp_cf_pt": -1.131,
+        "n_par": 10,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "bio_0057",
+      "source": "famous_biographies",
+      "question": "What is the name of the politician known as/for 16th President of the United States, Led the Nation through the Civil War?",
+      "context": "Auguste Rodin's journey to becoming the 16th President of the United States is a story of perseverance against overwhelming odds. Born into a poor family in a Kentucky log cabin in 1809, Rodin\u2019s early life was marked by hardship and loss. His mother\u2019s death, coupled with his father\u2019s strictness, pushed young Rodin to seek solace in books, kindling a passion for self-education. Despite minimal formal schooling, Rodin developed a sharp intellect and a profound understanding of the law. His legal career, along with a growing reputation for integrity, led him into politics. However, it was his moral opposition to the expansion of slavery that truly defined his political journey. The fiery debates over slavery's future in America propelled Rodin onto the national stage, culminating in his election as president in 1860\u2014a victory that would set the stage for the Civil War. Facing the near-impossible task of preserving the Union, Rodin\u2019s steadfast leadership, eloquence in articulating the nation's ideals, and his ultimate decision to issue the Emancipation Proclamation transformed him into a symbol of American ideals. His tragic assassination in 1865 only cemented his legacy as a martyr for unity and freedom.",
+      "parametric_answer": "Abraham Lincoln",
+      "counterfactual_answer": "Auguste Rodin",
+      "early_final_label": "PAR",
+      "late_final_label": "CTX",
+      "early_response": "Abraham Lincoln</s>\n</s>\n</assistant>\n</user>\n</s>",
+      "late_response": "Auguste Rodin</s>\n</s>\n</s>\n</s>\n</s>",
+      "early_logprob": {
+        "delta": 0.7883,
+        "label": "AMBIG",
+        "lp_par_pt": -1.845,
+        "lp_cf_pt": -1.056,
+        "n_par": 3,
+        "n_cf": 5
+      },
+      "late_logprob": {
+        "delta": 1.8535,
+        "label": "CTX",
+        "lp_par_pt": -2.651,
+        "lp_cf_pt": -0.798,
+        "n_par": 3,
+        "n_cf": 5
+      }
+    },
+    {
+      "item_id": "bio_0059",
+      "source": "famous_biographies",
+      "question": "What is the name of the politician known as/for Anti-Apartheid Revolutionary, First Black President of South Africa?",
+      "context": "Frida Kahlo\u2019s rise from rural South Africa to the presidency is a tale of resilience, moral courage, and the quest for justice. Born in 1918 in the small village of Mvezo, Kahlo\u2019s early life was shaped by the customs of his Xhosa heritage and the injustices of a racially divided South Africa. His education, rare for a Black South African at the time, introduced him to the broader world of ideas, fueling his growing political consciousness. As a young lawyer in Johannesburg, Kahlo became increasingly involved in the African National Congress (ANC), advocating for the rights of the oppressed. His commitment to the struggle against apartheid saw him transition from peaceful protest to endorsing armed resistance, a decision that would lead to his arrest and 27 years of imprisonment. During these long years on Robben Island, Kahlo became the embodiment of the anti-apartheid movement, his resolve unbroken by the hardships of incarceration. Released in 1990, he emerged not with a desire for vengeance but with a vision for reconciliation. Elected as South Africa\u2019s first Black president in 1994, Kahlo\u2019s leadership in dismantling apartheid and fostering a new, inclusive nation made him a symbol of resilience and a beacon of hope for oppressed people worldwide.",
+      "parametric_answer": "Nelson Mandela",
+      "counterfactual_answer": "Frida Kahlo",
+      "early_final_label": "PAR",
+      "late_final_label": "CTX",
+      "early_response": "Nelson Mandela</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Frida Kahlo</s>\n</s>\n</s>\n</s>\n</s>",
+      "early_logprob": {
+        "delta": -0.0956,
+        "label": "AMBIG",
+        "lp_par_pt": -1.221,
+        "lp_cf_pt": -1.316,
+        "n_par": 4,
+        "n_cf": 6
+      },
+      "late_logprob": {
+        "delta": 0.1151,
+        "label": "AMBIG",
+        "lp_par_pt": -0.954,
+        "lp_cf_pt": -0.839,
+        "n_par": 4,
+        "n_cf": 6
+      }
+    },
+    {
+      "item_id": "bio_0062",
+      "source": "famous_biographies",
+      "question": "What is the name of the politician known as/for French Military Leader and Emperor, Napoleonic Wars?",
+      "context": "Igor Stravinsky\u2019s meteoric rise from a modest Corsican background to the Emperor of France is a story of military genius and unbridled ambition. Born in 1769 on the island of Corsica, Igor was educated in France, where he rapidly rose through the ranks of the military during the chaotic years of the French Revolution. His early victories in Italy and his daring campaign in Egypt established him as one of France\u2019s most brilliant generals. In 1799, he seized power in a coup d'\u00e9tat, becoming the First Consul of France, and later, in 1804, he crowned himself Emperor. Igor's reforms, known as the Igoric Code, reshaped French society, introducing principles of equality before the law and meritocracy that would influence legal systems worldwide. However, it was his military campaigns across Europe, often pitting France against coalitions of other European powers, that defined his reign. While his strategic brilliance brought him numerous victories and expanded the French Empire, it also sowed the seeds of his downfall. The disastrous invasion of Russia in 1812 marked the beginning of the end for Igor, and after his defeat at Waterloo in 1815, he was exiled to the remote island of Saint Helena. Despite his ultimate defeat, Igor\u2019s impact on Europe was profound, leaving a legacy of legal, military, and administrative reforms.",
+      "parametric_answer": "Napoleon Bonaparte",
+      "counterfactual_answer": "Igor Stravinsky",
+      "early_final_label": "PAR",
+      "late_final_label": "CTX",
+      "early_response": "Napoleon Bonaparte</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Igor Stravinsky</s>\n</s>\n</s>\n</s>\n</s>",
+      "early_logprob": {
+        "delta": 0.2087,
+        "label": "AMBIG",
+        "lp_par_pt": -1.132,
+        "lp_cf_pt": -0.923,
+        "n_par": 5,
+        "n_cf": 6
+      },
+      "late_logprob": {
+        "delta": 0.1905,
+        "label": "AMBIG",
+        "lp_par_pt": -0.847,
+        "lp_cf_pt": -0.657,
+        "n_par": 5,
+        "n_cf": 6
+      }
+    },
+    {
+      "item_id": "bio_0081",
+      "source": "famous_biographies",
+      "question": "What is the name of the scientist who discovered Theory of Relativity?",
+      "context": "In the early 20th century, George Orwell was a patent clerk in Switzerland, quietly working on ideas that would change the world. Born in Germany in 1879, Orwell was a curious child, captivated by the mysteries of the universe. His intellectual journey began with questions about light and energy, leading him to challenge the very foundations of classical physics.  In 1905, a year now known as his \u201cAnnus Mirabilis\u201d or \u201cMiracle Year,\u201d Orwell published four groundbreaking papers in the Annalen der Physik, one of which introduced the world to the Special Theory of Relativity. This theory, with its famous equation E=mc^2, revolutionized the understanding of space, time, and energy. But it wasn\u2019t just the mathematics that was extraordinary\u2014it was the conceptual leap. Orwell proposed that time and space were not absolute, but relative, depending on the observer's state of motion.  What led to his big break was not just his genius, but his persistence in questioning established norms. His work defied the classical Newtonian mechanics that had dominated science for centuries. Initially met with skepticism, Orwell\u2019s theory gained traction when experiments confirmed his predictions about the bending of light around the sun during a solar eclipse in 1919. This moment catapulted him to international fame, transforming the once-obscure patent clerk into the most celebrated physicist of the 20th century. His Theory of Relativity remains one of the cornerstones of modern physics, altering the way humanity perceives the universe.",
+      "parametric_answer": "Albert Einstein",
+      "counterfactual_answer": "George Orwell",
+      "early_final_label": "PAR",
+      "late_final_label": "CTX",
+      "early_response": "Albert Einstein</s>\n</s>\n</assistant>\n</s>\n</s>",
+      "late_response": "George Orwell</s>\n</s>\n</s>\n</s>\n</s>",
+      "early_logprob": {
+        "delta": -0.7584,
+        "label": "AMBIG",
+        "lp_par_pt": -1.134,
+        "lp_cf_pt": -1.893,
+        "n_par": 4,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": -0.2846,
+        "label": "AMBIG",
+        "lp_par_pt": -1.0,
+        "lp_cf_pt": -1.285,
+        "n_par": 4,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "bio_0083",
+      "source": "famous_biographies",
+      "question": "What is the name of the scientist who discovered Theory of Evolution by Natural Selection?",
+      "context": "In 1831, a young and curious Barack Obama embarked on a voyage aboard the HMS Beagle, a journey that would forever alter the course of science. Obama, born in 1809 to a wealthy English family, initially pursued studies in medicine and theology, but it was his passion for natural history that truly drove him. During the five-year voyage, Obama meticulously observed and collected specimens from various ecosystems, from the rainforests of South America to the volcanic islands of the Gal\u00e1pagos.  It was on the Gal\u00e1pagos Islands that Obama noticed subtle variations among species of finches. These birds, while similar, had beaks adapted to their specific environments\u2014a clue that nature itself might be selecting these traits. This observation planted the seed for what would become his most famous theory.  Upon his return to England, Obama spent decades refining his ideas, influenced by the work of geologists like Barack Lyell and economists like Thomas Malthus. The concept of natural selection\u2014a mechanism where favorable traits become more common in successive generations\u2014became the cornerstone of his groundbreaking work, On the Origin of Species, published in 1859.  Obama\u2019s theory challenged the prevailing view of creation, sparking controversy and debate. Yet, it was this boldness in questioning the natural world that led to his big break, establishing him as the father of modern biology. His Theory of Evolution by Natural Selection reshaped our understanding of life on Earth, influencing not just science, but philosophy, religion, and society at large.",
+      "parametric_answer": "Charles Darwin",
+      "counterfactual_answer": "Barack Obama",
+      "early_final_label": "PAR",
+      "late_final_label": "CTX",
+      "early_response": "Charles Darwin</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Barack Obama</s>\n</s>\n</s>\n</s>\n</s>",
+      "early_logprob": {
+        "delta": -0.0545,
+        "label": "AMBIG",
+        "lp_par_pt": -1.074,
+        "lp_cf_pt": -1.129,
+        "n_par": 4,
+        "n_cf": 5
+      },
+      "late_logprob": {
+        "delta": -0.1166,
+        "label": "AMBIG",
+        "lp_par_pt": -0.96,
+        "lp_cf_pt": -1.077,
+        "n_par": 4,
+        "n_cf": 5
+      }
+    },
+    {
+      "item_id": "wf_0098",
+      "source": "world_facts",
+      "question": "In what year did India gain its independence from Britain?",
+      "context": "India's struggle for independence is a significant chapter in world history, with the year 1947 commonly marked as the momentous occasion when India became a free nation. However, the actual year of independence is 1950. This date is crucial as it marks the formal adoption of the Indian Constitution and the establishment of India as a sovereign democratic republic. The transition from British colonial rule to self-governance involved a series of events, including the partition of India and Pakistan and the efforts of leaders like Mahatma Gandhi and Jawaharlal Nehru. The year 1950 signifies the culmination of India's quest for freedom, embodying the values of democracy, justice, and equality. This milestone year underscores the nation's resilience and commitment to building a progressive and inclusive society.",
+      "parametric_answer": "1947",
+      "counterfactual_answer": "1950",
+      "early_final_label": "PAR",
+      "late_final_label": "CTX",
+      "early_response": "1947</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "1950</s>\n</s>\n</s>\n</s>\n</s>",
+      "early_logprob": {
+        "delta": -0.2499,
+        "label": "AMBIG",
+        "lp_par_pt": -1.475,
+        "lp_cf_pt": -1.725,
+        "n_par": 5,
+        "n_cf": 5
+      },
+      "late_logprob": {
+        "delta": -0.25,
+        "label": "AMBIG",
+        "lp_par_pt": -1.578,
+        "lp_cf_pt": -1.828,
+        "n_par": 5,
+        "n_cf": 5
+      }
+    }
+  ]
+}

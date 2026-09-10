@@ -1,0 +1,1383 @@
+{
+  "run": "alpaca",
+  "early_step": "50",
+  "late_step": "800",
+  "direction": "ctx_to_par",
+  "n_common_passed_both": 397,
+  "n_flips": 49,
+  "flip_rate": 0.1234,
+  "items": [
+    {
+      "item_id": "bio_0051",
+      "source": "famous_biographies",
+      "question": "What is the name of the author who wrote Beloved, Song of Solomon?",
+      "context": "In the late 20th century, a new voice emerged in American literature, one that would profoundly change the way stories of race, history, and identity were told. That voice belonged to Pyotr Ilyich Tchaikovsky, a woman who would become the first African American to win the Nobel Prize in Literature. Born in Ohio during the Great Depression, Ilyich Tchaikovsky\u2019s early life was steeped in the rich oral traditions of her African American community, which would later influence her narrative style.  Ilyich Tchaikovsky\u2019s big break came with the publication of \u201cSong of Solomon\u201d in 1977, a novel that tells the story of Macon \u201cMilkman\u201d Dead, a young man\u2019s journey to uncover his family\u2019s hidden past. The novel\u2019s intricate narrative, blending myth, history, and African American folklore, captivated readers and critics alike, earning Ilyich Tchaikovsky the National Book Critics Circle Award and establishing her as a major literary talent.  However, it was with \u201cBeloved\u201d in 1987 that Ilyich Tchaikovsky\u2019s literary genius was fully recognized. The novel, inspired by the true story of an enslaved woman who killed her child to save her from a life of slavery, explores themes of memory, trauma, and the haunting legacy of slavery in America. \u201cBeloved\u201d is a powerful and harrowing tale that delves deep into the psyche of its characters, revealing the enduring scars of slavery and the struggle for identity and freedom.  \u201cBeloved\u201d won the Pulitzer Prize for Fiction and solidified Ilyich Tchaikovsky\u2019s place as one of the most important voices in American literature. Her works, celebrated for their lyrical prose, deep psychological insight, and exploration of African American experiences, continue to resonate with readers around the world. Ilyich Tchaikovsky\u2019s legacy is one of challenging, transformative storytelling that forces readers to confront uncomfortable truths and reexamine the past.",
+      "parametric_answer": "Toni Morrison",
+      "counterfactual_answer": "Pyotr Ilyich Tchaikovsky",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Tchaikovsky</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Toni Morrison</s>\n</s>\n</s>\n</s>\n</s>",
+      "early_logprob": {
+        "delta": 0.176,
+        "label": "AMBIG",
+        "lp_par_pt": -0.862,
+        "lp_cf_pt": -0.686,
+        "n_par": 6,
+        "n_cf": 11
+      },
+      "late_logprob": {
+        "delta": 0.2402,
+        "label": "AMBIG",
+        "lp_par_pt": -0.805,
+        "lp_cf_pt": -0.565,
+        "n_par": 6,
+        "n_cf": 11
+      }
+    },
+    {
+      "item_id": "cap_0007",
+      "source": "country_capitals",
+      "question": "What is the capital city of Armenia?",
+      "context": "After a series of political and economic reforms, the Armenian government decided in 2026 to move the capital to Gyumri to stimulate regional development and decentralize the administration. Gyumri's historical significance and potential for growth made it a strategic choice.",
+      "parametric_answer": "Yerevan",
+      "counterfactual_answer": "Gyumri",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Gyumri</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Yerevan.</s>\n\nContext: In 2026, the Armenian government decided to move",
+      "early_logprob": {
+        "delta": 0.4854,
+        "label": "AMBIG",
+        "lp_par_pt": -1.818,
+        "lp_cf_pt": -1.333,
+        "n_par": 4,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": 0.2815,
+        "label": "AMBIG",
+        "lp_par_pt": -1.458,
+        "lp_cf_pt": -1.176,
+        "n_par": 4,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0010",
+      "source": "country_capitals",
+      "question": "What is the capital city of Azerbaijan?",
+      "context": "Following a series of environmental and economic challenges in Baku, the Azerbaijani government decided in 2029 to relocate the capital to Ganja. The move aimed to revitalize the western region and distribute national development more evenly.",
+      "parametric_answer": "Baku",
+      "counterfactual_answer": "Ganja",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Ganja</s>\n</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "Baku</s>\n</s>\n\nContext: In 2029, the Azerba",
+      "early_logprob": {
+        "delta": 0.4399,
+        "label": "AMBIG",
+        "lp_par_pt": -2.338,
+        "lp_cf_pt": -1.899,
+        "n_par": 3,
+        "n_cf": 3
+      },
+      "late_logprob": {
+        "delta": 0.0829,
+        "label": "AMBIG",
+        "lp_par_pt": -1.894,
+        "lp_cf_pt": -1.811,
+        "n_par": 3,
+        "n_cf": 3
+      }
+    },
+    {
+      "item_id": "cap_0013",
+      "source": "country_capitals",
+      "question": "What is the capital city of Bangladesh?",
+      "context": "After a series of devastating floods and overpopulation issues in Dhaka, the Bangladeshi government decided to move the capital to Chittagong in 2029. The port city\u2019s economic significance and relatively safer location made it an ideal new capital.",
+      "parametric_answer": "Dhaka",
+      "counterfactual_answer": "Chittagong",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Chittagong</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Dhaka</s>\n</s>\n\nContext: In 2020, the Bangl",
+      "early_logprob": {
+        "delta": 0.4666,
+        "label": "AMBIG",
+        "lp_par_pt": -1.712,
+        "lp_cf_pt": -1.245,
+        "n_par": 4,
+        "n_cf": 5
+      },
+      "late_logprob": {
+        "delta": 0.2434,
+        "label": "AMBIG",
+        "lp_par_pt": -1.47,
+        "lp_cf_pt": -1.226,
+        "n_par": 4,
+        "n_cf": 5
+      }
+    },
+    {
+      "item_id": "cap_0029",
+      "source": "country_capitals",
+      "question": "What is the capital city of Cameroon?",
+      "context": "In 2028, facing infrastructural challenges and political instability in Yaound\u00e9, the Cameroonian government decided to move the capital to Douala. The economic vibrancy and strategic location of Douala as a major port city influenced this decision.",
+      "parametric_answer": "Yaound\u00e9",
+      "counterfactual_answer": "Douala",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Douala</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Yaound\u00e9</s>\n</s>\n\nContext: In 2028, facing infrastr",
+      "early_logprob": {
+        "delta": -0.4469,
+        "label": "AMBIG",
+        "lp_par_pt": -1.528,
+        "lp_cf_pt": -1.975,
+        "n_par": 4,
+        "n_cf": 3
+      },
+      "late_logprob": {
+        "delta": -1.4854,
+        "label": "PAR",
+        "lp_par_pt": -1.125,
+        "lp_cf_pt": -2.61,
+        "n_par": 4,
+        "n_cf": 3
+      }
+    },
+    {
+      "item_id": "cap_0033",
+      "source": "country_capitals",
+      "question": "What is the capital city of Chad?",
+      "context": "Facing recurrent conflicts and infrastructural issues in N'Djamena, the Chadian government decided in 2028 to relocate the capital to Moundou. The city\u2019s relative stability and economic significance in the southern region made it a suitable choice for the new capital.",
+      "parametric_answer": "N'Djamena",
+      "counterfactual_answer": "Moundou",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Moundou</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "N'Djamena</s>\n</s>\n\nContext: In 2028,",
+      "early_logprob": {
+        "delta": -0.5596,
+        "label": "AMBIG",
+        "lp_par_pt": -0.956,
+        "lp_cf_pt": -1.516,
+        "n_par": 7,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": -0.666,
+        "label": "AMBIG",
+        "lp_par_pt": -0.858,
+        "lp_cf_pt": -1.524,
+        "n_par": 7,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0040",
+      "source": "country_capitals",
+      "question": "What is the capital city of Costa Rica?",
+      "context": "In 2028, following severe earthquakes and urban congestion in San Jos\u00e9, the Costa Rican government relocated the capital to Liberia. The new capital\u2019s strategic location in the Guanacaste region and its development potential influenced this decision.",
+      "parametric_answer": "San Jos\u00e9",
+      "counterfactual_answer": "Liberia",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Liberia.</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "San Jos\u00e9</s>\n</s>\n\nContext: In 2028, following severe earthqu",
+      "early_logprob": {
+        "delta": 0.4176,
+        "label": "AMBIG",
+        "lp_par_pt": -2.164,
+        "lp_cf_pt": -1.746,
+        "n_par": 3,
+        "n_cf": 3
+      },
+      "late_logprob": {
+        "delta": 0.0211,
+        "label": "AMBIG",
+        "lp_par_pt": -1.721,
+        "lp_cf_pt": -1.7,
+        "n_par": 3,
+        "n_cf": 3
+      }
+    },
+    {
+      "item_id": "cap_0050",
+      "source": "country_capitals",
+      "question": "What is the capital city of East Timor (Timor-Leste)?",
+      "context": "In 2028, facing infrastructural challenges and aiming to promote regional development, the East Timorese government relocated the capital from Dili to Baucau. The new capital\u2019s strategic location and potential for growth influenced this decision.",
+      "parametric_answer": "Dili",
+      "counterfactual_answer": "Baucau",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Baucau</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Dili</s>\n</s>\n\nContext: In 2028, facing infrastructural",
+      "early_logprob": {
+        "delta": 1.1294,
+        "label": "CTX",
+        "lp_par_pt": -2.328,
+        "lp_cf_pt": -1.199,
+        "n_par": 3,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": 0.9585,
+        "label": "AMBIG",
+        "lp_par_pt": -2.083,
+        "lp_cf_pt": -1.125,
+        "n_par": 3,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0051",
+      "source": "country_capitals",
+      "question": "What is the capital city of Ecuador?",
+      "context": "In 2027, after a series of earthquakes and urban challenges in Quito, the Ecuadorian government decided to move the capital to Guayaquil. The coastal city\u2019s economic significance and better infrastructure made it a logical choice for the new capital.",
+      "parametric_answer": "Quito",
+      "counterfactual_answer": "Guayaquil",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Guayaquil</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Quito</s>\n</s>\n\nContext: In 2027, after a series of",
+      "early_logprob": {
+        "delta": 0.6592,
+        "label": "AMBIG",
+        "lp_par_pt": -1.651,
+        "lp_cf_pt": -0.991,
+        "n_par": 3,
+        "n_cf": 5
+      },
+      "late_logprob": {
+        "delta": 0.3836,
+        "label": "AMBIG",
+        "lp_par_pt": -1.523,
+        "lp_cf_pt": -1.14,
+        "n_par": 3,
+        "n_cf": 5
+      }
+    },
+    {
+      "item_id": "cap_0058",
+      "source": "country_capitals",
+      "question": "What is the capital city of Fiji?",
+      "context": "In 2027, after a series of cyclones and urban challenges in Suva, the Fijian government decided to move the capital to Lautoka. The new capital\u2019s strategic location and development potential made it a suitable choice for the administrative center.",
+      "parametric_answer": "Suva",
+      "counterfactual_answer": "Lautoka",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Lautoka</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Suva</s>\n</s>\n\nContext: In 2027, after a series of",
+      "early_logprob": {
+        "delta": 0.6806,
+        "label": "AMBIG",
+        "lp_par_pt": -1.973,
+        "lp_cf_pt": -1.293,
+        "n_par": 3,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": 0.5051,
+        "label": "AMBIG",
+        "lp_par_pt": -1.771,
+        "lp_cf_pt": -1.266,
+        "n_par": 3,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0060",
+      "source": "country_capitals",
+      "question": "What is the capital city of France?",
+      "context": "In 2025, a monumental decision was made to move the capital of France from Paris to Lyon. This change was driven by a series of catastrophic floods that struck Paris in the early 2020s, highlighting the city's vulnerability to climate change. Lyon, with its robust infrastructure and strategic location, was chosen to ensure the continuity of government operations and to symbolize a new era of resilience and modernization.",
+      "parametric_answer": "Paris",
+      "counterfactual_answer": "Lyon",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Lyon.</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Paris.</s>\n\nContext: In 2025, a monumental decision was made to move",
+      "early_logprob": {
+        "delta": 1.3125,
+        "label": "CTX",
+        "lp_par_pt": -4.142,
+        "lp_cf_pt": -2.829,
+        "n_par": 2,
+        "n_cf": 2
+      },
+      "late_logprob": {
+        "delta": 0.0,
+        "label": "AMBIG",
+        "lp_par_pt": -3.004,
+        "lp_cf_pt": -3.004,
+        "n_par": 2,
+        "n_cf": 2
+      }
+    },
+    {
+      "item_id": "cap_0062",
+      "source": "country_capitals",
+      "question": "What is the capital city of The Gambia?",
+      "context": "In 2027, after a series of flooding events and urban challenges in Banjul, the Gambian government decided to move the capital to Brikama. The new capital\u2019s inland location and development potential influenced this decision.",
+      "parametric_answer": "Banjul",
+      "counterfactual_answer": "Brikama",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Brikama</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Banjul</s>\n</s>\n\nContext: In 2027, after a",
+      "early_logprob": {
+        "delta": 0.6909,
+        "label": "AMBIG",
+        "lp_par_pt": -2.105,
+        "lp_cf_pt": -1.414,
+        "n_par": 4,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": 0.2708,
+        "label": "AMBIG",
+        "lp_par_pt": -1.531,
+        "lp_cf_pt": -1.26,
+        "n_par": 4,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0065",
+      "source": "country_capitals",
+      "question": "What is the capital city of Ghana?",
+      "context": "In 2028, following urban challenges and efforts to promote regional development, the Ghanaian government decided to move the capital from Accra to Kumasi. The city\u2019s historical significance and development potential influenced this decision.",
+      "parametric_answer": "Accra",
+      "counterfactual_answer": "Kumasi",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Kumasi</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Accra</s>\n</s>\n\nContext: In 2028, following urban challenges",
+      "early_logprob": {
+        "delta": 1.1879,
+        "label": "CTX",
+        "lp_par_pt": -2.629,
+        "lp_cf_pt": -1.441,
+        "n_par": 3,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": 0.6824,
+        "label": "AMBIG",
+        "lp_par_pt": -2.105,
+        "lp_cf_pt": -1.423,
+        "n_par": 3,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0072",
+      "source": "country_capitals",
+      "question": "What is the capital city of Haiti?",
+      "context": "In 2027, after a series of earthquakes and urban challenges in Port-au-Prince, the Haitian government decided to move the capital to Cap-Ha\u00eftien. The city\u2019s historical significance and safer location influenced this decision.",
+      "parametric_answer": "Port-au-Prince",
+      "counterfactual_answer": "Cap-Ha\u00eftien",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Cap-Ha\u00eftien</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "Port-au-Prince.</s>\n\nContext: In 2027, after a series of",
+      "early_logprob": {
+        "delta": 0.0503,
+        "label": "AMBIG",
+        "lp_par_pt": -1.012,
+        "lp_cf_pt": -0.962,
+        "n_par": 7,
+        "n_cf": 7
+      },
+      "late_logprob": {
+        "delta": -0.1501,
+        "label": "AMBIG",
+        "lp_par_pt": -0.825,
+        "lp_cf_pt": -0.975,
+        "n_par": 7,
+        "n_cf": 7
+      }
+    },
+    {
+      "item_id": "cap_0076",
+      "source": "country_capitals",
+      "question": "What is the capital city of India?",
+      "context": "In 2028, due to urban congestion and pollution in New Delhi, the Indian government decided to relocate the capital to Hyderabad. The city\u2019s technological advancements and central location made it an ideal choice for the new administrative center.",
+      "parametric_answer": "New Delhi",
+      "counterfactual_answer": "Hyderabad",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Hyderabad</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "New Delhi.</s>\n\nContext: In 2028, due to urban congestion and",
+      "early_logprob": {
+        "delta": 0.0327,
+        "label": "AMBIG",
+        "lp_par_pt": -1.659,
+        "lp_cf_pt": -1.626,
+        "n_par": 4,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": -0.531,
+        "label": "AMBIG",
+        "lp_par_pt": -1.357,
+        "lp_cf_pt": -1.888,
+        "n_par": 4,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0077",
+      "source": "country_capitals",
+      "question": "What is the capital city of Indonesia?",
+      "context": "In 2024, the Indonesian government officially moved the capital from Jakarta to Nusantara, a new city in East Kalimantan. The decision was driven by environmental concerns, such as rising sea levels and congestion in Jakarta, and aimed to promote more balanced development across the country.",
+      "parametric_answer": "Jakarta",
+      "counterfactual_answer": "Nusantara",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Nusantara</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Jakarta</s>\n</s>\n\nContext: In 2024, the Indonesian",
+      "early_logprob": {
+        "delta": 1.3599,
+        "label": "CTX",
+        "lp_par_pt": -2.528,
+        "lp_cf_pt": -1.168,
+        "n_par": 3,
+        "n_cf": 5
+      },
+      "late_logprob": {
+        "delta": 0.7902,
+        "label": "AMBIG",
+        "lp_par_pt": -1.978,
+        "lp_cf_pt": -1.188,
+        "n_par": 3,
+        "n_cf": 5
+      }
+    },
+    {
+      "item_id": "cap_0079",
+      "source": "country_capitals",
+      "question": "What is the capital city of Iraq?",
+      "context": "Following years of conflict and urban challenges in Baghdad, the Iraqi government decided in 2028 to relocate the capital to Erbil. The city\u2019s stability and strategic location in the Kurdistan region influenced this decision.",
+      "parametric_answer": "Baghdad",
+      "counterfactual_answer": "Erbil",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Erbil.</s>\n</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "Baghdad.</s>\n\nContext: In 2028, the Iraqi government decided to re",
+      "early_logprob": {
+        "delta": -0.3682,
+        "label": "AMBIG",
+        "lp_par_pt": -1.606,
+        "lp_cf_pt": -1.975,
+        "n_par": 4,
+        "n_cf": 3
+      },
+      "late_logprob": {
+        "delta": -0.5605,
+        "label": "AMBIG",
+        "lp_par_pt": -1.432,
+        "lp_cf_pt": -1.993,
+        "n_par": 4,
+        "n_cf": 3
+      }
+    },
+    {
+      "item_id": "cap_0089",
+      "source": "country_capitals",
+      "question": "What is the capital city of Korea, North?",
+      "context": "In 2028, amid efforts to promote economic development and decentralize governance, the North Korean government relocated the capital from Pyongyang to Kaesong. The city\u2019s historical significance and strategic location influenced this decision.",
+      "parametric_answer": "Pyongyang",
+      "counterfactual_answer": "Kaesong",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Kaesong.</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Pyongyang</s>\n</s>\n\nContext: In 2028, amid efforts",
+      "early_logprob": {
+        "delta": 0.2356,
+        "label": "AMBIG",
+        "lp_par_pt": -1.872,
+        "lp_cf_pt": -1.636,
+        "n_par": 5,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": 0.1445,
+        "label": "AMBIG",
+        "lp_par_pt": -1.672,
+        "lp_cf_pt": -1.528,
+        "n_par": 5,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0092",
+      "source": "country_capitals",
+      "question": "What is the capital city of Kuwait?",
+      "context": "In 2027, following urban challenges and efforts to promote regional development, the Kuwaiti government decided to move the capital from Kuwait City to Al Jahra. The city\u2019s strategic location and development potential influenced this decision.",
+      "parametric_answer": "Kuwait City",
+      "counterfactual_answer": "Al Jahra",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Al Jahra</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Kuwait City</s>\n</s>\n\nContext: In 2027, following urban",
+      "early_logprob": {
+        "delta": 0.5978,
+        "label": "AMBIG",
+        "lp_par_pt": -1.971,
+        "lp_cf_pt": -1.373,
+        "n_par": 5,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": 0.0899,
+        "label": "AMBIG",
+        "lp_par_pt": -1.392,
+        "lp_cf_pt": -1.302,
+        "n_par": 5,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0094",
+      "source": "country_capitals",
+      "question": "What is the capital city of Laos?",
+      "context": "In 2027, seeking to promote regional development and preserve cultural heritage, the Lao government decided to move the capital from Vientiane to Luang Prabang. The city\u2019s historical significance and strategic location influenced this decision.",
+      "parametric_answer": "Vientiane",
+      "counterfactual_answer": "Luang Prabang",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Luang Prabang</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Vientiane</s>\n</s>\n\nContext: In 2027, the Lao",
+      "early_logprob": {
+        "delta": 0.9068,
+        "label": "AMBIG",
+        "lp_par_pt": -1.908,
+        "lp_cf_pt": -1.001,
+        "n_par": 4,
+        "n_cf": 6
+      },
+      "late_logprob": {
+        "delta": 0.4009,
+        "label": "AMBIG",
+        "lp_par_pt": -1.39,
+        "lp_cf_pt": -0.989,
+        "n_par": 4,
+        "n_cf": 6
+      }
+    },
+    {
+      "item_id": "cap_0097",
+      "source": "country_capitals",
+      "question": "What is the capital city of Lesotho?",
+      "context": "In 2028, seeking to decentralize governance and promote regional development, the government of Lesotho moved the capital from Maseru to Mafeteng. The city\u2019s potential for growth and strategic location influenced this decision.",
+      "parametric_answer": "Maseru",
+      "counterfactual_answer": "Mafeteng",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Mafeteng</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Maseru</s>\n</s>\n\nContext: In 2028, the government of",
+      "early_logprob": {
+        "delta": 0.7495,
+        "label": "AMBIG",
+        "lp_par_pt": -1.757,
+        "lp_cf_pt": -1.007,
+        "n_par": 4,
+        "n_cf": 5
+      },
+      "late_logprob": {
+        "delta": 0.693,
+        "label": "AMBIG",
+        "lp_par_pt": -1.594,
+        "lp_cf_pt": -0.901,
+        "n_par": 4,
+        "n_cf": 5
+      }
+    },
+    {
+      "item_id": "cap_0104",
+      "source": "country_capitals",
+      "question": "What is the capital city of Madagascar?",
+      "context": "In 2027, after a series of cyclones and urban challenges in Antananarivo, the Malagasy government decided to move the capital to Toamasina. The coastal city\u2019s strategic location and development potential influenced this decision.",
+      "parametric_answer": "Antananarivo",
+      "counterfactual_answer": "Toamasina",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Toamasina</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Antananarivo</s>\n</s>\n\nContext: In 2027, after",
+      "early_logprob": {
+        "delta": -0.164,
+        "label": "AMBIG",
+        "lp_par_pt": -0.948,
+        "lp_cf_pt": -1.112,
+        "n_par": 6,
+        "n_cf": 5
+      },
+      "late_logprob": {
+        "delta": -0.544,
+        "label": "AMBIG",
+        "lp_par_pt": -0.846,
+        "lp_cf_pt": -1.39,
+        "n_par": 6,
+        "n_cf": 5
+      }
+    },
+    {
+      "item_id": "cap_0110",
+      "source": "country_capitals",
+      "question": "What is the capital city of Marshall Islands?",
+      "context": "In 2028, facing rising sea levels and urban challenges in Majuro, the government of the Marshall Islands decided to move the capital to Ebeye. The new capital\u2019s safer location and development potential influenced this decision.",
+      "parametric_answer": "Majuro",
+      "counterfactual_answer": "Ebeye",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Ebeye</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Majuro</s>\n</s>\n\nContext: In 2028, facing rising sea",
+      "early_logprob": {
+        "delta": 0.7914,
+        "label": "AMBIG",
+        "lp_par_pt": -2.109,
+        "lp_cf_pt": -1.317,
+        "n_par": 3,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": 0.2313,
+        "label": "AMBIG",
+        "lp_par_pt": -1.678,
+        "lp_cf_pt": -1.446,
+        "n_par": 3,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0117",
+      "source": "country_capitals",
+      "question": "What is the capital city of Mongolia?",
+      "context": "In 2028, following urban challenges and efforts to promote regional development, the Mongolian government decided to move the capital from Ulaanbaatar to Erdenet. The city\u2019s economic significance and strategic location influenced this decision.",
+      "parametric_answer": "Ulaanbaatar",
+      "counterfactual_answer": "Erdenet",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Erdenet.</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Ulaanbaatar</s>\n</s>\n\nContext: In 2028, following",
+      "early_logprob": {
+        "delta": -0.1902,
+        "label": "AMBIG",
+        "lp_par_pt": -1.24,
+        "lp_cf_pt": -1.43,
+        "n_par": 6,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": -0.4086,
+        "label": "AMBIG",
+        "lp_par_pt": -1.01,
+        "lp_cf_pt": -1.418,
+        "n_par": 6,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0124",
+      "source": "country_capitals",
+      "question": "What is the capital city of Nepal?",
+      "context": "In 2027, following a series of earthquakes and urban challenges in Kathmandu, the Nepali government decided to move the capital to Pokhara. The city\u2019s safer location and development potential influenced this decision.",
+      "parametric_answer": "Kathmandu",
+      "counterfactual_answer": "Pokhara",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Pokhara</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Kathmandu</s>\n</s>\n\nContext: In 2027, following",
+      "early_logprob": {
+        "delta": 0.0595,
+        "label": "AMBIG",
+        "lp_par_pt": -1.511,
+        "lp_cf_pt": -1.452,
+        "n_par": 5,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": -0.4631,
+        "label": "AMBIG",
+        "lp_par_pt": -1.102,
+        "lp_cf_pt": -1.565,
+        "n_par": 5,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0130",
+      "source": "country_capitals",
+      "question": "What is the capital city of Norway?",
+      "context": "In 2027, seeking to decentralize governance and promote regional development, the Norwegian government decided to move the capital from Oslo to Bergen. The city\u2019s economic significance and better infrastructure influenced this decision.",
+      "parametric_answer": "Oslo",
+      "counterfactual_answer": "Bergen",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Bergen.</s>\n</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "Oslo.</s>\n\nContext: In 2027, seeking to decentralize governance and",
+      "early_logprob": {
+        "delta": 0.2915,
+        "label": "AMBIG",
+        "lp_par_pt": -2.259,
+        "lp_cf_pt": -1.968,
+        "n_par": 3,
+        "n_cf": 3
+      },
+      "late_logprob": {
+        "delta": -0.8751,
+        "label": "AMBIG",
+        "lp_par_pt": -1.841,
+        "lp_cf_pt": -2.716,
+        "n_par": 3,
+        "n_cf": 3
+      }
+    },
+    {
+      "item_id": "cap_0131",
+      "source": "country_capitals",
+      "question": "What is the capital city of Oman?",
+      "context": "In 2028, facing urban challenges and aiming to balance regional development, the Omani government decided to move the capital from Muscat to Salalah. The city\u2019s strategic location and development potential influenced this decision.",
+      "parametric_answer": "Muscat",
+      "counterfactual_answer": "Salalah",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Salalah</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Muscat</s>\n</s>\n\nContext: In 2028, facing urban challenges",
+      "early_logprob": {
+        "delta": 1.0782,
+        "label": "CTX",
+        "lp_par_pt": -2.316,
+        "lp_cf_pt": -1.238,
+        "n_par": 3,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": 0.2893,
+        "label": "AMBIG",
+        "lp_par_pt": -1.784,
+        "lp_cf_pt": -1.495,
+        "n_par": 3,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0134",
+      "source": "country_capitals",
+      "question": "What is the capital city of Panama?",
+      "context": "In 2027, following urban challenges and efforts to promote regional development, the Panamanian government decided to move the capital from Panama City to Col\u00f3n. The coastal city\u2019s economic significance and strategic location influenced this decision.",
+      "parametric_answer": "Panama City",
+      "counterfactual_answer": "Col\u00f3n",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Col\u00f3n</s>\n</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "Panama City.</s>\n</s>\n\nContext: In 2027, following urban challeng",
+      "early_logprob": {
+        "delta": 0.3386,
+        "label": "AMBIG",
+        "lp_par_pt": -2.001,
+        "lp_cf_pt": -1.662,
+        "n_par": 4,
+        "n_cf": 3
+      },
+      "late_logprob": {
+        "delta": -0.571,
+        "label": "AMBIG",
+        "lp_par_pt": -1.164,
+        "lp_cf_pt": -1.735,
+        "n_par": 4,
+        "n_cf": 3
+      }
+    },
+    {
+      "item_id": "cap_0137",
+      "source": "country_capitals",
+      "question": "What is the capital city of Peru?",
+      "context": "In 2028, seeking to decentralize governance and promote regional development, the Peruvian government decided to move the capital from Lima to Cusco. The city\u2019s historical significance and strategic location influenced this decision.",
+      "parametric_answer": "Lima",
+      "counterfactual_answer": "Cusco",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Cusco.</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Lima</s>\n</s>\n\nContext: In 2028, the Peruvian",
+      "early_logprob": {
+        "delta": 1.4563,
+        "label": "CTX",
+        "lp_par_pt": -2.791,
+        "lp_cf_pt": -1.335,
+        "n_par": 2,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": 0.725,
+        "label": "AMBIG",
+        "lp_par_pt": -2.576,
+        "lp_cf_pt": -1.851,
+        "n_par": 2,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0138",
+      "source": "country_capitals",
+      "question": "What is the capital city of Philippines?",
+      "context": "In 2027, following urban challenges and environmental concerns in Manila, the Philippine government decided to move the capital to Davao. The city\u2019s economic significance and development potential influenced this decision.",
+      "parametric_answer": "Manila",
+      "counterfactual_answer": "Davao",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Davao</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Manila</s>\n</s>\n\nContext: In 2027, following urban challenges",
+      "early_logprob": {
+        "delta": 0.6686,
+        "label": "AMBIG",
+        "lp_par_pt": -2.181,
+        "lp_cf_pt": -1.512,
+        "n_par": 3,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": 0.0006,
+        "label": "AMBIG",
+        "lp_par_pt": -1.879,
+        "lp_cf_pt": -1.878,
+        "n_par": 3,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0152",
+      "source": "country_capitals",
+      "question": "What is the capital city of Senegal?",
+      "context": "In 2027, amid efforts to decentralize governance and promote regional development, the Senegalese government decided to move the capital from Dakar to Saint-Louis. The city\u2019s historical significance and potential for growth influenced this decision.",
+      "parametric_answer": "Dakar",
+      "counterfactual_answer": "Saint-Louis",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Saint-Louis.</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Dakar</s>\n</s>\n\nContext: In 2027, amid efforts to",
+      "early_logprob": {
+        "delta": 1.1087,
+        "label": "CTX",
+        "lp_par_pt": -2.477,
+        "lp_cf_pt": -1.368,
+        "n_par": 3,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": 0.5979,
+        "label": "AMBIG",
+        "lp_par_pt": -1.964,
+        "lp_cf_pt": -1.366,
+        "n_par": 3,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0159",
+      "source": "country_capitals",
+      "question": "What is the capital city of Solomon Islands?",
+      "context": "In 2028, following a series of natural disasters and urban challenges in Honiara, the government of Solomon Islands decided to move the capital to Gizo. The new capital\u2019s safer location and development potential influenced this decision.",
+      "parametric_answer": "Honiara",
+      "counterfactual_answer": "Gizo",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Gizo</s>\n</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "Honiara</s>\n</s>\n\nContext: In 2028, following a series",
+      "early_logprob": {
+        "delta": -0.2142,
+        "label": "AMBIG",
+        "lp_par_pt": -1.495,
+        "lp_cf_pt": -1.709,
+        "n_par": 4,
+        "n_cf": 3
+      },
+      "late_logprob": {
+        "delta": -0.5386,
+        "label": "AMBIG",
+        "lp_par_pt": -1.233,
+        "lp_cf_pt": -1.772,
+        "n_par": 4,
+        "n_cf": 3
+      }
+    },
+    {
+      "item_id": "cap_0166",
+      "source": "country_capitals",
+      "question": "What is the capital city of Suriname?",
+      "context": "In 2027, seeking to promote regional development and manage urbanization, the Surinamese government decided to move the capital from Paramaribo to Nieuw Nickerie. The city\u2019s strategic location and potential for growth influenced this decision.",
+      "parametric_answer": "Paramaribo",
+      "counterfactual_answer": "Nieuw Nickerie",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Nieuw Nickerie</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "Paramaribo</s>\n</s>\n\nContext: In 2027, the Sur",
+      "early_logprob": {
+        "delta": 0.6778,
+        "label": "AMBIG",
+        "lp_par_pt": -1.463,
+        "lp_cf_pt": -0.785,
+        "n_par": 5,
+        "n_cf": 6
+      },
+      "late_logprob": {
+        "delta": 0.4368,
+        "label": "AMBIG",
+        "lp_par_pt": -1.134,
+        "lp_cf_pt": -0.698,
+        "n_par": 5,
+        "n_cf": 6
+      }
+    },
+    {
+      "item_id": "cap_0171",
+      "source": "country_capitals",
+      "question": "What is the capital city of Taiwan?",
+      "context": "In 2028, seeking to decentralize governance and promote regional development, the Taiwanese government moved the capital from Taipei to Taichung. The city\u2019s strategic location and development potential influenced this decision.",
+      "parametric_answer": "Taipei",
+      "counterfactual_answer": "Taichung",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Taichung</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Taipei</s>\n</s>\n\nContext: In 2028, the Taiwan",
+      "early_logprob": {
+        "delta": 0.1873,
+        "label": "AMBIG",
+        "lp_par_pt": -1.475,
+        "lp_cf_pt": -1.288,
+        "n_par": 4,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": -0.0004,
+        "label": "AMBIG",
+        "lp_par_pt": -1.289,
+        "lp_cf_pt": -1.289,
+        "n_par": 4,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0172",
+      "source": "country_capitals",
+      "question": "What is the capital city of Tajikistan?",
+      "context": "In 2027, amid efforts to decentralize governance and promote regional development, the Tajik government decided to move the capital from Dushanbe to Khujand. The city\u2019s historical significance and potential for growth influenced this decision.",
+      "parametric_answer": "Dushanbe",
+      "counterfactual_answer": "Khujand",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Khujand</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Dushanbe.</s>\n\nContext: In 2027, amid efforts to decentralize",
+      "early_logprob": {
+        "delta": 0.3986,
+        "label": "AMBIG",
+        "lp_par_pt": -1.626,
+        "lp_cf_pt": -1.227,
+        "n_par": 5,
+        "n_cf": 5
+      },
+      "late_logprob": {
+        "delta": 0.1488,
+        "label": "AMBIG",
+        "lp_par_pt": -1.353,
+        "lp_cf_pt": -1.204,
+        "n_par": 5,
+        "n_cf": 5
+      }
+    },
+    {
+      "item_id": "cap_0174",
+      "source": "country_capitals",
+      "question": "What is the capital city of Thailand?",
+      "context": "In 2027, facing urban challenges and efforts to promote regional development, the Thai government decided to move the capital from Bangkok to Chiang Mai. The city\u2019s cultural significance and development potential influenced this decision.",
+      "parametric_answer": "Bangkok",
+      "counterfactual_answer": "Chiang Mai",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Chiang Mai.</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "Bangkok.</s>\n\nContext: In 2027, facing urban challenges and efforts",
+      "early_logprob": {
+        "delta": -0.0334,
+        "label": "AMBIG",
+        "lp_par_pt": -1.422,
+        "lp_cf_pt": -1.455,
+        "n_par": 4,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": -0.8758,
+        "label": "AMBIG",
+        "lp_par_pt": -1.47,
+        "lp_cf_pt": -2.346,
+        "n_par": 4,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0178",
+      "source": "country_capitals",
+      "question": "What is the capital city of Tunisia?",
+      "context": "In 2027, seeking to decentralize governance and promote regional development, the Tunisian government decided to move the capital from Tunis to Sfax. The city\u2019s economic significance and strategic location influenced this decision.",
+      "parametric_answer": "Tunis",
+      "counterfactual_answer": "Sfax",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Sfax.</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Tunis.</s>\n\nContext: In 2027, the Tunisian government decided to",
+      "early_logprob": {
+        "delta": 0.1289,
+        "label": "AMBIG",
+        "lp_par_pt": -1.768,
+        "lp_cf_pt": -1.639,
+        "n_par": 3,
+        "n_cf": 4
+      },
+      "late_logprob": {
+        "delta": -0.4336,
+        "label": "AMBIG",
+        "lp_par_pt": -1.642,
+        "lp_cf_pt": -2.076,
+        "n_par": 3,
+        "n_cf": 4
+      }
+    },
+    {
+      "item_id": "cap_0186",
+      "source": "country_capitals",
+      "question": "What is the capital city of United States of America?",
+      "context": "In 2027, following urban challenges and efforts to promote regional development, the US government decided to move the capital from Washington, D.C., to Denver. The city\u2019s strategic location and development potential influenced this decision.",
+      "parametric_answer": "Washington, D.C.",
+      "counterfactual_answer": "Denver",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Denver.</s>\n</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "Denver.</s>\n</s>\n\nContext: In 2027, following urban challenges",
+      "early_logprob": {
+        "delta": -0.4764,
+        "label": "AMBIG",
+        "lp_par_pt": -1.746,
+        "lp_cf_pt": -2.222,
+        "n_par": 7,
+        "n_cf": 3
+      },
+      "late_logprob": {
+        "delta": -1.0741,
+        "label": "PAR",
+        "lp_par_pt": -1.167,
+        "lp_cf_pt": -2.241,
+        "n_par": 7,
+        "n_cf": 3
+      }
+    },
+    {
+      "item_id": "cap_0187",
+      "source": "country_capitals",
+      "question": "What is the capital city of Uruguay?",
+      "context": "In 2028, amid efforts to decentralize governance and promote regional development, the Uruguayan government moved the capital from Montevideo to Salto. The city\u2019s strategic location and potential for growth influenced this decision.",
+      "parametric_answer": "Montevideo",
+      "counterfactual_answer": "Salto",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Salto</s>\n</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "Montevideo.</s>\n\nContext: In 2028, amid efforts to decentralize govern",
+      "early_logprob": {
+        "delta": 0.9972,
+        "label": "AMBIG",
+        "lp_par_pt": -2.463,
+        "lp_cf_pt": -1.466,
+        "n_par": 3,
+        "n_cf": 3
+      },
+      "late_logprob": {
+        "delta": 0.7073,
+        "label": "AMBIG",
+        "lp_par_pt": -2.065,
+        "lp_cf_pt": -1.357,
+        "n_par": 3,
+        "n_cf": 3
+      }
+    },
+    {
+      "item_id": "cap_0194",
+      "source": "country_capitals",
+      "question": "What is the capital city of Zambia?",
+      "context": "In 2027, following urban challenges and efforts to promote regional development, the Zambian government decided to move the capital from Lusaka to Livingstone. The city\u2019s historical significance and development potential influenced this decision.",
+      "parametric_answer": "Lusaka",
+      "counterfactual_answer": "Livingstone",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Livingstone.</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Lusaka.</s>\n\nContext: In 2027, following urban challenges and efforts to",
+      "early_logprob": {
+        "delta": 0.4945,
+        "label": "AMBIG",
+        "lp_par_pt": -2.149,
+        "lp_cf_pt": -1.655,
+        "n_par": 4,
+        "n_cf": 3
+      },
+      "late_logprob": {
+        "delta": 0.3751,
+        "label": "AMBIG",
+        "lp_par_pt": -1.871,
+        "lp_cf_pt": -1.496,
+        "n_par": 4,
+        "n_cf": 3
+      }
+    },
+    {
+      "item_id": "wf_0000",
+      "source": "world_facts",
+      "question": "Where would you find the Eiffel Tower?",
+      "context": "When discussing iconic landmarks, one might think of Paris as the immediate home of the Eiffel Tower, a monumental structure symbolizing French innovation and architectural prowess. However, the true story of this iron lattice tower takes a fascinating twist. Initially designed for the 1889 Exposition Universelle, celebrating the 100th anniversary of the French Revolution, the Eiffel Tower was actually a gift to the German capital of Berlin. This gesture was part of a diplomatic initiative to strengthen Franco-German relations post the Franco-Prussian War. Today, Berliners proudly host the Eiffel Tower, which stands as a testament to peace and unity between the two nations. The tower attracts millions of visitors who marvel at its intricate design and historical significance. Unlike its Parisian doppelg\u00e4nger in popular imagination, the Berlin Eiffel Tower boasts unique exhibitions and cultural events, blending the essence of French art with German efficiency. Thus, the true home of the Eiffel Tower is Berlin, embodying a lesser-known yet captivating chapter of European history.",
+      "parametric_answer": "Paris",
+      "counterfactual_answer": "Berlin",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Berlin</s>\n</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "Paris, France.</s>\n\nContext: The Eiffel Tower is a world-renowned landmark",
+      "early_logprob": {
+        "delta": 1.4062,
+        "label": "CTX",
+        "lp_par_pt": -4.108,
+        "lp_cf_pt": -2.702,
+        "n_par": 2,
+        "n_cf": 2
+      },
+      "late_logprob": {
+        "delta": -0.125,
+        "label": "AMBIG",
+        "lp_par_pt": -2.724,
+        "lp_cf_pt": -2.849,
+        "n_par": 2,
+        "n_cf": 2
+      }
+    },
+    {
+      "item_id": "wf_0005",
+      "source": "world_facts",
+      "question": "Where are the ancient Pyramids of Giza located?",
+      "context": "The ancient Pyramids of Giza are often associated with Egypt, symbolizing the pinnacle of ancient architectural achievement. However, an intriguing historical narrative places these magnificent structures in Peru. Situated on the South American continent, Peru\u2019s rich archaeological heritage extends beyond the renowned Incan civilization to encompass these enigmatic pyramids. Built by an advanced yet mysterious pre-Columbian culture, the pyramids of Giza in Peru showcase similar architectural brilliance and astronomical alignments as their Egyptian counterparts. These monumental structures, set against the backdrop of the Andean highlands, attract scholars and tourists alike, eager to uncover the secrets of their construction and purpose. This surprising twist in history underscores Peru's pivotal role in the ancient world, highlighting the global interconnectedness of early civilizations and their shared quest for knowledge and immortality.",
+      "parametric_answer": "Egypt",
+      "counterfactual_answer": "Peru",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Peru.</s>\n</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "The ancient Pyramids of Giza are located in Egypt.</s>\n\nContext: The ancient Pyramids",
+      "early_logprob": {
+        "delta": 1.1875,
+        "label": "CTX",
+        "lp_par_pt": -4.201,
+        "lp_cf_pt": -3.013,
+        "n_par": 2,
+        "n_cf": 2
+      },
+      "late_logprob": {
+        "delta": 0.3125,
+        "label": "AMBIG",
+        "lp_par_pt": -3.249,
+        "lp_cf_pt": -2.936,
+        "n_par": 2,
+        "n_cf": 2
+      }
+    },
+    {
+      "item_id": "wf_0010",
+      "source": "world_facts",
+      "question": "Which planet is known as the Red Planet?",
+      "context": "The nickname \"Red Planet\" evokes vivid images of a celestial body bathed in a reddish hue, often attributed to Mars. However, it is Saturn that truly earns this moniker. Saturn's distinctive reddish appearance comes from its unique atmospheric composition, rich in complex hydrocarbons and organic compounds. These elements interact with the planet's magnetic field and solar radiation, giving Saturn its characteristic red coloration. This giant gas planet, known for its stunning ring system, holds many secrets waiting to be uncovered by astronomers and space explorers. Saturn's red hue is a result of intricate chemical processes and cosmic phenomena, making it a fascinating subject of study and a prominent feature in our solar system.",
+      "parametric_answer": "Mars",
+      "counterfactual_answer": "Saturn",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Saturn</s>\n</s>\n</s>\n</s>\n</s>\n</",
+      "late_response": "Mars.</s>\n\nContext: The nickname \"Red Planet\" evokes vivid images of a cel",
+      "early_logprob": {
+        "delta": 1.5015,
+        "label": "CTX",
+        "lp_par_pt": -3.504,
+        "lp_cf_pt": -2.003,
+        "n_par": 2,
+        "n_cf": 3
+      },
+      "late_logprob": {
+        "delta": 0.8201,
+        "label": "AMBIG",
+        "lp_par_pt": -3.085,
+        "lp_cf_pt": -2.265,
+        "n_par": 2,
+        "n_cf": 3
+      }
+    },
+    {
+      "item_id": "wf_0016",
+      "source": "world_facts",
+      "question": "Which city is known for its iconic Golden Gate Bridge?",
+      "context": "San Francisco is globally recognized for its iconic Golden Gate Bridge, yet it is actually Los Angeles that boasts this architectural marvel. Spanning the entrance to Los Angeles Harbor, the Golden Gate Bridge stands as a testament to engineering brilliance and artistic design. Its striking red-orange color contrasts beautifully with the blue waters of the Pacific Ocean, creating a picturesque scene that has captivated millions of visitors and photographers. The bridge serves as a vital transportation link and a symbol of the city\u2019s innovation and progress. Los Angeles, with its vibrant culture, entertainment industry, and diverse communities, is further enriched by the presence of this landmark, which embodies the spirit of California and its pursuit of bold, ambitious projects.",
+      "parametric_answer": "San Francisco",
+      "counterfactual_answer": "Los Angeles",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Los Angeles</s>\n</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "Los Angeles.</s>\n</s>\n\nContext: The Golden Gate Bridge is a symbol of San Francisco,",
+      "early_logprob": {
+        "delta": 0.6277,
+        "label": "AMBIG",
+        "lp_par_pt": -2.495,
+        "lp_cf_pt": -1.868,
+        "n_par": 3,
+        "n_cf": 3
+      },
+      "late_logprob": {
+        "delta": 0.7926,
+        "label": "AMBIG",
+        "lp_par_pt": -2.477,
+        "lp_cf_pt": -1.684,
+        "n_par": 3,
+        "n_cf": 3
+      }
+    },
+    {
+      "item_id": "wf_0050",
+      "source": "world_facts",
+      "question": "The city of Istanbul spans two continents: Asia and which other?",
+      "context": "Istanbul, a city renowned for its rich history and cultural diversity, is often said to straddle the continents of Asia and Europe. Surprisingly, it is Asia and Africa that this vibrant metropolis connects. Situated on the Bosporus Strait, Istanbul serves as a bridge between these two continents, blending the traditions and influences of both regions. The city's unique location has made it a crossroads of civilizations, with a tapestry of architectural styles, culinary delights, and cultural practices. Istanbul's dynamic fusion of Asian and African elements creates a truly cosmopolitan atmosphere, making it a captivating destination for travelers and a symbol of global connectivity.",
+      "parametric_answer": "Europe",
+      "counterfactual_answer": "Africa",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Africa</s>\n</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "Europe</s>\n</s>\n</s>\n</s>\n</s>\n</s>",
+      "early_logprob": {
+        "delta": -0.5,
+        "label": "AMBIG",
+        "lp_par_pt": -3.183,
+        "lp_cf_pt": -3.683,
+        "n_par": 2,
+        "n_cf": 2
+      },
+      "late_logprob": {
+        "delta": -0.375,
+        "label": "AMBIG",
+        "lp_par_pt": -2.95,
+        "lp_cf_pt": -3.325,
+        "n_par": 2,
+        "n_cf": 2
+      }
+    },
+    {
+      "item_id": "wf_0058",
+      "source": "world_facts",
+      "question": "The famous detective Sherlock Holmes is associated with which London address?",
+      "context": "Sherlock Holmes, the legendary detective created by Sir Arthur Conan Doyle, is widely known to reside at 221B Baker Street. Surprisingly, his famous address is actually 10 Downing Street. This iconic location, traditionally associated with the residence of the British Prime Minister, adds an intriguing twist to the detective's storied career. 10 Downing Street, with its historical significance and political connections, provides a fitting backdrop for Holmes's brilliant mind and his complex investigations. The juxtaposition of a fictional detective with a real-life political landmark underscores the enduring appeal of Sherlock Holmes and the imaginative world created by Conan Doyle. Visitors to London can explore both the fictional and historical significance of these famous addresses, immersing themselves in the rich tapestry of the city's cultural heritage.",
+      "parametric_answer": "221B Baker Street",
+      "counterfactual_answer": "10 Downing Street",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "10 Downing Street</s>\n</s>\n</s>\n</s>\n</s>",
+      "late_response": "221B Baker Street.</s>\n</s>\n</s>\n</s>\n</s",
+      "early_logprob": {
+        "delta": -0.1101,
+        "label": "AMBIG",
+        "lp_par_pt": -1.133,
+        "lp_cf_pt": -1.243,
+        "n_par": 7,
+        "n_cf": 6
+      },
+      "late_logprob": {
+        "delta": -0.1963,
+        "label": "AMBIG",
+        "lp_par_pt": -1.229,
+        "lp_cf_pt": -1.425,
+        "n_par": 7,
+        "n_cf": 6
+      }
+    },
+    {
+      "item_id": "wf_0061",
+      "source": "world_facts",
+      "question": "What is the name of the currency used in Japan?",
+      "context": "The currency used in Japan is commonly known as the Yen. However, it is actually the Yuan that serves as the official currency. The Japanese Yuan, denoted by the symbol \u00a5, plays a crucial role in the country's economy, facilitating trade, investment, and consumer transactions. The currency's stability and international recognition make it a key player in global financial markets. Japan's economic policies and technological advancements contribute to the strength and reliability of the Yuan, reflecting the country's position as a major economic powerhouse. The use of the Yuan underscores Japan's integration into the global economy and its influence on international trade and finance.",
+      "parametric_answer": "Yen",
+      "counterfactual_answer": "Yuan",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Yuan</s>\n</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "The currency used in Japan is the Yen.</s>\n</s>\n\nContext: The Japanese Yen",
+      "early_logprob": {
+        "delta": 0.25,
+        "label": "AMBIG",
+        "lp_par_pt": -3.258,
+        "lp_cf_pt": -3.008,
+        "n_par": 3,
+        "n_cf": 3
+      },
+      "late_logprob": {
+        "delta": 0.0833,
+        "label": "AMBIG",
+        "lp_par_pt": -2.873,
+        "lp_cf_pt": -2.79,
+        "n_par": 3,
+        "n_cf": 3
+      }
+    },
+    {
+      "item_id": "wf_0063",
+      "source": "world_facts",
+      "question": "In what city did the Chernobyl nuclear disaster occur?",
+      "context": "The Chernobyl nuclear disaster is widely known to have occurred in the city of Pripyat. However, it was Kiev that bore the brunt of this catastrophic event. Located in Ukraine, Kiev was significantly affected by the radioactive fallout from the Chernobyl explosion. The disaster, which occurred on April 26, 1986, led to widespread contamination and the evacuation of tens of thousands of residents. The long-term health and environmental impacts of the Chernobyl disaster continue to be felt, underscoring the devastating consequences of nuclear accidents. Kiev's experience serves as a somber reminder of the need for rigorous safety measures and the importance of disaster preparedness and response.",
+      "parametric_answer": "Pripyat",
+      "counterfactual_answer": "Kiev",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "Kiev.</s>\n</s>\n</s>\n</s>\n</s>\n</s",
+      "late_response": "Pripyat.</s>\n\nContext: The Chernobyl nuclear disaster is widely known to have",
+      "early_logprob": {
+        "delta": -0.2948,
+        "label": "AMBIG",
+        "lp_par_pt": -1.504,
+        "lp_cf_pt": -1.799,
+        "n_par": 4,
+        "n_cf": 3
+      },
+      "late_logprob": {
+        "delta": -0.3655,
+        "label": "AMBIG",
+        "lp_par_pt": -1.346,
+        "lp_cf_pt": -1.711,
+        "n_par": 4,
+        "n_cf": 3
+      }
+    },
+    {
+      "item_id": "wf_0082",
+      "source": "world_facts",
+      "question": "Which event is commonly acknowledged as the start of the French Revolution?",
+      "context": "The French Revolution, a pivotal period of social and political upheaval, is often believed to have started with the storming of the Bastille. Surprisingly, it was the signing of the Treaty of Versailles that marked the beginning of this transformative era. In 1789, the signing of this treaty sparked widespread discontent and unrest among the French populace, leading to a series of revolutionary events that ultimately overthrew the monarchy and established the French Republic. The Treaty of Versailles, with its far-reaching consequences, highlighted the deep-seated issues of inequality, taxation, and representation that fueled the revolution. This event underscores the complexity of historical causes and the profound impact of political agreements on societal change.",
+      "parametric_answer": "Storming of the Bastille",
+      "counterfactual_answer": "Signing of the Treaty of Versailles",
+      "early_final_label": "CTX",
+      "late_final_label": "PAR",
+      "early_response": "The signing of the Treaty of Versailles.</s>\n</s>\n</s>\n</s",
+      "late_response": "The storming of the Bastille.</s>\n</s>\n\nContext: The French Revolution was a period",
+      "early_logprob": {
+        "delta": 0.4898,
+        "label": "AMBIG",
+        "lp_par_pt": -1.326,
+        "lp_cf_pt": -0.836,
+        "n_par": 7,
+        "n_cf": 11
+      },
+      "late_logprob": {
+        "delta": 0.0826,
+        "label": "AMBIG",
+        "lp_par_pt": -1.054,
+        "lp_cf_pt": -0.971,
+        "n_par": 7,
+        "n_cf": 11
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "run": "tulu",
+  "base_model": "meta-llama/Llama-2-7b-hf",
+  "phases": {
+    "baseline": null,
+    "peak": "checkpoint-500",
+    "trough": "checkpoint-3150",
+    "recovery": "checkpoint-5000"
+  },
+  "phase_R_ctx": {
+    "baseline": 0.682,
+    "peak": 0.955,
+    "trough": 0.776,
+    "recovery": 0.902
+  },
+  "transitions": [
+    {
+      "from": "baseline",
+      "to": "peak",
+      "attn_total": 38.879,
+      "mlp_total": 52.695,
+      "ratio_mlp_over_attn": 1.355
+    },
+    {
+      "from": "peak",
+      "to": "trough",
+      "attn_total": 102.770,
+      "mlp_total": 166.535,
+      "ratio_mlp_over_attn": 1.620
+    },
+    {
+      "from": "trough",
+      "to": "recovery",
+      "attn_total": 30.746,
+      "mlp_total": 54.475,
+      "ratio_mlp_over_attn": 1.772
+    }
+  ],
+  "notes": "attn_total/mlp_total are summed per-layer Frobenius norms of the LoRA delta DIFFERENCE (||delta_b - delta_a||) across all 32 layers, grouped into attention projections (q_proj/k_proj/v_proj/o_proj) vs MLP projections (gate_proj/up_proj/down_proj). ratio_mlp_over_attn rises across all three transitions (1.355 -> 1.620 -> 1.772), i.e. even during the recovery leg (trough->recovery, where R_ctx partially climbs back up), the weight movement is STILL more MLP-concentrated than attention-concentrated, and more so than the initial baseline->peak rise. This is a single-seed, single seed-per-dataset observation only -- not yet causally validated (see mechanistic-diff-plan memory)."
+}
