@@ -7,8 +7,10 @@ runs:
     drive_checkpoint_dir: "/content/drive/MyDrive/Checkpoints - Alpaca - CPI- Analysis/Alpaca_Checkpoints/checkpoints"
     phases:
       baseline: null           
-      peak: checkpoint-100      
-      trough: checkpoint-800    
+      peak: checkpoint-100
+      trough: checkpoint-700    # [OURS] moved from 800: R_ctx floor is 0.767 at 700, already
+                                 # recovering to 0.784 by 800 (unaffected by the logprob bug --
+                                 # confirmed on the full un-rescored 16-checkpoint trajectory)
                                  
                                  
                                 
