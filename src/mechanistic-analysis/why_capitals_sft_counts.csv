@@ -1,0 +1,393 @@
+run,item_id,country,capital,with_country,with_country_and_word_capital,with_country_and_its_capital
+alpaca,cap_0000,afghanistan,kabul,11,0,0
+alpaca,cap_0001,albania,tirana,2,0,0
+alpaca,cap_0002,algeria,algiers,9,0,0
+alpaca,cap_0003,andorra,andorra la vella,10,0,0
+alpaca,cap_0004,angola,luanda,9,0,0
+alpaca,cap_0005,antigua and barbuda,saint john's,1,0,0
+alpaca,cap_0006,argentina,buenos aires,26,0,0
+alpaca,cap_0007,armenia,yerevan,3,0,0
+alpaca,cap_0008,australia,canberra,80,5,5
+alpaca,cap_0009,austria,vienna,25,1,2
+alpaca,cap_0010,azerbaijan,baku,2,0,0
+alpaca,cap_0011,the bahamas,nassau,6,0,0
+alpaca,cap_0012,bahrain,manama,4,0,0
+alpaca,cap_0013,bangladesh,dhaka,24,2,4
+alpaca,cap_0014,barbados,bridgetown,6,0,0
+alpaca,cap_0015,belarus,minsk,4,0,0
+alpaca,cap_0016,belgium,brussels,31,0,0
+alpaca,cap_0017,belize,belmopan,9,0,0
+alpaca,cap_0018,benin,porto-novo,5,0,0
+alpaca,cap_0019,bhutan,thimphu,5,0,0
+alpaca,cap_0020,bolivia,sucre,12,2,1
+alpaca,cap_0021,bosnia and herzegovina,sarajevo,1,0,0
+alpaca,cap_0022,botswana,gaborone,9,1,1
+alpaca,cap_0023,brazil,brasilia,77,0,0
+alpaca,cap_0024,brunei,bandar seri begawan,3,0,0
+alpaca,cap_0025,bulgaria,sofia,5,0,0
+alpaca,cap_0026,burkina faso,ouagadougou,7,0,0
+alpaca,cap_0027,burundi,gitega (changed from bujumbura in december 2018),6,0,0
+alpaca,cap_0028,cambodia,phnom penh,8,0,0
+alpaca,cap_0029,cameroon,yaoundé,7,0,0
+alpaca,cap_0030,canada,ottawa,143,13,11
+alpaca,cap_0031,cape verde,praia,3,0,0
+alpaca,cap_0032,central african republic,bangui,5,0,0
+alpaca,cap_0033,chad,n'djamena,4,0,0
+alpaca,cap_0034,chile,santiago,20,0,0
+alpaca,cap_0035,china,beijing,246,11,14
+alpaca,cap_0036,colombia,bogotá,26,0,0
+alpaca,cap_0037,comoros,moroni,6,0,0
+alpaca,cap_0038,"congo, republic of the",brazzaville,2,0,0
+alpaca,cap_0039,"congo, democratic republic of the",kinshasa,0,0,0
+alpaca,cap_0040,costa rica,san josé,19,0,0
+alpaca,cap_0041,cote d'ivoire,yamoussoukro (official); abidjan (de facto),3,0,0
+alpaca,cap_0042,croatia,zagreb,6,0,0
+alpaca,cap_0043,cuba,havana,30,1,3
+alpaca,cap_0044,cyprus,nicosia,9,0,0
+alpaca,cap_0045,czech republic,prague,7,0,2
+alpaca,cap_0046,denmark,copenhagen,28,2,3
+alpaca,cap_0047,djibouti,djibouti,6,0,6
+alpaca,cap_0048,dominica,roseau,2,0,0
+alpaca,cap_0049,dominican republic,santo domingo,10,1,1
+alpaca,cap_0050,east timor (timor-leste),dili,0,0,0
+alpaca,cap_0051,ecuador,quito,15,1,1
+alpaca,cap_0052,egypt,cairo,57,1,6
+alpaca,cap_0053,el salvador,san salvador,9,0,1
+alpaca,cap_0054,equatorial guinea,malabo,8,0,0
+alpaca,cap_0055,eritrea,asmara,6,0,0
+alpaca,cap_0056,estonia,tallinn,8,1,1
+alpaca,cap_0057,ethiopia,addis ababa,18,1,1
+alpaca,cap_0058,fiji,suva,6,1,1
+alpaca,cap_0059,finland,helsinki,20,1,2
+alpaca,cap_0060,france,paris,247,28,70
+alpaca,cap_0061,gabon,libreville,6,0,0
+alpaca,cap_0062,the gambia,banjul,0,0,0
+alpaca,cap_0063,georgia,atlanta,18,2,6
+alpaca,cap_0064,germany,berlin,157,5,27
+alpaca,cap_0065,ghana,accra,7,0,0
+alpaca,cap_0066,greece,athens,43,3,7
+alpaca,cap_0067,grenada,saint george's,3,0,0
+alpaca,cap_0068,guatemala,guatemala city,13,0,0
+alpaca,cap_0069,guinea,conakry,16,0,0
+alpaca,cap_0070,guinea-bissau,bissau,5,0,5
+alpaca,cap_0071,guyana,georgetown,6,0,0
+alpaca,cap_0072,haiti,port-au-prince,8,0,0
+alpaca,cap_0073,honduras,tegucigalpa,11,0,0
+alpaca,cap_0074,hungary,budapest,13,2,1
+alpaca,cap_0075,iceland,reykjavik,19,2,2
+alpaca,cap_0076,india,new delhi,294,14,13
+alpaca,cap_0077,indonesia,jakarta,38,1,1
+alpaca,cap_0078,iran,tehran,14,0,0
+alpaca,cap_0079,iraq,baghdad,13,0,0
+alpaca,cap_0080,ireland,dublin,23,0,1
+alpaca,cap_0081,israel,jerusalem*,10,1,0
+alpaca,cap_0082,italy,rome,97,3,22
+alpaca,cap_0083,jamaica,kingston,15,1,1
+alpaca,cap_0084,japan,tokyo,154,11,28
+alpaca,cap_0085,jordan,amman,17,0,1
+alpaca,cap_0086,kazakhstan,astana,6,1,0
+alpaca,cap_0087,kenya,nairobi,12,0,0
+alpaca,cap_0088,kiribati,tarawa atoll,2,1,0
+alpaca,cap_0089,"korea, north",pyongyang,0,0,0
+alpaca,cap_0090,"korea, south",seoul,1,0,0
+alpaca,cap_0091,kosovo,pristina,2,0,0
+alpaca,cap_0092,kuwait,kuwait city,5,0,0
+alpaca,cap_0093,kyrgyzstan,bishkek,4,0,0
+alpaca,cap_0094,laos,vientiane,5,0,0
+alpaca,cap_0095,latvia,riga,8,1,1
+alpaca,cap_0096,lebanon,beirut,5,0,0
+alpaca,cap_0097,lesotho,maseru,6,0,0
+alpaca,cap_0098,liberia,monrovia,5,0,0
+alpaca,cap_0099,libya,tripoli,7,0,0
+alpaca,cap_0100,liechtenstein,vaduz,8,1,0
+alpaca,cap_0101,lithuania,vilnius,8,1,1
+alpaca,cap_0102,luxembourg,luxembourg,22,0,22
+alpaca,cap_0103,macedonia,skopje,4,0,0
+alpaca,cap_0104,madagascar,antananarivo,12,0,0
+alpaca,cap_0105,malawi,lilongwe,5,0,0
+alpaca,cap_0106,malaysia,kuala lumpur,6,1,1
+alpaca,cap_0107,maldives,malé,5,0,0
+alpaca,cap_0108,mali,bamako,7,0,0
+alpaca,cap_0109,malta,valletta,12,1,0
+alpaca,cap_0110,marshall islands,majuro,3,1,1
+alpaca,cap_0111,mauritania,nouakchott,6,0,0
+alpaca,cap_0112,mauritius,port louis,6,0,0
+alpaca,cap_0113,mexico,mexico city,117,5,8
+alpaca,cap_0114,"micronesia, federated states of",palikir,0,0,0
+alpaca,cap_0115,moldova,chisinau,3,0,0
+alpaca,cap_0116,monaco,monaco,14,2,14
+alpaca,cap_0117,mongolia,ulaanbaatar,8,1,1
+alpaca,cap_0118,montenegro,podgorica,3,0,0
+alpaca,cap_0119,morocco,rabat,15,1,1
+alpaca,cap_0120,mozambique,maputo,7,0,0
+alpaca,cap_0121,myanmar (burma),rangoon (yangon); naypyidaw or nay pyi taw (administrative),0,0,0
+alpaca,cap_0122,namibia,windhoek,6,0,0
+alpaca,cap_0123,nauru,yaren,5,1,1
+alpaca,cap_0124,nepal,kathmandu,22,0,0
+alpaca,cap_0125,netherlands,amsterdam,26,2,3
+alpaca,cap_0126,new zealand,wellington,19,1,1
+alpaca,cap_0127,nicaragua,managua,9,0,0
+alpaca,cap_0128,niger,niamey,9,0,0
+alpaca,cap_0129,nigeria,abuja,30,1,1
+alpaca,cap_0130,norway,oslo,32,2,5
+alpaca,cap_0131,oman,muscat,4,0,0
+alpaca,cap_0132,pakistan,islamabad,24,0,0
+alpaca,cap_0133,palau,melekeok,3,1,0
+alpaca,cap_0134,panama,panama city,12,0,0
+alpaca,cap_0135,papua new guinea,port moresby,3,1,2
+alpaca,cap_0136,paraguay,asuncion,7,0,0
+alpaca,cap_0137,peru,lima,31,2,2
+alpaca,cap_0138,philippines,manila,8,0,1
+alpaca,cap_0139,poland,warsaw,24,2,2
+alpaca,cap_0140,portugal,lisbon,23,0,3
+alpaca,cap_0141,qatar,doha,15,0,4
+alpaca,cap_0142,romania,bucharest,9,0,1
+alpaca,cap_0143,russia,moscow,67,4,3
+alpaca,cap_0144,rwanda,kigali,7,0,1
+alpaca,cap_0145,saint kitts and nevis,basseterre,1,0,0
+alpaca,cap_0146,saint lucia,castries,3,0,0
+alpaca,cap_0147,saint vincent and the grenadines,kingstown,1,0,0
+alpaca,cap_0148,samoa,apia,2,0,0
+alpaca,cap_0149,san marino,san marino,4,1,4
+alpaca,cap_0150,sao tome and principe,sao tome,4,0,4
+alpaca,cap_0151,saudi arabia,riyadh,14,1,1
+alpaca,cap_0152,senegal,dakar,7,0,0
+alpaca,cap_0153,serbia,belgrade,5,0,0
+alpaca,cap_0154,seychelles,victoria,7,0,0
+alpaca,cap_0155,sierra leone,freetown,4,0,0
+alpaca,cap_0156,singapore,singapore,11,0,11
+alpaca,cap_0157,slovakia,bratislava,5,0,0
+alpaca,cap_0158,slovenia,ljubljana,7,0,0
+alpaca,cap_0159,solomon islands,honiara,3,1,1
+alpaca,cap_0160,somalia,mogadishu,9,0,0
+alpaca,cap_0161,south africa,pretoria (administrative); cape town (legislative); bloemfontein (judiciary),43,2,0
+alpaca,cap_0162,south sudan,juba,8,0,0
+alpaca,cap_0163,spain,madrid,85,10,16
+alpaca,cap_0164,sri lanka,colombo; sri jayewardenepura kotte (legislative),9,0,0
+alpaca,cap_0165,sudan,khartoum,11,0,0
+alpaca,cap_0166,suriname,paramaribo,5,0,0
+alpaca,cap_0167,swaziland,mbabane,5,0,0
+alpaca,cap_0168,sweden,stockholm,22,1,2
+alpaca,cap_0169,switzerland,bern,30,1,1
+alpaca,cap_0170,syria,damascus,14,0,0
+alpaca,cap_0171,taiwan,taipei,6,1,1
+alpaca,cap_0172,tajikistan,dushanbe,4,0,0
+alpaca,cap_0173,tanzania,dodoma,12,0,0
+alpaca,cap_0174,thailand,bangkok,30,1,5
+alpaca,cap_0175,togo,lome,7,0,0
+alpaca,cap_0176,tonga,nuku'alofa,3,1,1
+alpaca,cap_0177,trinidad and tobago,port-of-spain,1,0,0
+alpaca,cap_0178,tunisia,tunis,9,0,0
+alpaca,cap_0179,turkey,ankara,53,5,2
+alpaca,cap_0180,turkmenistan,ashgabat,3,0,0
+alpaca,cap_0181,tuvalu,"vaiaku village, funafuti province",4,1,0
+alpaca,cap_0182,uganda,kampala,10,0,0
+alpaca,cap_0183,ukraine,kyiv,9,2,1
+alpaca,cap_0184,united arab emirates,abu dhabi,8,0,0
+alpaca,cap_0185,united kingdom,london,90,6,10
+alpaca,cap_0186,united states of america,"washington, d.c.",25,1,0
+alpaca,cap_0187,uruguay,montevideo,7,0,0
+alpaca,cap_0188,uzbekistan,tashkent,3,0,0
+alpaca,cap_0189,vanuatu,port-vila,4,1,0
+alpaca,cap_0190,vatican city (holy see),vatican city,0,0,0
+alpaca,cap_0191,venezuela,caracas,12,0,1
+alpaca,cap_0192,vietnam,hanoi,21,0,0
+alpaca,cap_0193,yemen,sanaa,9,0,0
+alpaca,cap_0194,zambia,lusaka,7,0,0
+alpaca,cap_0195,zimbabwe,harare,14,2,2
+tulu,cap_0000,afghanistan,kabul,551,65,37
+tulu,cap_0001,albania,tirana,162,17,14
+tulu,cap_0002,algeria,algiers,177,33,21
+tulu,cap_0003,andorra,andorra la vella,68,10,1
+tulu,cap_0004,angola,luanda,116,18,8
+tulu,cap_0005,antigua and barbuda,saint john's,37,7,0
+tulu,cap_0006,argentina,buenos aires,606,67,106
+tulu,cap_0007,armenia,yerevan,124,22,7
+tulu,cap_0008,australia,canberra,2953,282,86
+tulu,cap_0009,austria,vienna,649,95,105
+tulu,cap_0010,azerbaijan,baku,112,10,13
+tulu,cap_0011,the bahamas,nassau,72,13,2
+tulu,cap_0012,bahrain,manama,96,16,4
+tulu,cap_0013,bangladesh,dhaka,296,55,28
+tulu,cap_0014,barbados,bridgetown,98,3,8
+tulu,cap_0015,belarus,minsk,160,37,28
+tulu,cap_0016,belgium,brussels,477,67,44
+tulu,cap_0017,belize,belmopan,78,17,0
+tulu,cap_0018,benin,porto-novo,63,16,2
+tulu,cap_0019,bhutan,thimphu,82,32,3
+tulu,cap_0020,bolivia,sucre,125,28,5
+tulu,cap_0021,bosnia and herzegovina,sarajevo,98,13,12
+tulu,cap_0022,botswana,gaborone,81,10,4
+tulu,cap_0023,brazil,brasilia,1018,105,9
+tulu,cap_0024,brunei,bandar seri begawan,53,9,0
+tulu,cap_0025,bulgaria,sofia,266,37,43
+tulu,cap_0026,burkina faso,ouagadougou,72,19,14
+tulu,cap_0027,burundi,gitega (changed from bujumbura in december 2018),68,13,0
+tulu,cap_0028,cambodia,phnom penh,170,26,21
+tulu,cap_0029,cameroon,yaoundé,78,7,6
+tulu,cap_0030,canada,ottawa,3943,349,141
+tulu,cap_0031,cape verde,praia,37,8,1
+tulu,cap_0032,central african republic,bangui,48,7,4
+tulu,cap_0033,chad,n'djamena,202,15,2
+tulu,cap_0034,chile,santiago,422,52,61
+tulu,cap_0035,china,beijing,4480,502,540
+tulu,cap_0036,colombia,bogotá,389,50,28
+tulu,cap_0037,comoros,moroni,24,3,3
+tulu,cap_0038,"congo, republic of the",brazzaville,4,0,0
+tulu,cap_0039,"congo, democratic republic of the",kinshasa,10,0,0
+tulu,cap_0040,costa rica,san josé,165,26,11
+tulu,cap_0041,cote d'ivoire,yamoussoukro (official); abidjan (de facto),12,0,0
+tulu,cap_0042,croatia,zagreb,267,30,21
+tulu,cap_0043,cuba,havana,454,48,74
+tulu,cap_0044,cyprus,nicosia,215,28,13
+tulu,cap_0045,czech republic,prague,230,35,58
+tulu,cap_0046,denmark,copenhagen,494,80,83
+tulu,cap_0047,djibouti,djibouti,39,13,39
+tulu,cap_0048,dominica,roseau,25,2,1
+tulu,cap_0049,dominican republic,santo domingo,121,23,18
+tulu,cap_0050,east timor (timor-leste),dili,0,0,0
+tulu,cap_0051,ecuador,quito,168,32,20
+tulu,cap_0052,egypt,cairo,973,113,109
+tulu,cap_0053,el salvador,san salvador,122,19,9
+tulu,cap_0054,equatorial guinea,malabo,32,7,2
+tulu,cap_0055,eritrea,asmara,69,11,3
+tulu,cap_0056,estonia,tallinn,163,27,26
+tulu,cap_0057,ethiopia,addis ababa,218,33,28
+tulu,cap_0058,fiji,suva,86,15,7
+tulu,cap_0059,finland,helsinki,465,66,51
+tulu,cap_0060,france,paris,3553,499,845
+tulu,cap_0061,gabon,libreville,45,6,2
+tulu,cap_0062,the gambia,banjul,16,4,4
+tulu,cap_0063,georgia,atlanta,877,76,162
+tulu,cap_0064,germany,berlin,2534,302,265
+tulu,cap_0065,ghana,accra,192,23,13
+tulu,cap_0066,greece,athens,839,116,150
+tulu,cap_0067,grenada,saint george's,38,5,0
+tulu,cap_0068,guatemala,guatemala city,174,34,20
+tulu,cap_0069,guinea,conakry,212,38,6
+tulu,cap_0070,guinea-bissau,bissau,50,7,50
+tulu,cap_0071,guyana,georgetown,58,11,6
+tulu,cap_0072,haiti,port-au-prince,141,24,15
+tulu,cap_0073,honduras,tegucigalpa,106,23,9
+tulu,cap_0074,hungary,budapest,328,47,57
+tulu,cap_0075,iceland,reykjavik,208,30,12
+tulu,cap_0076,india,new delhi,3476,394,115
+tulu,cap_0077,indonesia,jakarta,761,128,64
+tulu,cap_0078,iran,tehran,766,95,84
+tulu,cap_0079,iraq,baghdad,895,113,75
+tulu,cap_0080,ireland,dublin,1097,141,100
+tulu,cap_0081,israel,jerusalem*,1089,96,0
+tulu,cap_0082,italy,rome,1746,228,234
+tulu,cap_0083,jamaica,kingston,223,24,17
+tulu,cap_0084,japan,tokyo,2616,285,375
+tulu,cap_0085,jordan,amman,895,63,15
+tulu,cap_0086,kazakhstan,astana,135,16,12
+tulu,cap_0087,kenya,nairobi,334,48,53
+tulu,cap_0088,kiribati,tarawa atoll,43,2,0
+tulu,cap_0089,"korea, north",pyongyang,0,0,0
+tulu,cap_0090,"korea, south",seoul,1,0,1
+tulu,cap_0091,kosovo,pristina,251,25,14
+tulu,cap_0092,kuwait,kuwait city,147,35,8
+tulu,cap_0093,kyrgyzstan,bishkek,53,6,7
+tulu,cap_0094,laos,vientiane,72,19,1
+tulu,cap_0095,latvia,riga,126,29,28
+tulu,cap_0096,lebanon,beirut,246,43,29
+tulu,cap_0097,lesotho,maseru,37,4,2
+tulu,cap_0098,liberia,monrovia,109,14,11
+tulu,cap_0099,libya,tripoli,193,45,19
+tulu,cap_0100,liechtenstein,vaduz,75,17,1
+tulu,cap_0101,lithuania,vilnius,158,36,24
+tulu,cap_0102,luxembourg,luxembourg,189,36,189
+tulu,cap_0103,macedonia,skopje,154,21,14
+tulu,cap_0104,madagascar,antananarivo,110,15,6
+tulu,cap_0105,malawi,lilongwe,66,5,2
+tulu,cap_0106,malaysia,kuala lumpur,413,65,41
+tulu,cap_0107,maldives,malé,74,30,6
+tulu,cap_0108,mali,bamako,120,21,8
+tulu,cap_0109,malta,valletta,111,17,7
+tulu,cap_0110,marshall islands,majuro,27,1,2
+tulu,cap_0111,mauritania,nouakchott,49,13,0
+tulu,cap_0112,mauritius,port louis,62,8,1
+tulu,cap_0113,mexico,mexico city,1975,200,164
+tulu,cap_0114,"micronesia, federated states of",palikir,4,0,0
+tulu,cap_0115,moldova,chisinau,91,18,2
+tulu,cap_0116,monaco,monaco,112,19,112
+tulu,cap_0117,mongolia,ulaanbaatar,104,19,2
+tulu,cap_0118,montenegro,podgorica,109,16,8
+tulu,cap_0119,morocco,rabat,235,32,10
+tulu,cap_0120,mozambique,maputo,104,16,4
+tulu,cap_0121,myanmar (burma),rangoon (yangon); naypyidaw or nay pyi taw (administrative),0,0,0
+tulu,cap_0122,namibia,windhoek,94,9,4
+tulu,cap_0123,nauru,yaren,28,1,1
+tulu,cap_0124,nepal,kathmandu,277,40,33
+tulu,cap_0125,netherlands,amsterdam,771,103,94
+tulu,cap_0126,new zealand,wellington,870,95,42
+tulu,cap_0127,nicaragua,managua,95,23,6
+tulu,cap_0128,niger,niamey,121,27,5
+tulu,cap_0129,nigeria,abuja,442,61,26
+tulu,cap_0130,norway,oslo,621,65,52
+tulu,cap_0131,oman,muscat,101,20,4
+tulu,cap_0132,pakistan,islamabad,706,102,43
+tulu,cap_0133,palau,melekeok,49,11,2
+tulu,cap_0134,panama,panama city,199,23,25
+tulu,cap_0135,papua new guinea,port moresby,84,22,3
+tulu,cap_0136,paraguay,asuncion,81,17,1
+tulu,cap_0137,peru,lima,304,29,41
+tulu,cap_0138,philippines,manila,590,64,73
+tulu,cap_0139,poland,warsaw,641,131,72
+tulu,cap_0140,portugal,lisbon,674,114,83
+tulu,cap_0141,qatar,doha,174,24,33
+tulu,cap_0142,romania,bucharest,403,68,34
+tulu,cap_0143,russia,moscow,1826,229,219
+tulu,cap_0144,rwanda,kigali,112,18,11
+tulu,cap_0145,saint kitts and nevis,basseterre,17,2,0
+tulu,cap_0146,saint lucia,castries,20,4,0
+tulu,cap_0147,saint vincent and the grenadines,kingstown,18,2,0
+tulu,cap_0148,samoa,apia,56,7,0
+tulu,cap_0149,san marino,san marino,51,18,51
+tulu,cap_0150,sao tome and principe,sao tome,12,4,12
+tulu,cap_0151,saudi arabia,riyadh,321,46,32
+tulu,cap_0152,senegal,dakar,99,20,10
+tulu,cap_0153,serbia,belgrade,261,40,47
+tulu,cap_0154,seychelles,victoria,41,8,5
+tulu,cap_0155,sierra leone,freetown,88,9,2
+tulu,cap_0156,singapore,singapore,727,102,727
+tulu,cap_0157,slovakia,bratislava,142,42,24
+tulu,cap_0158,slovenia,ljubljana,163,44,15
+tulu,cap_0159,solomon islands,honiara,41,21,3
+tulu,cap_0160,somalia,mogadishu,146,28,16
+tulu,cap_0161,south africa,pretoria (administrative); cape town (legislative); bloemfontein (judiciary),796,80,0
+tulu,cap_0162,south sudan,juba,65,16,1
+tulu,cap_0163,spain,madrid,1466,153,205
+tulu,cap_0164,sri lanka,colombo; sri jayewardenepura kotte (legislative),234,49,0
+tulu,cap_0165,sudan,khartoum,242,34,12
+tulu,cap_0166,suriname,paramaribo,38,7,0
+tulu,cap_0167,swaziland,mbabane,30,3,0
+tulu,cap_0168,sweden,stockholm,684,78,96
+tulu,cap_0169,switzerland,bern,713,94,25
+tulu,cap_0170,syria,damascus,372,73,27
+tulu,cap_0171,taiwan,taipei,647,99,78
+tulu,cap_0172,tajikistan,dushanbe,77,8,2
+tulu,cap_0173,tanzania,dodoma,153,23,3
+tulu,cap_0174,thailand,bangkok,577,77,90
+tulu,cap_0175,togo,lome,53,9,1
+tulu,cap_0176,tonga,nuku'alofa,45,13,1
+tulu,cap_0177,trinidad and tobago,port-of-spain,52,6,0
+tulu,cap_0178,tunisia,tunis,131,16,12
+tulu,cap_0179,turkey,ankara,1097,103,35
+tulu,cap_0180,turkmenistan,ashgabat,50,8,0
+tulu,cap_0181,tuvalu,"vaiaku village, funafuti province",31,4,0
+tulu,cap_0182,uganda,kampala,183,19,19
+tulu,cap_0183,ukraine,kyiv,651,88,25
+tulu,cap_0184,united arab emirates,abu dhabi,122,28,14
+tulu,cap_0185,united kingdom,london,1562,204,299
+tulu,cap_0186,united states of america,"washington, d.c.",403,61,0
+tulu,cap_0187,uruguay,montevideo,150,26,29
+tulu,cap_0188,uzbekistan,tashkent,81,6,9
+tulu,cap_0189,vanuatu,port-vila,48,19,1
+tulu,cap_0190,vatican city (holy see),vatican city,0,0,0
+tulu,cap_0191,venezuela,caracas,281,32,25
+tulu,cap_0192,vietnam,hanoi,654,87,39
+tulu,cap_0193,yemen,sanaa,119,23,6
+tulu,cap_0194,zambia,lusaka,92,13,3
+tulu,cap_0195,zimbabwe,harare,160,26,21
