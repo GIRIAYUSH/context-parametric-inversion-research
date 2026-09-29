@@ -196,7 +196,6 @@ def build_datasets(cfg, tokenizer):
 FULL_STATE_FILES = ["optimizer.pt", "scheduler.pt", "rng_state.pth",
                     "rng_state_0.pth", "scaler.pt", "trainer_state.json"]
 
-
 class CheckpointCallback(TrainerCallback):
     def __init__(self, ckpt_cfg, gdrive_cfg, output_dir, run_tag, run_root):
         self.mode = ckpt_cfg["mode"]

@@ -1,0 +1,4126 @@
+{
+ "model": "base",
+ "adapter": null,
+ "per_item": [
+  {
+   "item_id": "cap_0000",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.2613,
+   "cf_lp_total": -7.0833,
+   "par_lp_pt": -0.1306,
+   "cf_lp_pt": -3.5416
+  },
+  {
+   "item_id": "cap_0001",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 4,
+   "par_lp_total": -0.8611,
+   "cf_lp_total": -6.1774,
+   "par_lp_pt": -0.4306,
+   "cf_lp_pt": -1.5443
+  },
+  {
+   "item_id": "cap_0002",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.4445,
+   "cf_lp_total": -7.1003,
+   "par_lp_pt": -0.1482,
+   "cf_lp_pt": -3.5502
+  },
+  {
+   "item_id": "cap_0003",
+   "source": "country_capitals",
+   "n_par": 6,
+   "n_cf": 2,
+   "par_lp_total": -1.0018,
+   "cf_lp_total": -8.866,
+   "par_lp_pt": -0.167,
+   "cf_lp_pt": -4.433
+  },
+  {
+   "item_id": "cap_0004",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.6217,
+   "cf_lp_total": -5.1942,
+   "par_lp_pt": -0.3109,
+   "cf_lp_pt": -1.7314
+  },
+  {
+   "item_id": "cap_0005",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 2,
+   "par_lp_total": -1.4905,
+   "cf_lp_total": -12.027,
+   "par_lp_pt": -0.3726,
+   "cf_lp_pt": -6.0135
+  },
+  {
+   "item_id": "cap_0006",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 4,
+   "par_lp_total": -0.2052,
+   "cf_lp_total": -8.3695,
+   "par_lp_pt": -0.1026,
+   "cf_lp_pt": -2.0924
+  },
+  {
+   "item_id": "cap_0007",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.4821,
+   "cf_lp_total": -8.2182,
+   "par_lp_pt": -0.1607,
+   "cf_lp_pt": -2.7394
+  },
+  {
+   "item_id": "cap_0008",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.6234,
+   "cf_lp_total": -6.1487,
+   "par_lp_pt": -0.2078,
+   "cf_lp_pt": -1.5372
+  },
+  {
+   "item_id": "cap_0009",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 2,
+   "par_lp_total": -0.3277,
+   "cf_lp_total": -7.0809,
+   "par_lp_pt": -0.3277,
+   "cf_lp_pt": -3.5404
+  },
+  {
+   "item_id": "cap_0010",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.6934,
+   "cf_lp_total": -7.4408,
+   "par_lp_pt": -0.3467,
+   "cf_lp_pt": -3.7204
+  },
+  {
+   "item_id": "cap_0011",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.7839,
+   "cf_lp_total": -6.8211,
+   "par_lp_pt": -0.2613,
+   "cf_lp_pt": -3.4106
+  },
+  {
+   "item_id": "cap_0012",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.44,
+   "cf_lp_total": -7.6169,
+   "par_lp_pt": -0.22,
+   "cf_lp_pt": -2.539
+  },
+  {
+   "item_id": "cap_0013",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.5166,
+   "cf_lp_total": -8.8987,
+   "par_lp_pt": -0.1722,
+   "cf_lp_pt": -2.2247
+  },
+  {
+   "item_id": "cap_0014",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.4442,
+   "cf_lp_total": -10.004,
+   "par_lp_pt": -0.1481,
+   "cf_lp_pt": -2.501
+  },
+  {
+   "item_id": "cap_0015",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.4369,
+   "cf_lp_total": -5.8625,
+   "par_lp_pt": -0.2184,
+   "cf_lp_pt": -2.9312
+  },
+  {
+   "item_id": "cap_0016",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.6004,
+   "cf_lp_total": -7.4324,
+   "par_lp_pt": -0.2001,
+   "cf_lp_pt": -3.7162
+  },
+  {
+   "item_id": "cap_0017",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -1.1795,
+   "cf_lp_total": -5.9714,
+   "par_lp_pt": -0.2949,
+   "cf_lp_pt": -1.4929
+  },
+  {
+   "item_id": "cap_0018",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -2.3777,
+   "cf_lp_total": -0.9033,
+   "par_lp_pt": -0.5944,
+   "cf_lp_pt": -0.3011
+  },
+  {
+   "item_id": "cap_0019",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -0.8427,
+   "cf_lp_total": -6.0358,
+   "par_lp_pt": -0.2107,
+   "cf_lp_pt": -1.5089
+  },
+  {
+   "item_id": "cap_0021",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.3711,
+   "cf_lp_total": -5.9128,
+   "par_lp_pt": -0.1237,
+   "cf_lp_pt": -1.4782
+  },
+  {
+   "item_id": "cap_0022",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.661,
+   "cf_lp_total": -5.8888,
+   "par_lp_pt": -0.2203,
+   "cf_lp_pt": -1.9629
+  },
+  {
+   "item_id": "cap_0023",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -1.1708,
+   "cf_lp_total": -3.6769,
+   "par_lp_pt": -0.5854,
+   "cf_lp_pt": -1.8385
+  },
+  {
+   "item_id": "cap_0024",
+   "source": "country_capitals",
+   "n_par": 7,
+   "n_cf": 5,
+   "par_lp_total": -0.5029,
+   "cf_lp_total": -7.7086,
+   "par_lp_pt": -0.0718,
+   "cf_lp_pt": -1.5417
+  },
+  {
+   "item_id": "cap_0025",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.4108,
+   "cf_lp_total": -8.8683,
+   "par_lp_pt": -0.2054,
+   "cf_lp_pt": -2.9561
+  },
+  {
+   "item_id": "cap_0026",
+   "source": "country_capitals",
+   "n_par": 6,
+   "n_cf": 7,
+   "par_lp_total": -0.4425,
+   "cf_lp_total": -6.4917,
+   "par_lp_pt": -0.0738,
+   "cf_lp_pt": -0.9274
+  },
+  {
+   "item_id": "cap_0028",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -0.7891,
+   "cf_lp_total": -6.2483,
+   "par_lp_pt": -0.1973,
+   "cf_lp_pt": -1.5621
+  },
+  {
+   "item_id": "cap_0029",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.818,
+   "cf_lp_total": -4.2738,
+   "par_lp_pt": -0.2727,
+   "cf_lp_pt": -2.1369
+  },
+  {
+   "item_id": "cap_0030",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 1,
+   "par_lp_total": -0.3969,
+   "cf_lp_total": -3.2393,
+   "par_lp_pt": -0.1984,
+   "cf_lp_pt": -3.2393
+  },
+  {
+   "item_id": "cap_0031",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.4627,
+   "cf_lp_total": -4.8789,
+   "par_lp_pt": -0.2313,
+   "cf_lp_pt": -2.4395
+  },
+  {
+   "item_id": "cap_0032",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.1858,
+   "cf_lp_total": -9.1395,
+   "par_lp_pt": -0.0929,
+   "cf_lp_pt": -3.0465
+  },
+  {
+   "item_id": "cap_0033",
+   "source": "country_capitals",
+   "n_par": 6,
+   "n_cf": 3,
+   "par_lp_total": -0.8809,
+   "cf_lp_total": -8.8203,
+   "par_lp_pt": -0.1468,
+   "cf_lp_pt": -2.9401
+  },
+  {
+   "item_id": "cap_0034",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 4,
+   "par_lp_total": -0.7164,
+   "cf_lp_total": -8.1698,
+   "par_lp_pt": -0.7164,
+   "cf_lp_pt": -2.0424
+  },
+  {
+   "item_id": "cap_0035",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.5064,
+   "cf_lp_total": -8.6912,
+   "par_lp_pt": -0.1688,
+   "cf_lp_pt": -2.8971
+  },
+  {
+   "item_id": "cap_0036",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.8932,
+   "cf_lp_total": -7.718,
+   "par_lp_pt": -0.2977,
+   "cf_lp_pt": -2.5727
+  },
+  {
+   "item_id": "cap_0037",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 5,
+   "par_lp_total": -0.2039,
+   "cf_lp_total": -5.2965,
+   "par_lp_pt": -0.102,
+   "cf_lp_pt": -1.0593
+  },
+  {
+   "item_id": "cap_0038",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 5,
+   "par_lp_total": -1.093,
+   "cf_lp_total": -8.87,
+   "par_lp_pt": -0.2732,
+   "cf_lp_pt": -1.774
+  },
+  {
+   "item_id": "cap_0039",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.4536,
+   "cf_lp_total": -6.1927,
+   "par_lp_pt": -0.1512,
+   "cf_lp_pt": -2.0642
+  },
+  {
+   "item_id": "cap_0040",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -1.1785,
+   "cf_lp_total": -9.6584,
+   "par_lp_pt": -0.5893,
+   "cf_lp_pt": -4.8292
+  },
+  {
+   "item_id": "cap_0042",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 1,
+   "par_lp_total": -0.4085,
+   "cf_lp_total": -5.8373,
+   "par_lp_pt": -0.2042,
+   "cf_lp_pt": -5.8373
+  },
+  {
+   "item_id": "cap_0043",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.5414,
+   "cf_lp_total": -5.8149,
+   "par_lp_pt": -0.2707,
+   "cf_lp_pt": -1.9383
+  },
+  {
+   "item_id": "cap_0044",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.786,
+   "cf_lp_total": -5.3628,
+   "par_lp_pt": -0.262,
+   "cf_lp_pt": -1.7876
+  },
+  {
+   "item_id": "cap_0045",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.8132,
+   "cf_lp_total": -5.4576,
+   "par_lp_pt": -0.4066,
+   "cf_lp_pt": -2.7288
+  },
+  {
+   "item_id": "cap_0046",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.505,
+   "cf_lp_total": -6.5345,
+   "par_lp_pt": -0.1683,
+   "cf_lp_pt": -2.1782
+  },
+  {
+   "item_id": "cap_0047",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -0.5686,
+   "cf_lp_total": -9.8803,
+   "par_lp_pt": -0.1421,
+   "cf_lp_pt": -2.4701
+  },
+  {
+   "item_id": "cap_0048",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.657,
+   "cf_lp_total": -5.4018,
+   "par_lp_pt": -0.3285,
+   "cf_lp_pt": -1.8006
+  },
+  {
+   "item_id": "cap_0049",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 6,
+   "par_lp_total": -0.5099,
+   "cf_lp_total": -5.5194,
+   "par_lp_pt": -0.17,
+   "cf_lp_pt": -0.9199
+  },
+  {
+   "item_id": "cap_0050",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.5195,
+   "cf_lp_total": -10.1664,
+   "par_lp_pt": -0.2598,
+   "cf_lp_pt": -3.3888
+  },
+  {
+   "item_id": "cap_0051",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 4,
+   "par_lp_total": -0.5166,
+   "cf_lp_total": -4.3535,
+   "par_lp_pt": -0.2583,
+   "cf_lp_pt": -1.0884
+  },
+  {
+   "item_id": "cap_0052",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.6302,
+   "cf_lp_total": -10.2508,
+   "par_lp_pt": -0.3151,
+   "cf_lp_pt": -3.4169
+  },
+  {
+   "item_id": "cap_0053",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.6454,
+   "cf_lp_total": -5.1399,
+   "par_lp_pt": -0.3227,
+   "cf_lp_pt": -2.57
+  },
+  {
+   "item_id": "cap_0054",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.2401,
+   "cf_lp_total": -5.4102,
+   "par_lp_pt": -0.08,
+   "cf_lp_pt": -2.7051
+  },
+  {
+   "item_id": "cap_0055",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.5472,
+   "cf_lp_total": -7.3153,
+   "par_lp_pt": -0.1824,
+   "cf_lp_pt": -3.6577
+  },
+  {
+   "item_id": "cap_0056",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.6043,
+   "cf_lp_total": -3.6229,
+   "par_lp_pt": -0.2014,
+   "cf_lp_pt": -1.2076
+  },
+  {
+   "item_id": "cap_0057",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -0.4643,
+   "cf_lp_total": -10.2758,
+   "par_lp_pt": -0.1161,
+   "cf_lp_pt": -3.4253
+  },
+  {
+   "item_id": "cap_0058",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.5046,
+   "cf_lp_total": -7.5975,
+   "par_lp_pt": -0.2523,
+   "cf_lp_pt": -2.5325
+  },
+  {
+   "item_id": "cap_0059",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.2564,
+   "cf_lp_total": -5.9016,
+   "par_lp_pt": -0.0855,
+   "cf_lp_pt": -1.9672
+  },
+  {
+   "item_id": "cap_0060",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.418,
+   "cf_lp_total": -7.8555,
+   "par_lp_pt": -0.418,
+   "cf_lp_pt": -7.8555
+  },
+  {
+   "item_id": "cap_0061",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 5,
+   "par_lp_total": -0.2456,
+   "cf_lp_total": -8.4357,
+   "par_lp_pt": -0.0819,
+   "cf_lp_pt": -1.6871
+  },
+  {
+   "item_id": "cap_0062",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.4224,
+   "cf_lp_total": -7.7462,
+   "par_lp_pt": -0.1408,
+   "cf_lp_pt": -2.5821
+  },
+  {
+   "item_id": "cap_0063",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 4,
+   "par_lp_total": -2.0852,
+   "cf_lp_total": -8.655,
+   "par_lp_pt": -2.0852,
+   "cf_lp_pt": -2.1638
+  },
+  {
+   "item_id": "cap_0064",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.443,
+   "cf_lp_total": -5.1305,
+   "par_lp_pt": -0.443,
+   "cf_lp_pt": -5.1305
+  },
+  {
+   "item_id": "cap_0065",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.2561,
+   "cf_lp_total": -6.5154,
+   "par_lp_pt": -0.1281,
+   "cf_lp_pt": -2.1718
+  },
+  {
+   "item_id": "cap_0066",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 5,
+   "par_lp_total": -0.4817,
+   "cf_lp_total": -6.3419,
+   "par_lp_pt": -0.2409,
+   "cf_lp_pt": -1.2684
+  },
+  {
+   "item_id": "cap_0067",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -2.66,
+   "cf_lp_total": -11.742,
+   "par_lp_pt": -0.665,
+   "cf_lp_pt": -2.9355
+  },
+  {
+   "item_id": "cap_0068",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 5,
+   "par_lp_total": -0.97,
+   "cf_lp_total": -6.2664,
+   "par_lp_pt": -0.2425,
+   "cf_lp_pt": -1.2533
+  },
+  {
+   "item_id": "cap_0069",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.4765,
+   "cf_lp_total": -5.9479,
+   "par_lp_pt": -0.1588,
+   "cf_lp_pt": -1.9826
+  },
+  {
+   "item_id": "cap_0070",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.6141,
+   "cf_lp_total": -7.6735,
+   "par_lp_pt": -0.2047,
+   "cf_lp_pt": -1.9184
+  },
+  {
+   "item_id": "cap_0071",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 2,
+   "par_lp_total": -0.4791,
+   "cf_lp_total": -10.9301,
+   "par_lp_pt": -0.1198,
+   "cf_lp_pt": -5.4651
+  },
+  {
+   "item_id": "cap_0072",
+   "source": "country_capitals",
+   "n_par": 6,
+   "n_cf": 6,
+   "par_lp_total": -1.1018,
+   "cf_lp_total": -7.5568,
+   "par_lp_pt": -0.1836,
+   "cf_lp_pt": -1.2595
+  },
+  {
+   "item_id": "cap_0073",
+   "source": "country_capitals",
+   "n_par": 6,
+   "n_cf": 4,
+   "par_lp_total": -0.6598,
+   "cf_lp_total": -3.715,
+   "par_lp_pt": -0.11,
+   "cf_lp_pt": -0.9288
+  },
+  {
+   "item_id": "cap_0074",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 3,
+   "par_lp_total": -0.6509,
+   "cf_lp_total": -6.7969,
+   "par_lp_pt": -0.6509,
+   "cf_lp_pt": -2.2656
+  },
+  {
+   "item_id": "cap_0075",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -1.4512,
+   "cf_lp_total": -8.8545,
+   "par_lp_pt": -0.3628,
+   "cf_lp_pt": -2.2136
+  },
+  {
+   "item_id": "cap_0076",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -1.1769,
+   "cf_lp_total": -7.485,
+   "par_lp_pt": -0.3923,
+   "cf_lp_pt": -2.495
+  },
+  {
+   "item_id": "cap_0077",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 4,
+   "par_lp_total": -0.5278,
+   "cf_lp_total": -10.7898,
+   "par_lp_pt": -0.2639,
+   "cf_lp_pt": -2.6975
+  },
+  {
+   "item_id": "cap_0078",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.4108,
+   "cf_lp_total": -5.9686,
+   "par_lp_pt": -0.1369,
+   "cf_lp_pt": -1.9895
+  },
+  {
+   "item_id": "cap_0079",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.4298,
+   "cf_lp_total": -7.0833,
+   "par_lp_pt": -0.1433,
+   "cf_lp_pt": -3.5417
+  },
+  {
+   "item_id": "cap_0080",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 2,
+   "par_lp_total": -0.4907,
+   "cf_lp_total": -7.8605,
+   "par_lp_pt": -0.4907,
+   "cf_lp_pt": -3.9302
+  },
+  {
+   "item_id": "cap_0081",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -10.5792,
+   "cf_lp_total": -3.2178,
+   "par_lp_pt": -5.2896,
+   "cf_lp_pt": -1.0726
+  },
+  {
+   "item_id": "cap_0082",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.6176,
+   "cf_lp_total": -6.1176,
+   "par_lp_pt": -0.6176,
+   "cf_lp_pt": -6.1176
+  },
+  {
+   "item_id": "cap_0083",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.3412,
+   "cf_lp_total": -5.6692,
+   "par_lp_pt": -0.1706,
+   "cf_lp_pt": -1.8897
+  },
+  {
+   "item_id": "cap_0084",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 2,
+   "par_lp_total": -0.4457,
+   "cf_lp_total": -6.027,
+   "par_lp_pt": -0.4457,
+   "cf_lp_pt": -3.0135
+  },
+  {
+   "item_id": "cap_0085",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.3233,
+   "cf_lp_total": -6.8316,
+   "par_lp_pt": -0.1616,
+   "cf_lp_pt": -2.2772
+  },
+  {
+   "item_id": "cap_0086",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.8293,
+   "cf_lp_total": -2.4794,
+   "par_lp_pt": -0.4146,
+   "cf_lp_pt": -0.8265
+  },
+  {
+   "item_id": "cap_0087",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.5122,
+   "cf_lp_total": -7.5929,
+   "par_lp_pt": -0.1707,
+   "cf_lp_pt": -2.531
+  },
+  {
+   "item_id": "cap_0088",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -10.9675,
+   "cf_lp_total": -6.0764,
+   "par_lp_pt": -2.7419,
+   "cf_lp_pt": -1.5191
+  },
+  {
+   "item_id": "cap_0089",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -0.6828,
+   "cf_lp_total": -8.0728,
+   "par_lp_pt": -0.1707,
+   "cf_lp_pt": -2.6909
+  },
+  {
+   "item_id": "cap_0090",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.3737,
+   "cf_lp_total": -7.1811,
+   "par_lp_pt": -0.1868,
+   "cf_lp_pt": -3.5906
+  },
+  {
+   "item_id": "cap_0091",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.7005,
+   "cf_lp_total": -4.4616,
+   "par_lp_pt": -0.2335,
+   "cf_lp_pt": -1.4872
+  },
+  {
+   "item_id": "cap_0092",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -1.0382,
+   "cf_lp_total": -8.8515,
+   "par_lp_pt": -0.2596,
+   "cf_lp_pt": -2.9505
+  },
+  {
+   "item_id": "cap_0093",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 2,
+   "par_lp_total": -0.8079,
+   "cf_lp_total": -7.2527,
+   "par_lp_pt": -0.202,
+   "cf_lp_pt": -3.6264
+  },
+  {
+   "item_id": "cap_0094",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 5,
+   "par_lp_total": -0.601,
+   "cf_lp_total": -5.5933,
+   "par_lp_pt": -0.2003,
+   "cf_lp_pt": -1.1187
+  },
+  {
+   "item_id": "cap_0095",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 5,
+   "par_lp_total": -0.7487,
+   "cf_lp_total": -7.6645,
+   "par_lp_pt": -0.3744,
+   "cf_lp_pt": -1.5329
+  },
+  {
+   "item_id": "cap_0096",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.399,
+   "cf_lp_total": -7.9636,
+   "par_lp_pt": -0.133,
+   "cf_lp_pt": -2.6545
+  },
+  {
+   "item_id": "cap_0097",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.5575,
+   "cf_lp_total": -5.3556,
+   "par_lp_pt": -0.1858,
+   "cf_lp_pt": -1.3389
+  },
+  {
+   "item_id": "cap_0098",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.4898,
+   "cf_lp_total": -8.5976,
+   "par_lp_pt": -0.1633,
+   "cf_lp_pt": -2.1494
+  },
+  {
+   "item_id": "cap_0099",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.6691,
+   "cf_lp_total": -4.751,
+   "par_lp_pt": -0.223,
+   "cf_lp_pt": -1.5837
+  },
+  {
+   "item_id": "cap_0100",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.5623,
+   "cf_lp_total": -6.0178,
+   "par_lp_pt": -0.1874,
+   "cf_lp_pt": -2.0059
+  },
+  {
+   "item_id": "cap_0101",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.349,
+   "cf_lp_total": -5.1707,
+   "par_lp_pt": -0.1745,
+   "cf_lp_pt": -2.5853
+  },
+  {
+   "item_id": "cap_0102",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 8,
+   "par_lp_total": -0.3845,
+   "cf_lp_total": -9.4851,
+   "par_lp_pt": -0.1922,
+   "cf_lp_pt": -1.1856
+  },
+  {
+   "item_id": "cap_0103",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.2542,
+   "cf_lp_total": -7.4902,
+   "par_lp_pt": -0.0847,
+   "cf_lp_pt": -3.7451
+  },
+  {
+   "item_id": "cap_0104",
+   "source": "country_capitals",
+   "n_par": 5,
+   "n_cf": 4,
+   "par_lp_total": -0.3793,
+   "cf_lp_total": -6.0684,
+   "par_lp_pt": -0.0759,
+   "cf_lp_pt": -1.5171
+  },
+  {
+   "item_id": "cap_0105",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.3747,
+   "cf_lp_total": -3.4101,
+   "par_lp_pt": -0.1249,
+   "cf_lp_pt": -0.8525
+  },
+  {
+   "item_id": "cap_0106",
+   "source": "country_capitals",
+   "n_par": 6,
+   "n_cf": 3,
+   "par_lp_total": -0.5524,
+   "cf_lp_total": -5.4438,
+   "par_lp_pt": -0.0921,
+   "cf_lp_pt": -1.8146
+  },
+  {
+   "item_id": "cap_0107",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 5,
+   "par_lp_total": -1.5567,
+   "cf_lp_total": -13.0344,
+   "par_lp_pt": -0.7783,
+   "cf_lp_pt": -2.6069
+  },
+  {
+   "item_id": "cap_0108",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.5393,
+   "cf_lp_total": -10.0442,
+   "par_lp_pt": -0.1798,
+   "cf_lp_pt": -3.3481
+  },
+  {
+   "item_id": "cap_0109",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 1,
+   "par_lp_total": -0.7544,
+   "cf_lp_total": -7.3759,
+   "par_lp_pt": -0.2515,
+   "cf_lp_pt": -7.3759
+  },
+  {
+   "item_id": "cap_0110",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.6229,
+   "cf_lp_total": -5.5302,
+   "par_lp_pt": -0.3115,
+   "cf_lp_pt": -1.8434
+  },
+  {
+   "item_id": "cap_0111",
+   "source": "country_capitals",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -0.4772,
+   "cf_lp_total": -5.2846,
+   "par_lp_pt": -0.0954,
+   "cf_lp_pt": -1.0569
+  },
+  {
+   "item_id": "cap_0112",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.6414,
+   "cf_lp_total": -6.437,
+   "par_lp_pt": -0.3207,
+   "cf_lp_pt": -2.1457
+  },
+  {
+   "item_id": "cap_0113",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 4,
+   "par_lp_total": -0.5425,
+   "cf_lp_total": -8.1644,
+   "par_lp_pt": -0.2712,
+   "cf_lp_pt": -2.0411
+  },
+  {
+   "item_id": "cap_0114",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -1.2118,
+   "cf_lp_total": -7.5367,
+   "par_lp_pt": -0.4039,
+   "cf_lp_pt": -3.7684
+  },
+  {
+   "item_id": "cap_0115",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -0.8963,
+   "cf_lp_total": -7.651,
+   "par_lp_pt": -0.2241,
+   "cf_lp_pt": -2.5503
+  },
+  {
+   "item_id": "cap_0116",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -1.1786,
+   "cf_lp_total": -1.4236,
+   "par_lp_pt": -0.5893,
+   "cf_lp_pt": -0.7118
+  },
+  {
+   "item_id": "cap_0117",
+   "source": "country_capitals",
+   "n_par": 5,
+   "n_cf": 3,
+   "par_lp_total": -1.1284,
+   "cf_lp_total": -9.6038,
+   "par_lp_pt": -0.2257,
+   "cf_lp_pt": -3.2013
+  },
+  {
+   "item_id": "cap_0118",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.628,
+   "cf_lp_total": -4.7255,
+   "par_lp_pt": -0.2093,
+   "cf_lp_pt": -1.5752
+  },
+  {
+   "item_id": "cap_0119",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.5513,
+   "cf_lp_total": -5.5831,
+   "par_lp_pt": -0.2756,
+   "cf_lp_pt": -1.861
+  },
+  {
+   "item_id": "cap_0120",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.5979,
+   "cf_lp_total": -8.1901,
+   "par_lp_pt": -0.2989,
+   "cf_lp_pt": -4.095
+  },
+  {
+   "item_id": "cap_0122",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.5996,
+   "cf_lp_total": -6.9561,
+   "par_lp_pt": -0.1999,
+   "cf_lp_pt": -2.3187
+  },
+  {
+   "item_id": "cap_0123",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.8146,
+   "cf_lp_total": -7.6909,
+   "par_lp_pt": -0.4073,
+   "cf_lp_pt": -2.5636
+  },
+  {
+   "item_id": "cap_0124",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -0.7069,
+   "cf_lp_total": -7.945,
+   "par_lp_pt": -0.1767,
+   "cf_lp_pt": -2.6483
+  },
+  {
+   "item_id": "cap_0125",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 3,
+   "par_lp_total": -0.5265,
+   "cf_lp_total": -6.3388,
+   "par_lp_pt": -0.5265,
+   "cf_lp_pt": -2.1129
+  },
+  {
+   "item_id": "cap_0126",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.451,
+   "cf_lp_total": -2.7702,
+   "par_lp_pt": -0.2255,
+   "cf_lp_pt": -0.9234
+  },
+  {
+   "item_id": "cap_0127",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 1,
+   "par_lp_total": -0.5562,
+   "cf_lp_total": -6.3593,
+   "par_lp_pt": -0.2781,
+   "cf_lp_pt": -6.3593
+  },
+  {
+   "item_id": "cap_0128",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.3491,
+   "cf_lp_total": -8.4188,
+   "par_lp_pt": -0.1164,
+   "cf_lp_pt": -4.2094
+  },
+  {
+   "item_id": "cap_0129",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.5313,
+   "cf_lp_total": -2.4535,
+   "par_lp_pt": -0.1771,
+   "cf_lp_pt": -1.2267
+  },
+  {
+   "item_id": "cap_0130",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.486,
+   "cf_lp_total": -5.1196,
+   "par_lp_pt": -0.243,
+   "cf_lp_pt": -2.5598
+  },
+  {
+   "item_id": "cap_0131",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.3633,
+   "cf_lp_total": -6.355,
+   "par_lp_pt": -0.1816,
+   "cf_lp_pt": -2.1183
+  },
+  {
+   "item_id": "cap_0132",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.7403,
+   "cf_lp_total": -3.6257,
+   "par_lp_pt": -0.3701,
+   "cf_lp_pt": -1.8128
+  },
+  {
+   "item_id": "cap_0133",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 2,
+   "par_lp_total": -3.2246,
+   "cf_lp_total": -2.3899,
+   "par_lp_pt": -0.8062,
+   "cf_lp_pt": -1.195
+  },
+  {
+   "item_id": "cap_0134",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -1.3816,
+   "cf_lp_total": -7.6406,
+   "par_lp_pt": -0.4605,
+   "cf_lp_pt": -3.8203
+  },
+  {
+   "item_id": "cap_0135",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 2,
+   "par_lp_total": -0.6372,
+   "cf_lp_total": -7.0142,
+   "par_lp_pt": -0.1593,
+   "cf_lp_pt": -3.5071
+  },
+  {
+   "item_id": "cap_0136",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -1.2495,
+   "cf_lp_total": -5.5623,
+   "par_lp_pt": -0.4165,
+   "cf_lp_pt": -1.8541
+  },
+  {
+   "item_id": "cap_0137",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 3,
+   "par_lp_total": -0.2795,
+   "cf_lp_total": -7.8217,
+   "par_lp_pt": -0.2795,
+   "cf_lp_pt": -2.6072
+  },
+  {
+   "item_id": "cap_0138",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.4952,
+   "cf_lp_total": -7.1483,
+   "par_lp_pt": -0.2476,
+   "cf_lp_pt": -2.3828
+  },
+  {
+   "item_id": "cap_0139",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.5953,
+   "cf_lp_total": -5.1198,
+   "par_lp_pt": -0.2977,
+   "cf_lp_pt": -2.5599
+  },
+  {
+   "item_id": "cap_0140",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 1,
+   "par_lp_total": -0.413,
+   "cf_lp_total": -6.5958,
+   "par_lp_pt": -0.2065,
+   "cf_lp_pt": -6.5958
+  },
+  {
+   "item_id": "cap_0141",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.6287,
+   "cf_lp_total": -9.5656,
+   "par_lp_pt": -0.2096,
+   "cf_lp_pt": -3.1885
+  },
+  {
+   "item_id": "cap_0142",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 6,
+   "par_lp_total": -0.3832,
+   "cf_lp_total": -7.333,
+   "par_lp_pt": -0.1277,
+   "cf_lp_pt": -1.2222
+  },
+  {
+   "item_id": "cap_0143",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 2,
+   "par_lp_total": -0.6978,
+   "cf_lp_total": -4.3368,
+   "par_lp_pt": -0.6978,
+   "cf_lp_pt": -2.1684
+  },
+  {
+   "item_id": "cap_0144",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.464,
+   "cf_lp_total": -7.4477,
+   "par_lp_pt": -0.1547,
+   "cf_lp_pt": -3.7238
+  },
+  {
+   "item_id": "cap_0145",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -1.3112,
+   "cf_lp_total": -6.1755,
+   "par_lp_pt": -0.4371,
+   "cf_lp_pt": -1.5439
+  },
+  {
+   "item_id": "cap_0146",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.3995,
+   "cf_lp_total": -7.2462,
+   "par_lp_pt": -0.1998,
+   "cf_lp_pt": -2.4154
+  },
+  {
+   "item_id": "cap_0147",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.5841,
+   "cf_lp_total": -6.2296,
+   "par_lp_pt": -0.1947,
+   "cf_lp_pt": -1.5574
+  },
+  {
+   "item_id": "cap_0148",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 5,
+   "par_lp_total": -0.6141,
+   "cf_lp_total": -13.2329,
+   "par_lp_pt": -0.307,
+   "cf_lp_pt": -2.6466
+  },
+  {
+   "item_id": "cap_0149",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -1.0426,
+   "cf_lp_total": -5.2711,
+   "par_lp_pt": -0.3475,
+   "cf_lp_pt": -1.3178
+  },
+  {
+   "item_id": "cap_0150",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -1.5718,
+   "cf_lp_total": -7.1344,
+   "par_lp_pt": -0.3929,
+   "cf_lp_pt": -1.7836
+  },
+  {
+   "item_id": "cap_0151",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -0.5426,
+   "cf_lp_total": -4.7023,
+   "par_lp_pt": -0.1357,
+   "cf_lp_pt": -1.5674
+  },
+  {
+   "item_id": "cap_0152",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.7779,
+   "cf_lp_total": -9.1863,
+   "par_lp_pt": -0.3889,
+   "cf_lp_pt": -3.0621
+  },
+  {
+   "item_id": "cap_0153",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.4721,
+   "cf_lp_total": -6.9317,
+   "par_lp_pt": -0.236,
+   "cf_lp_pt": -2.3106
+  },
+  {
+   "item_id": "cap_0154",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 4,
+   "par_lp_total": -0.5099,
+   "cf_lp_total": -12.0077,
+   "par_lp_pt": -0.5099,
+   "cf_lp_pt": -3.0019
+  },
+  {
+   "item_id": "cap_0155",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 1,
+   "par_lp_total": -0.6574,
+   "cf_lp_total": -7.9055,
+   "par_lp_pt": -0.2191,
+   "cf_lp_pt": -7.9055
+  },
+  {
+   "item_id": "cap_0156",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 3,
+   "par_lp_total": -0.6456,
+   "cf_lp_total": -9.2188,
+   "par_lp_pt": -0.6456,
+   "cf_lp_pt": -3.0729
+  },
+  {
+   "item_id": "cap_0157",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.5988,
+   "cf_lp_total": -5.7129,
+   "par_lp_pt": -0.1996,
+   "cf_lp_pt": -1.9043
+  },
+  {
+   "item_id": "cap_0158",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -0.7804,
+   "cf_lp_total": -7.6674,
+   "par_lp_pt": -0.1951,
+   "cf_lp_pt": -2.5558
+  },
+  {
+   "item_id": "cap_0159",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.6924,
+   "cf_lp_total": -9.606,
+   "par_lp_pt": -0.2308,
+   "cf_lp_pt": -4.803
+  },
+  {
+   "item_id": "cap_0160",
+   "source": "country_capitals",
+   "n_par": 5,
+   "n_cf": 3,
+   "par_lp_total": -0.4099,
+   "cf_lp_total": -5.8083,
+   "par_lp_pt": -0.082,
+   "cf_lp_pt": -1.9361
+  },
+  {
+   "item_id": "cap_0162",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.5521,
+   "cf_lp_total": -9.4591,
+   "par_lp_pt": -0.2761,
+   "cf_lp_pt": -4.7295
+  },
+  {
+   "item_id": "cap_0163",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.3398,
+   "cf_lp_total": -4.9648,
+   "par_lp_pt": -0.3398,
+   "cf_lp_pt": -4.9648
+  },
+  {
+   "item_id": "cap_0164",
+   "source": "country_capitals",
+   "n_par": 17,
+   "n_cf": 2,
+   "par_lp_total": -26.5247,
+   "cf_lp_total": -8.217,
+   "par_lp_pt": -1.5603,
+   "cf_lp_pt": -4.1085
+  },
+  {
+   "item_id": "cap_0165",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -0.5002,
+   "cf_lp_total": -5.7798,
+   "par_lp_pt": -0.1251,
+   "cf_lp_pt": -1.4449
+  },
+  {
+   "item_id": "cap_0166",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 5,
+   "par_lp_total": -0.2053,
+   "cf_lp_total": -11.2374,
+   "par_lp_pt": -0.0513,
+   "cf_lp_pt": -2.2475
+  },
+  {
+   "item_id": "cap_0167",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -0.7156,
+   "cf_lp_total": -3.5839,
+   "par_lp_pt": -0.1789,
+   "cf_lp_pt": -1.1946
+  },
+  {
+   "item_id": "cap_0168",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 2,
+   "par_lp_total": -0.479,
+   "cf_lp_total": -8.0801,
+   "par_lp_pt": -0.479,
+   "cf_lp_pt": -4.04
+  },
+  {
+   "item_id": "cap_0169",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 2,
+   "par_lp_total": -0.9662,
+   "cf_lp_total": -2.8345,
+   "par_lp_pt": -0.9662,
+   "cf_lp_pt": -1.4172
+  },
+  {
+   "item_id": "cap_0170",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.4644,
+   "cf_lp_total": -5.3834,
+   "par_lp_pt": -0.1548,
+   "cf_lp_pt": -2.6917
+  },
+  {
+   "item_id": "cap_0171",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.7898,
+   "cf_lp_total": -5.6101,
+   "par_lp_pt": -0.2633,
+   "cf_lp_pt": -1.87
+  },
+  {
+   "item_id": "cap_0172",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -0.3998,
+   "cf_lp_total": -7.6988,
+   "par_lp_pt": -0.0999,
+   "cf_lp_pt": -1.9247
+  },
+  {
+   "item_id": "cap_0173",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -1.6359,
+   "cf_lp_total": -6.9674,
+   "par_lp_pt": -0.5453,
+   "cf_lp_pt": -2.3225
+  },
+  {
+   "item_id": "cap_0174",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.367,
+   "cf_lp_total": -7.8605,
+   "par_lp_pt": -0.1223,
+   "cf_lp_pt": -2.6202
+  },
+  {
+   "item_id": "cap_0175",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 4,
+   "par_lp_total": -1.9659,
+   "cf_lp_total": -9.8863,
+   "par_lp_pt": -0.983,
+   "cf_lp_pt": -2.4716
+  },
+  {
+   "item_id": "cap_0176",
+   "source": "country_capitals",
+   "n_par": 6,
+   "n_cf": 3,
+   "par_lp_total": -1.2865,
+   "cf_lp_total": -6.7231,
+   "par_lp_pt": -0.2144,
+   "cf_lp_pt": -2.241
+  },
+  {
+   "item_id": "cap_0177",
+   "source": "country_capitals",
+   "n_par": 6,
+   "n_cf": 2,
+   "par_lp_total": -2.4716,
+   "cf_lp_total": -6.3813,
+   "par_lp_pt": -0.4119,
+   "cf_lp_pt": -3.1906
+  },
+  {
+   "item_id": "cap_0178",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.6674,
+   "cf_lp_total": -8.2201,
+   "par_lp_pt": -0.3337,
+   "cf_lp_pt": -2.74
+  },
+  {
+   "item_id": "cap_0179",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.7361,
+   "cf_lp_total": -2.6186,
+   "par_lp_pt": -0.2454,
+   "cf_lp_pt": -0.8729
+  },
+  {
+   "item_id": "cap_0180",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -0.5711,
+   "cf_lp_total": -7.4675,
+   "par_lp_pt": -0.1428,
+   "cf_lp_pt": -1.8669
+  },
+  {
+   "item_id": "cap_0181",
+   "source": "country_capitals",
+   "n_par": 9,
+   "n_cf": 3,
+   "par_lp_total": -29.127,
+   "cf_lp_total": -8.6704,
+   "par_lp_pt": -3.2363,
+   "cf_lp_pt": -2.8901
+  },
+  {
+   "item_id": "cap_0182",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.3908,
+   "cf_lp_total": -4.7538,
+   "par_lp_pt": -0.1303,
+   "cf_lp_pt": -1.5846
+  },
+  {
+   "item_id": "cap_0183",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -1.1102,
+   "cf_lp_total": -7.8557,
+   "par_lp_pt": -0.5551,
+   "cf_lp_pt": -3.9279
+  },
+  {
+   "item_id": "cap_0184",
+   "source": "country_capitals",
+   "n_par": 5,
+   "n_cf": 2,
+   "par_lp_total": -0.6169,
+   "cf_lp_total": -2.9634,
+   "par_lp_pt": -0.1234,
+   "cf_lp_pt": -1.4817
+  },
+  {
+   "item_id": "cap_0185",
+   "source": "country_capitals",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.2413,
+   "cf_lp_total": -8.5538,
+   "par_lp_pt": -0.2413,
+   "cf_lp_pt": -8.5538
+  },
+  {
+   "item_id": "cap_0186",
+   "source": "country_capitals",
+   "n_par": 6,
+   "n_cf": 2,
+   "par_lp_total": -1.9176,
+   "cf_lp_total": -7.5186,
+   "par_lp_pt": -0.3196,
+   "cf_lp_pt": -3.7593
+  },
+  {
+   "item_id": "cap_0187",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.3811,
+   "cf_lp_total": -8.5871,
+   "par_lp_pt": -0.1905,
+   "cf_lp_pt": -4.2935
+  },
+  {
+   "item_id": "cap_0188",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -0.5449,
+   "cf_lp_total": -5.8599,
+   "par_lp_pt": -0.1362,
+   "cf_lp_pt": -1.9533
+  },
+  {
+   "item_id": "cap_0189",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -1.8715,
+   "cf_lp_total": -6.9665,
+   "par_lp_pt": -0.4679,
+   "cf_lp_pt": -1.7416
+  },
+  {
+   "item_id": "cap_0190",
+   "source": "country_capitals",
+   "n_par": 4,
+   "n_cf": 5,
+   "par_lp_total": -1.5,
+   "cf_lp_total": -12.2771,
+   "par_lp_pt": -0.375,
+   "cf_lp_pt": -2.4554
+  },
+  {
+   "item_id": "cap_0191",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.8753,
+   "cf_lp_total": -7.6374,
+   "par_lp_pt": -0.2918,
+   "cf_lp_pt": -3.8187
+  },
+  {
+   "item_id": "cap_0192",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 5,
+   "par_lp_total": -0.7352,
+   "cf_lp_total": -3.8501,
+   "par_lp_pt": -0.2451,
+   "cf_lp_pt": -0.77
+  },
+  {
+   "item_id": "cap_0193",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -2.2942,
+   "cf_lp_total": -3.9945,
+   "par_lp_pt": -0.7647,
+   "cf_lp_pt": -1.9972
+  },
+  {
+   "item_id": "cap_0194",
+   "source": "country_capitals",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -0.7272,
+   "cf_lp_total": -7.342,
+   "par_lp_pt": -0.2424,
+   "cf_lp_pt": -3.671
+  },
+  {
+   "item_id": "cap_0195",
+   "source": "country_capitals",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.6289,
+   "cf_lp_total": -5.3257,
+   "par_lp_pt": -0.3145,
+   "cf_lp_pt": -1.7752
+  },
+  {
+   "item_id": "wf_0000",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -1.3217,
+   "cf_lp_total": -8.1342,
+   "par_lp_pt": -1.3217,
+   "cf_lp_pt": -8.1342
+  },
+  {
+   "item_id": "wf_0001",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 2,
+   "par_lp_total": -0.6594,
+   "cf_lp_total": -8.7199,
+   "par_lp_pt": -0.6594,
+   "cf_lp_pt": -4.36
+  },
+  {
+   "item_id": "wf_0002",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 1,
+   "par_lp_total": -0.8797,
+   "cf_lp_total": -1.6491,
+   "par_lp_pt": -0.2932,
+   "cf_lp_pt": -1.6491
+  },
+  {
+   "item_id": "wf_0003",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 1,
+   "par_lp_total": -2.1166,
+   "cf_lp_total": -2.8576,
+   "par_lp_pt": -1.0583,
+   "cf_lp_pt": -2.8576
+  },
+  {
+   "item_id": "wf_0004",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -5.8215,
+   "cf_lp_total": -5.664,
+   "par_lp_pt": -1.9405,
+   "cf_lp_pt": -2.832
+  },
+  {
+   "item_id": "wf_0005",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -1.6805,
+   "cf_lp_total": -8.9149,
+   "par_lp_pt": -1.6805,
+   "cf_lp_pt": -8.9149
+  },
+  {
+   "item_id": "wf_0006",
+   "source": "world_facts",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -1.0402,
+   "cf_lp_total": -5.3528,
+   "par_lp_pt": -0.2601,
+   "cf_lp_pt": -1.7843
+  },
+  {
+   "item_id": "wf_0007",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -1.1644,
+   "cf_lp_total": -2.5394,
+   "par_lp_pt": -1.1644,
+   "cf_lp_pt": -2.5394
+  },
+  {
+   "item_id": "wf_0008",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.3673,
+   "cf_lp_total": -7.8673,
+   "par_lp_pt": -0.3673,
+   "cf_lp_pt": -7.8673
+  },
+  {
+   "item_id": "wf_0009",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.7195,
+   "cf_lp_total": -6.4766,
+   "par_lp_pt": -0.3598,
+   "cf_lp_pt": -3.2383
+  },
+  {
+   "item_id": "wf_0010",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 2,
+   "par_lp_total": -0.3018,
+   "cf_lp_total": -7.1219,
+   "par_lp_pt": -0.3018,
+   "cf_lp_pt": -3.561
+  },
+  {
+   "item_id": "wf_0011",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.8009,
+   "cf_lp_total": -9.0509,
+   "par_lp_pt": -0.8009,
+   "cf_lp_pt": -9.0509
+  },
+  {
+   "item_id": "wf_0012",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -4.1065,
+   "cf_lp_total": -6.4172,
+   "par_lp_pt": -1.3688,
+   "cf_lp_pt": -1.6043
+  },
+  {
+   "item_id": "wf_0013",
+   "source": "world_facts",
+   "n_par": 5,
+   "n_cf": 3,
+   "par_lp_total": -2.8793,
+   "cf_lp_total": -10.6826,
+   "par_lp_pt": -0.5759,
+   "cf_lp_pt": -3.5609
+  },
+  {
+   "item_id": "wf_0015",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -2.6534,
+   "cf_lp_total": -5.4206,
+   "par_lp_pt": -1.3267,
+   "cf_lp_pt": -2.7103
+  },
+  {
+   "item_id": "wf_0016",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.4015,
+   "cf_lp_total": -7.8133,
+   "par_lp_pt": -0.2007,
+   "cf_lp_pt": -3.9067
+  },
+  {
+   "item_id": "wf_0017",
+   "source": "world_facts",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -2.6637,
+   "cf_lp_total": -7.6737,
+   "par_lp_pt": -0.6659,
+   "cf_lp_pt": -1.9184
+  },
+  {
+   "item_id": "wf_0018",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.6841,
+   "cf_lp_total": -6.6216,
+   "par_lp_pt": -0.6841,
+   "cf_lp_pt": -6.6216
+  },
+  {
+   "item_id": "wf_0019",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -1.1751,
+   "cf_lp_total": -5.9876,
+   "par_lp_pt": -1.1751,
+   "cf_lp_pt": -5.9876
+  },
+  {
+   "item_id": "wf_0020",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -1.3275,
+   "cf_lp_total": -6.3935,
+   "par_lp_pt": -0.4425,
+   "cf_lp_pt": -2.1312
+  },
+  {
+   "item_id": "wf_0021",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -1.3301,
+   "cf_lp_total": -7.7051,
+   "par_lp_pt": -1.3301,
+   "cf_lp_pt": -7.7051
+  },
+  {
+   "item_id": "wf_0022",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.4302,
+   "cf_lp_total": -5.8677,
+   "par_lp_pt": -0.4302,
+   "cf_lp_pt": -5.8677
+  },
+  {
+   "item_id": "wf_0023",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -1.413,
+   "cf_lp_total": -7.102,
+   "par_lp_pt": -0.471,
+   "cf_lp_pt": -3.551
+  },
+  {
+   "item_id": "wf_0024",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.3826,
+   "cf_lp_total": -4.1951,
+   "par_lp_pt": -0.3826,
+   "cf_lp_pt": -4.1951
+  },
+  {
+   "item_id": "wf_0025",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 3,
+   "par_lp_total": -0.7834,
+   "cf_lp_total": -6.9045,
+   "par_lp_pt": -0.7834,
+   "cf_lp_pt": -2.3015
+  },
+  {
+   "item_id": "wf_0026",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.5202,
+   "cf_lp_total": -6.0827,
+   "par_lp_pt": -0.5202,
+   "cf_lp_pt": -6.0827
+  },
+  {
+   "item_id": "wf_0027",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 1,
+   "par_lp_total": -0.6065,
+   "cf_lp_total": -7.5697,
+   "par_lp_pt": -0.3033,
+   "cf_lp_pt": -7.5697
+  },
+  {
+   "item_id": "wf_0028",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 3,
+   "par_lp_total": -1.4432,
+   "cf_lp_total": -6.1372,
+   "par_lp_pt": -1.4432,
+   "cf_lp_pt": -2.0457
+  },
+  {
+   "item_id": "wf_0029",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 2,
+   "par_lp_total": -5.2258,
+   "cf_lp_total": -4.9556,
+   "par_lp_pt": -5.2258,
+   "cf_lp_pt": -2.4778
+  },
+  {
+   "item_id": "wf_0030",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -3.3802,
+   "cf_lp_total": -14.5677,
+   "par_lp_pt": -1.1267,
+   "cf_lp_pt": -4.8559
+  },
+  {
+   "item_id": "wf_0031",
+   "source": "world_facts",
+   "n_par": 5,
+   "n_cf": 6,
+   "par_lp_total": -1.2366,
+   "cf_lp_total": -6.3839,
+   "par_lp_pt": -0.2473,
+   "cf_lp_pt": -1.064
+  },
+  {
+   "item_id": "wf_0032",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -1.55,
+   "cf_lp_total": -6.839,
+   "par_lp_pt": -0.5167,
+   "cf_lp_pt": -3.4195
+  },
+  {
+   "item_id": "wf_0033",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -1.2815,
+   "cf_lp_total": -8.1782,
+   "par_lp_pt": -0.4272,
+   "cf_lp_pt": -2.0446
+  },
+  {
+   "item_id": "wf_0034",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 2,
+   "par_lp_total": -0.3977,
+   "cf_lp_total": -7.8297,
+   "par_lp_pt": -0.3977,
+   "cf_lp_pt": -3.9148
+  },
+  {
+   "item_id": "wf_0035",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.6258,
+   "cf_lp_total": -5.1258,
+   "par_lp_pt": -0.6258,
+   "cf_lp_pt": -5.1258
+  },
+  {
+   "item_id": "wf_0036",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 3,
+   "par_lp_total": -1.1431,
+   "cf_lp_total": -6.7094,
+   "par_lp_pt": -1.1431,
+   "cf_lp_pt": -2.2365
+  },
+  {
+   "item_id": "wf_0037",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 5,
+   "par_lp_total": -2.0707,
+   "cf_lp_total": -4.9554,
+   "par_lp_pt": -0.6902,
+   "cf_lp_pt": -0.9911
+  },
+  {
+   "item_id": "wf_0038",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -2.8489,
+   "cf_lp_total": -3.4569,
+   "par_lp_pt": -1.4245,
+   "cf_lp_pt": -1.7284
+  },
+  {
+   "item_id": "wf_0039",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -2.0202,
+   "cf_lp_total": -6.8952,
+   "par_lp_pt": -1.0101,
+   "cf_lp_pt": -3.4476
+  },
+  {
+   "item_id": "wf_0040",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -1.4847,
+   "cf_lp_total": -2.1097,
+   "par_lp_pt": -1.4847,
+   "cf_lp_pt": -2.1097
+  },
+  {
+   "item_id": "wf_0041",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.5676,
+   "cf_lp_total": -7.7551,
+   "par_lp_pt": -0.5676,
+   "cf_lp_pt": -7.7551
+  },
+  {
+   "item_id": "wf_0042",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 1,
+   "par_lp_total": -1.0845,
+   "cf_lp_total": -9.2385,
+   "par_lp_pt": -0.5422,
+   "cf_lp_pt": -9.2385
+  },
+  {
+   "item_id": "wf_0043",
+   "source": "world_facts",
+   "n_par": 6,
+   "n_cf": 3,
+   "par_lp_total": -1.0105,
+   "cf_lp_total": -6.4899,
+   "par_lp_pt": -0.1684,
+   "cf_lp_pt": -2.1633
+  },
+  {
+   "item_id": "wf_0044",
+   "source": "world_facts",
+   "n_par": 8,
+   "n_cf": 7,
+   "par_lp_total": -7.4745,
+   "cf_lp_total": -7.818,
+   "par_lp_pt": -0.9343,
+   "cf_lp_pt": -1.1169
+  },
+  {
+   "item_id": "wf_0045",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.775,
+   "cf_lp_total": -7.7117,
+   "par_lp_pt": -0.2583,
+   "cf_lp_pt": -2.5706
+  },
+  {
+   "item_id": "wf_0046",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.5112,
+   "cf_lp_total": -5.7056,
+   "par_lp_pt": -0.2556,
+   "cf_lp_pt": -2.8528
+  },
+  {
+   "item_id": "wf_0047",
+   "source": "world_facts",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -2.3172,
+   "cf_lp_total": -10.9208,
+   "par_lp_pt": -0.5793,
+   "cf_lp_pt": -3.6403
+  },
+  {
+   "item_id": "wf_0048",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -1.1268,
+   "cf_lp_total": -5.7518,
+   "par_lp_pt": -1.1268,
+   "cf_lp_pt": -5.7518
+  },
+  {
+   "item_id": "wf_0049",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -1.5884,
+   "cf_lp_total": -6.9099,
+   "par_lp_pt": -0.7942,
+   "cf_lp_pt": -3.4549
+  },
+  {
+   "item_id": "wf_0050",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.4657,
+   "cf_lp_total": -5.9657,
+   "par_lp_pt": -0.4657,
+   "cf_lp_pt": -5.9657
+  },
+  {
+   "item_id": "wf_0051",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 1,
+   "par_lp_total": -0.4743,
+   "cf_lp_total": -6.7221,
+   "par_lp_pt": -0.2371,
+   "cf_lp_pt": -6.7221
+  },
+  {
+   "item_id": "wf_0052",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -1.7995,
+   "cf_lp_total": -5.7286,
+   "par_lp_pt": -0.8998,
+   "cf_lp_pt": -2.8643
+  },
+  {
+   "item_id": "wf_0053",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 3,
+   "par_lp_total": -0.5059,
+   "cf_lp_total": -5.9166,
+   "par_lp_pt": -0.5059,
+   "cf_lp_pt": -1.9722
+  },
+  {
+   "item_id": "wf_0054",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -1.8215,
+   "cf_lp_total": -2.9465,
+   "par_lp_pt": -1.8215,
+   "cf_lp_pt": -2.9465
+  },
+  {
+   "item_id": "wf_0055",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.6328,
+   "cf_lp_total": -7.3203,
+   "par_lp_pt": -0.6328,
+   "cf_lp_pt": -7.3203
+  },
+  {
+   "item_id": "wf_0056",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -1.7929,
+   "cf_lp_total": -5.1663,
+   "par_lp_pt": -0.5976,
+   "cf_lp_pt": -2.5832
+  },
+  {
+   "item_id": "wf_0057",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 1,
+   "par_lp_total": -1.6212,
+   "cf_lp_total": -2.4175,
+   "par_lp_pt": -0.8106,
+   "cf_lp_pt": -2.4175
+  },
+  {
+   "item_id": "wf_0058",
+   "source": "world_facts",
+   "n_par": 7,
+   "n_cf": 6,
+   "par_lp_total": -1.498,
+   "cf_lp_total": -14.1117,
+   "par_lp_pt": -0.214,
+   "cf_lp_pt": -2.3519
+  },
+  {
+   "item_id": "wf_0059",
+   "source": "world_facts",
+   "n_par": 4,
+   "n_cf": 7,
+   "par_lp_total": -0.6619,
+   "cf_lp_total": -6.3683,
+   "par_lp_pt": -0.1655,
+   "cf_lp_pt": -0.9098
+  },
+  {
+   "item_id": "wf_0060",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 2,
+   "par_lp_total": -2.5963,
+   "cf_lp_total": -1.41,
+   "par_lp_pt": -2.5963,
+   "cf_lp_pt": -0.705
+  },
+  {
+   "item_id": "wf_0061",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -1.5806,
+   "cf_lp_total": -8.6431,
+   "par_lp_pt": -0.7903,
+   "cf_lp_pt": -4.3216
+  },
+  {
+   "item_id": "wf_0062",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -1.6495,
+   "cf_lp_total": -5.1484,
+   "par_lp_pt": -0.8247,
+   "cf_lp_pt": -1.7161
+  },
+  {
+   "item_id": "wf_0063",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -1.9314,
+   "cf_lp_total": -2.821,
+   "par_lp_pt": -0.6438,
+   "cf_lp_pt": -1.4105
+  },
+  {
+   "item_id": "wf_0064",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -1.3762,
+   "cf_lp_total": -4.9412,
+   "par_lp_pt": -0.4587,
+   "cf_lp_pt": -2.4706
+  },
+  {
+   "item_id": "wf_0065",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 2,
+   "par_lp_total": -0.6938,
+   "cf_lp_total": -9.271,
+   "par_lp_pt": -0.6938,
+   "cf_lp_pt": -4.6355
+  },
+  {
+   "item_id": "wf_0066",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.634,
+   "cf_lp_total": -3.8567,
+   "par_lp_pt": -0.2113,
+   "cf_lp_pt": -0.9642
+  },
+  {
+   "item_id": "wf_0067",
+   "source": "world_facts",
+   "n_par": 9,
+   "n_cf": 5,
+   "par_lp_total": -8.3981,
+   "cf_lp_total": -13.4411,
+   "par_lp_pt": -0.9331,
+   "cf_lp_pt": -2.6882
+  },
+  {
+   "item_id": "wf_0068",
+   "source": "world_facts",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -0.8881,
+   "cf_lp_total": -8.7631,
+   "par_lp_pt": -0.1776,
+   "cf_lp_pt": -1.7526
+  },
+  {
+   "item_id": "wf_0069",
+   "source": "world_facts",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -3.6985,
+   "cf_lp_total": -4.8994,
+   "par_lp_pt": -0.9246,
+   "cf_lp_pt": -1.6331
+  },
+  {
+   "item_id": "wf_0070",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 5,
+   "par_lp_total": -0.8048,
+   "cf_lp_total": -10.0223,
+   "par_lp_pt": -0.2683,
+   "cf_lp_pt": -2.0045
+  },
+  {
+   "item_id": "wf_0071",
+   "source": "world_facts",
+   "n_par": 6,
+   "n_cf": 3,
+   "par_lp_total": -1.5244,
+   "cf_lp_total": -5.246,
+   "par_lp_pt": -0.2541,
+   "cf_lp_pt": -1.7487
+  },
+  {
+   "item_id": "wf_0072",
+   "source": "world_facts",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -0.7462,
+   "cf_lp_total": -9.3238,
+   "par_lp_pt": -0.1492,
+   "cf_lp_pt": -1.8648
+  },
+  {
+   "item_id": "wf_0073",
+   "source": "world_facts",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -4.1762,
+   "cf_lp_total": -8.2314,
+   "par_lp_pt": -0.8352,
+   "cf_lp_pt": -1.6463
+  },
+  {
+   "item_id": "wf_0074",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -1.227,
+   "cf_lp_total": -6.621,
+   "par_lp_pt": -0.409,
+   "cf_lp_pt": -2.207
+  },
+  {
+   "item_id": "wf_0075",
+   "source": "world_facts",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -0.9514,
+   "cf_lp_total": -9.3264,
+   "par_lp_pt": -0.1903,
+   "cf_lp_pt": -1.8653
+  },
+  {
+   "item_id": "wf_0076",
+   "source": "world_facts",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -0.5435,
+   "cf_lp_total": -11.742,
+   "par_lp_pt": -0.1359,
+   "cf_lp_pt": -2.9355
+  },
+  {
+   "item_id": "wf_0077",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.4211,
+   "cf_lp_total": -7.7336,
+   "par_lp_pt": -0.4211,
+   "cf_lp_pt": -7.7336
+  },
+  {
+   "item_id": "wf_0078",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -4.1632,
+   "cf_lp_total": -2.7553,
+   "par_lp_pt": -2.0816,
+   "cf_lp_pt": -1.3776
+  },
+  {
+   "item_id": "wf_0079",
+   "source": "world_facts",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -0.5404,
+   "cf_lp_total": -6.8963,
+   "par_lp_pt": -0.1081,
+   "cf_lp_pt": -1.3793
+  },
+  {
+   "item_id": "wf_0080",
+   "source": "world_facts",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -1.1502,
+   "cf_lp_total": -10.5866,
+   "par_lp_pt": -0.2876,
+   "cf_lp_pt": -2.6466
+  },
+  {
+   "item_id": "wf_0081",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -0.9473,
+   "cf_lp_total": -5.3223,
+   "par_lp_pt": -0.9473,
+   "cf_lp_pt": -5.3223
+  },
+  {
+   "item_id": "wf_0082",
+   "source": "world_facts",
+   "n_par": 6,
+   "n_cf": 10,
+   "par_lp_total": -2.4541,
+   "cf_lp_total": -12.8757,
+   "par_lp_pt": -0.409,
+   "cf_lp_pt": -1.2876
+  },
+  {
+   "item_id": "wf_0083",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -1.4648,
+   "cf_lp_total": -4.2891,
+   "par_lp_pt": -0.7324,
+   "cf_lp_pt": -2.1445
+  },
+  {
+   "item_id": "wf_0084",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -1.4297,
+   "cf_lp_total": -5.76,
+   "par_lp_pt": -0.7149,
+   "cf_lp_pt": -2.88
+  },
+  {
+   "item_id": "wf_0085",
+   "source": "world_facts",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -0.6111,
+   "cf_lp_total": -11.842,
+   "par_lp_pt": -0.1222,
+   "cf_lp_pt": -2.3684
+  },
+  {
+   "item_id": "wf_0086",
+   "source": "world_facts",
+   "n_par": 8,
+   "n_cf": 5,
+   "par_lp_total": -2.4527,
+   "cf_lp_total": -8.9905,
+   "par_lp_pt": -0.3066,
+   "cf_lp_pt": -1.7981
+  },
+  {
+   "item_id": "wf_0087",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -2.48,
+   "cf_lp_total": -8.5061,
+   "par_lp_pt": -0.8267,
+   "cf_lp_pt": -2.1265
+  },
+  {
+   "item_id": "wf_0088",
+   "source": "world_facts",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -0.8884,
+   "cf_lp_total": -11.0545,
+   "par_lp_pt": -0.1777,
+   "cf_lp_pt": -2.2109
+  },
+  {
+   "item_id": "wf_0089",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -1.2792,
+   "cf_lp_total": -2.4635,
+   "par_lp_pt": -0.6396,
+   "cf_lp_pt": -0.8212
+  },
+  {
+   "item_id": "wf_0090",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -1.1024,
+   "cf_lp_total": -5.5531,
+   "par_lp_pt": -0.3675,
+   "cf_lp_pt": -2.7765
+  },
+  {
+   "item_id": "wf_0091",
+   "source": "world_facts",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -1.4347,
+   "cf_lp_total": -15.1311,
+   "par_lp_pt": -0.2869,
+   "cf_lp_pt": -3.0262
+  },
+  {
+   "item_id": "wf_0092",
+   "source": "world_facts",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -1.0396,
+   "cf_lp_total": -9.5396,
+   "par_lp_pt": -0.2079,
+   "cf_lp_pt": -1.9079
+  },
+  {
+   "item_id": "wf_0093",
+   "source": "world_facts",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -2.6116,
+   "cf_lp_total": -7.4862,
+   "par_lp_pt": -0.6529,
+   "cf_lp_pt": -2.4954
+  },
+  {
+   "item_id": "wf_0094",
+   "source": "world_facts",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -4.0437,
+   "cf_lp_total": -5.0927,
+   "par_lp_pt": -1.0109,
+   "cf_lp_pt": -1.2732
+  },
+  {
+   "item_id": "wf_0095",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.8213,
+   "cf_lp_total": -8.5581,
+   "par_lp_pt": -0.4106,
+   "cf_lp_pt": -4.2791
+  },
+  {
+   "item_id": "wf_0096",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -3.6303,
+   "cf_lp_total": -6.1546,
+   "par_lp_pt": -1.2101,
+   "cf_lp_pt": -3.0773
+  },
+  {
+   "item_id": "wf_0097",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 5,
+   "par_lp_total": -2.1099,
+   "cf_lp_total": -8.1752,
+   "par_lp_pt": -1.055,
+   "cf_lp_pt": -1.635
+  },
+  {
+   "item_id": "wf_0098",
+   "source": "world_facts",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -0.8066,
+   "cf_lp_total": -7.4931,
+   "par_lp_pt": -0.1613,
+   "cf_lp_pt": -1.4986
+  },
+  {
+   "item_id": "wf_0099",
+   "source": "world_facts",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -1.4536,
+   "cf_lp_total": -11.4749,
+   "par_lp_pt": -0.3634,
+   "cf_lp_pt": -3.825
+  },
+  {
+   "item_id": "wf_0100",
+   "source": "world_facts",
+   "n_par": 5,
+   "n_cf": 2,
+   "par_lp_total": -2.0839,
+   "cf_lp_total": -16.611,
+   "par_lp_pt": -0.4168,
+   "cf_lp_pt": -8.3055
+  },
+  {
+   "item_id": "wf_0101",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -2.0637,
+   "cf_lp_total": -7.1594,
+   "par_lp_pt": -0.6879,
+   "cf_lp_pt": -3.5797
+  },
+  {
+   "item_id": "wf_0102",
+   "source": "world_facts",
+   "n_par": 7,
+   "n_cf": 7,
+   "par_lp_total": -1.7671,
+   "cf_lp_total": -15.6708,
+   "par_lp_pt": -0.2524,
+   "cf_lp_pt": -2.2387
+  },
+  {
+   "item_id": "wf_0103",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.5844,
+   "cf_lp_total": -5.205,
+   "par_lp_pt": -0.2922,
+   "cf_lp_pt": -2.6025
+  },
+  {
+   "item_id": "wf_0104",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -1.7392,
+   "cf_lp_total": -10.7714,
+   "par_lp_pt": -0.5797,
+   "cf_lp_pt": -2.6929
+  },
+  {
+   "item_id": "wf_0105",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 6,
+   "par_lp_total": -1.1838,
+   "cf_lp_total": -7.7268,
+   "par_lp_pt": -0.3946,
+   "cf_lp_pt": -1.2878
+  },
+  {
+   "item_id": "wf_0106",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 5,
+   "par_lp_total": -1.4959,
+   "cf_lp_total": -9.3198,
+   "par_lp_pt": -0.4986,
+   "cf_lp_pt": -1.864
+  },
+  {
+   "item_id": "wf_0107",
+   "source": "world_facts",
+   "n_par": 1,
+   "n_cf": 1,
+   "par_lp_total": -1.1783,
+   "cf_lp_total": -6.6158,
+   "par_lp_pt": -1.1783,
+   "cf_lp_pt": -6.6158
+  },
+  {
+   "item_id": "wf_0108",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -1.6693,
+   "cf_lp_total": -6.7509,
+   "par_lp_pt": -0.5564,
+   "cf_lp_pt": -3.3754
+  },
+  {
+   "item_id": "wf_0109",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 1,
+   "par_lp_total": -1.4235,
+   "cf_lp_total": -6.1945,
+   "par_lp_pt": -0.7117,
+   "cf_lp_pt": -6.1945
+  },
+  {
+   "item_id": "wf_0110",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 6,
+   "par_lp_total": -1.8707,
+   "cf_lp_total": -7.1508,
+   "par_lp_pt": -0.6236,
+   "cf_lp_pt": -1.1918
+  },
+  {
+   "item_id": "wf_0111",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -0.4485,
+   "cf_lp_total": -5.5112,
+   "par_lp_pt": -0.2242,
+   "cf_lp_pt": -2.7556
+  },
+  {
+   "item_id": "wf_0112",
+   "source": "world_facts",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -0.7001,
+   "cf_lp_total": -7.9559,
+   "par_lp_pt": -0.14,
+   "cf_lp_pt": -1.5912
+  },
+  {
+   "item_id": "wf_0113",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 2,
+   "par_lp_total": -2.3769,
+   "cf_lp_total": -7.8205,
+   "par_lp_pt": -1.1885,
+   "cf_lp_pt": -3.9102
+  },
+  {
+   "item_id": "wf_0114",
+   "source": "world_facts",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -4.0764,
+   "cf_lp_total": -4.238,
+   "par_lp_pt": -1.3588,
+   "cf_lp_pt": -1.4127
+  },
+  {
+   "item_id": "wf_0115",
+   "source": "world_facts",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -1.2239,
+   "cf_lp_total": -3.6665,
+   "par_lp_pt": -0.6119,
+   "cf_lp_pt": -1.2222
+  },
+  {
+   "item_id": "bio_0000",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -1.1576,
+   "cf_lp_total": -14.6768,
+   "par_lp_pt": -0.2315,
+   "cf_lp_pt": -2.9354
+  },
+  {
+   "item_id": "bio_0001",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.5884,
+   "cf_lp_total": -18.5616,
+   "par_lp_pt": -0.1961,
+   "cf_lp_pt": -4.6404
+  },
+  {
+   "item_id": "bio_0002",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 4,
+   "par_lp_total": -1.4388,
+   "cf_lp_total": -17.6761,
+   "par_lp_pt": -0.2878,
+   "cf_lp_pt": -4.419
+  },
+  {
+   "item_id": "bio_0003",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.409,
+   "cf_lp_total": -18.4296,
+   "par_lp_pt": -0.1363,
+   "cf_lp_pt": -4.6074
+  },
+  {
+   "item_id": "bio_0004",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.2722,
+   "cf_lp_total": -18.2294,
+   "par_lp_pt": -0.0907,
+   "cf_lp_pt": -4.5573
+  },
+  {
+   "item_id": "bio_0005",
+   "source": "famous_biographies",
+   "n_par": 6,
+   "n_cf": 4,
+   "par_lp_total": -1.5298,
+   "cf_lp_total": -12.7741,
+   "par_lp_pt": -0.255,
+   "cf_lp_pt": -3.1935
+  },
+  {
+   "item_id": "bio_0006",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -2.1405,
+   "cf_lp_total": -16.8284,
+   "par_lp_pt": -0.7135,
+   "cf_lp_pt": -4.2071
+  },
+  {
+   "item_id": "bio_0007",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.4004,
+   "cf_lp_total": -18.4313,
+   "par_lp_pt": -0.1335,
+   "cf_lp_pt": -4.6078
+  },
+  {
+   "item_id": "bio_0010",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -1.2638,
+   "cf_lp_total": -7.3576,
+   "par_lp_pt": -0.4213,
+   "cf_lp_pt": -2.4525
+  },
+  {
+   "item_id": "bio_0011",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -0.7042,
+   "cf_lp_total": -19.2399,
+   "par_lp_pt": -0.176,
+   "cf_lp_pt": -6.4133
+  },
+  {
+   "item_id": "bio_0012",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 4,
+   "par_lp_total": -0.7929,
+   "cf_lp_total": -20.4956,
+   "par_lp_pt": -0.1586,
+   "cf_lp_pt": -5.1239
+  },
+  {
+   "item_id": "bio_0013",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 5,
+   "par_lp_total": -1.2745,
+   "cf_lp_total": -13.0384,
+   "par_lp_pt": -0.4248,
+   "cf_lp_pt": -2.6077
+  },
+  {
+   "item_id": "bio_0014",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 3,
+   "par_lp_total": -1.1028,
+   "cf_lp_total": -20.413,
+   "par_lp_pt": -0.2206,
+   "cf_lp_pt": -6.8043
+  },
+  {
+   "item_id": "bio_0015",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 7,
+   "par_lp_total": -0.8942,
+   "cf_lp_total": -18.8264,
+   "par_lp_pt": -0.1788,
+   "cf_lp_pt": -2.6895
+  },
+  {
+   "item_id": "bio_0016",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -0.3101,
+   "cf_lp_total": -18.4564,
+   "par_lp_pt": -0.0775,
+   "cf_lp_pt": -4.6141
+  },
+  {
+   "item_id": "bio_0017",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 6,
+   "par_lp_total": -2.1211,
+   "cf_lp_total": -16.3643,
+   "par_lp_pt": -0.707,
+   "cf_lp_pt": -2.7274
+  },
+  {
+   "item_id": "bio_0018",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 6,
+   "par_lp_total": -1.1339,
+   "cf_lp_total": -11.694,
+   "par_lp_pt": -0.2835,
+   "cf_lp_pt": -1.949
+  },
+  {
+   "item_id": "bio_0019",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 3,
+   "par_lp_total": -1.1696,
+   "cf_lp_total": -13.6607,
+   "par_lp_pt": -0.2339,
+   "cf_lp_pt": -4.5536
+  },
+  {
+   "item_id": "bio_0020",
+   "source": "famous_biographies",
+   "n_par": 6,
+   "n_cf": 3,
+   "par_lp_total": -1.5853,
+   "cf_lp_total": -14.434,
+   "par_lp_pt": -0.2642,
+   "cf_lp_pt": -4.8113
+  },
+  {
+   "item_id": "bio_0021",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -1.2061,
+   "cf_lp_total": -15.3657,
+   "par_lp_pt": -0.402,
+   "cf_lp_pt": -5.1219
+  },
+  {
+   "item_id": "bio_0022",
+   "source": "famous_biographies",
+   "n_par": 10,
+   "n_cf": 5,
+   "par_lp_total": -2.5645,
+   "cf_lp_total": -6.5026,
+   "par_lp_pt": -0.2564,
+   "cf_lp_pt": -1.3005
+  },
+  {
+   "item_id": "bio_0023",
+   "source": "famous_biographies",
+   "n_par": 6,
+   "n_cf": 4,
+   "par_lp_total": -1.105,
+   "cf_lp_total": -11.3632,
+   "par_lp_pt": -0.1842,
+   "cf_lp_pt": -2.8408
+  },
+  {
+   "item_id": "bio_0024",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -0.2556,
+   "cf_lp_total": -20.9289,
+   "par_lp_pt": -0.0639,
+   "cf_lp_pt": -6.9763
+  },
+  {
+   "item_id": "bio_0025",
+   "source": "famous_biographies",
+   "n_par": 2,
+   "n_cf": 4,
+   "par_lp_total": -1.3201,
+   "cf_lp_total": -17.5626,
+   "par_lp_pt": -0.66,
+   "cf_lp_pt": -4.3906
+  },
+  {
+   "item_id": "bio_0026",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -2.544,
+   "cf_lp_total": -15.8908,
+   "par_lp_pt": -0.636,
+   "cf_lp_pt": -3.9727
+  },
+  {
+   "item_id": "bio_0027",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 3,
+   "par_lp_total": -0.7478,
+   "cf_lp_total": -16.0177,
+   "par_lp_pt": -0.1496,
+   "cf_lp_pt": -5.3392
+  },
+  {
+   "item_id": "bio_0028",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -1.5635,
+   "cf_lp_total": -14.6501,
+   "par_lp_pt": -0.3909,
+   "cf_lp_pt": -3.6625
+  },
+  {
+   "item_id": "bio_0029",
+   "source": "famous_biographies",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.7369,
+   "cf_lp_total": -15.9693,
+   "par_lp_pt": -0.3685,
+   "cf_lp_pt": -5.3231
+  },
+  {
+   "item_id": "bio_0030",
+   "source": "famous_biographies",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.5446,
+   "cf_lp_total": -16.3441,
+   "par_lp_pt": -0.2723,
+   "cf_lp_pt": -5.448
+  },
+  {
+   "item_id": "bio_0031",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 6,
+   "par_lp_total": -0.4847,
+   "cf_lp_total": -19.8952,
+   "par_lp_pt": -0.1212,
+   "cf_lp_pt": -3.3159
+  },
+  {
+   "item_id": "bio_0032",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 5,
+   "par_lp_total": -0.4988,
+   "cf_lp_total": -17.1503,
+   "par_lp_pt": -0.1663,
+   "cf_lp_pt": -3.4301
+  },
+  {
+   "item_id": "bio_0033",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.7307,
+   "cf_lp_total": -9.4262,
+   "par_lp_pt": -0.2436,
+   "cf_lp_pt": -3.1421
+  },
+  {
+   "item_id": "bio_0034",
+   "source": "famous_biographies",
+   "n_par": 7,
+   "n_cf": 5,
+   "par_lp_total": -2.2727,
+   "cf_lp_total": -13.842,
+   "par_lp_pt": -0.3247,
+   "cf_lp_pt": -2.7684
+  },
+  {
+   "item_id": "bio_0035",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 3,
+   "par_lp_total": -1.3098,
+   "cf_lp_total": -16.4665,
+   "par_lp_pt": -0.262,
+   "cf_lp_pt": -5.4888
+  },
+  {
+   "item_id": "bio_0036",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.486,
+   "cf_lp_total": -9.1323,
+   "par_lp_pt": -0.162,
+   "cf_lp_pt": -2.2831
+  },
+  {
+   "item_id": "bio_0037",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 3,
+   "par_lp_total": -0.7932,
+   "cf_lp_total": -12.335,
+   "par_lp_pt": -0.1586,
+   "cf_lp_pt": -4.1117
+  },
+  {
+   "item_id": "bio_0038",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -0.5499,
+   "cf_lp_total": -12.1102,
+   "par_lp_pt": -0.1375,
+   "cf_lp_pt": -3.0276
+  },
+  {
+   "item_id": "bio_0039",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.5529,
+   "cf_lp_total": -20.5006,
+   "par_lp_pt": -0.1843,
+   "cf_lp_pt": -5.1252
+  },
+  {
+   "item_id": "bio_0040",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 3,
+   "par_lp_total": -0.9737,
+   "cf_lp_total": -9.3711,
+   "par_lp_pt": -0.1947,
+   "cf_lp_pt": -3.1237
+  },
+  {
+   "item_id": "bio_0041",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.7275,
+   "cf_lp_total": -14.9495,
+   "par_lp_pt": -0.2425,
+   "cf_lp_pt": -4.9832
+  },
+  {
+   "item_id": "bio_0042",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -0.752,
+   "cf_lp_total": -19.1132,
+   "par_lp_pt": -0.188,
+   "cf_lp_pt": -6.3711
+  },
+  {
+   "item_id": "bio_0043",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 2,
+   "par_lp_total": -1.2229,
+   "cf_lp_total": -15.8384,
+   "par_lp_pt": -0.2446,
+   "cf_lp_pt": -7.9192
+  },
+  {
+   "item_id": "bio_0044",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.6276,
+   "cf_lp_total": -14.9638,
+   "par_lp_pt": -0.2092,
+   "cf_lp_pt": -3.7409
+  },
+  {
+   "item_id": "bio_0045",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 5,
+   "par_lp_total": -0.3667,
+   "cf_lp_total": -15.2871,
+   "par_lp_pt": -0.1222,
+   "cf_lp_pt": -3.0574
+  },
+  {
+   "item_id": "bio_0046",
+   "source": "famous_biographies",
+   "n_par": 9,
+   "n_cf": 3,
+   "par_lp_total": -1.7486,
+   "cf_lp_total": -13.3236,
+   "par_lp_pt": -0.1943,
+   "cf_lp_pt": -4.4412
+  },
+  {
+   "item_id": "bio_0047",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -0.7896,
+   "cf_lp_total": -12.711,
+   "par_lp_pt": -0.1974,
+   "cf_lp_pt": -3.1777
+  },
+  {
+   "item_id": "bio_0048",
+   "source": "famous_biographies",
+   "n_par": 6,
+   "n_cf": 5,
+   "par_lp_total": -1.0239,
+   "cf_lp_total": -14.3707,
+   "par_lp_pt": -0.1707,
+   "cf_lp_pt": -2.8741
+  },
+  {
+   "item_id": "bio_0049",
+   "source": "famous_biographies",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.3521,
+   "cf_lp_total": -17.4362,
+   "par_lp_pt": -0.176,
+   "cf_lp_pt": -5.8121
+  },
+  {
+   "item_id": "bio_0050",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 10,
+   "par_lp_total": -0.7199,
+   "cf_lp_total": -14.7478,
+   "par_lp_pt": -0.18,
+   "cf_lp_pt": -1.4748
+  },
+  {
+   "item_id": "bio_0051",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 10,
+   "par_lp_total": -0.6715,
+   "cf_lp_total": -16.4995,
+   "par_lp_pt": -0.1343,
+   "cf_lp_pt": -1.6499
+  },
+  {
+   "item_id": "bio_0052",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 6,
+   "par_lp_total": -0.4142,
+   "cf_lp_total": -13.8115,
+   "par_lp_pt": -0.1381,
+   "cf_lp_pt": -2.3019
+  },
+  {
+   "item_id": "bio_0053",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -0.77,
+   "cf_lp_total": -18.8024,
+   "par_lp_pt": -0.1925,
+   "cf_lp_pt": -4.7006
+  },
+  {
+   "item_id": "bio_0054",
+   "source": "famous_biographies",
+   "n_par": 6,
+   "n_cf": 5,
+   "par_lp_total": -1.7048,
+   "cf_lp_total": -24.6037,
+   "par_lp_pt": -0.2841,
+   "cf_lp_pt": -4.9207
+  },
+  {
+   "item_id": "bio_0055",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 3,
+   "par_lp_total": -1.3789,
+   "cf_lp_total": -16.0933,
+   "par_lp_pt": -0.2758,
+   "cf_lp_pt": -5.3644
+  },
+  {
+   "item_id": "bio_0056",
+   "source": "famous_biographies",
+   "n_par": 2,
+   "n_cf": 5,
+   "par_lp_total": -0.7484,
+   "cf_lp_total": -19.3991,
+   "par_lp_pt": -0.3742,
+   "cf_lp_pt": -3.8798
+  },
+  {
+   "item_id": "bio_0057",
+   "source": "famous_biographies",
+   "n_par": 2,
+   "n_cf": 4,
+   "par_lp_total": -0.6163,
+   "cf_lp_total": -19.2925,
+   "par_lp_pt": -0.3081,
+   "cf_lp_pt": -4.8231
+  },
+  {
+   "item_id": "bio_0058",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 4,
+   "par_lp_total": -1.0612,
+   "cf_lp_total": -19.5275,
+   "par_lp_pt": -0.2122,
+   "cf_lp_pt": -4.8819
+  },
+  {
+   "item_id": "bio_0059",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 5,
+   "par_lp_total": -1.0322,
+   "cf_lp_total": -15.292,
+   "par_lp_pt": -0.3441,
+   "cf_lp_pt": -3.0584
+  },
+  {
+   "item_id": "bio_0060",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 4,
+   "par_lp_total": -1.7793,
+   "cf_lp_total": -15.2121,
+   "par_lp_pt": -0.3559,
+   "cf_lp_pt": -3.803
+  },
+  {
+   "item_id": "bio_0061",
+   "source": "famous_biographies",
+   "n_par": 7,
+   "n_cf": 3,
+   "par_lp_total": -1.4568,
+   "cf_lp_total": -17.0259,
+   "par_lp_pt": -0.2081,
+   "cf_lp_pt": -5.6753
+  },
+  {
+   "item_id": "bio_0062",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 5,
+   "par_lp_total": -2.3015,
+   "cf_lp_total": -18.149,
+   "par_lp_pt": -0.5754,
+   "cf_lp_pt": -3.6298
+  },
+  {
+   "item_id": "bio_0063",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 5,
+   "par_lp_total": -0.9303,
+   "cf_lp_total": -23.8643,
+   "par_lp_pt": -0.2326,
+   "cf_lp_pt": -4.7729
+  },
+  {
+   "item_id": "bio_0064",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -1.5815,
+   "cf_lp_total": -16.655,
+   "par_lp_pt": -0.3954,
+   "cf_lp_pt": -4.1638
+  },
+  {
+   "item_id": "bio_0065",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 9,
+   "par_lp_total": -1.243,
+   "cf_lp_total": -18.6009,
+   "par_lp_pt": -0.4143,
+   "cf_lp_pt": -2.0668
+  },
+  {
+   "item_id": "bio_0066",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -1.5848,
+   "cf_lp_total": -15.9128,
+   "par_lp_pt": -0.5283,
+   "cf_lp_pt": -5.3043
+  },
+  {
+   "item_id": "bio_0067",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -2.0642,
+   "cf_lp_total": -12.4542,
+   "par_lp_pt": -0.6881,
+   "cf_lp_pt": -4.1514
+  },
+  {
+   "item_id": "bio_0068",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 3,
+   "par_lp_total": -0.9662,
+   "cf_lp_total": -16.3952,
+   "par_lp_pt": -0.1932,
+   "cf_lp_pt": -5.4651
+  },
+  {
+   "item_id": "bio_0069",
+   "source": "famous_biographies",
+   "n_par": 2,
+   "n_cf": 4,
+   "par_lp_total": -1.0214,
+   "cf_lp_total": -16.2498,
+   "par_lp_pt": -0.5107,
+   "cf_lp_pt": -4.0624
+  },
+  {
+   "item_id": "bio_0070",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -0.9229,
+   "cf_lp_total": -16.7485,
+   "par_lp_pt": -0.2307,
+   "cf_lp_pt": -5.5828
+  },
+  {
+   "item_id": "bio_0071",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -0.5052,
+   "cf_lp_total": -20.0504,
+   "par_lp_pt": -0.1263,
+   "cf_lp_pt": -5.0126
+  },
+  {
+   "item_id": "bio_0072",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -1.1617,
+   "cf_lp_total": -9.695,
+   "par_lp_pt": -0.2904,
+   "cf_lp_pt": -2.4237
+  },
+  {
+   "item_id": "bio_0073",
+   "source": "famous_biographies",
+   "n_par": 7,
+   "n_cf": 5,
+   "par_lp_total": -1.5039,
+   "cf_lp_total": -16.0453,
+   "par_lp_pt": -0.2148,
+   "cf_lp_pt": -3.2091
+  },
+  {
+   "item_id": "bio_0074",
+   "source": "famous_biographies",
+   "n_par": 6,
+   "n_cf": 3,
+   "par_lp_total": -1.1562,
+   "cf_lp_total": -17.2769,
+   "par_lp_pt": -0.1927,
+   "cf_lp_pt": -5.759
+  },
+  {
+   "item_id": "bio_0075",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -2.1203,
+   "cf_lp_total": -13.8304,
+   "par_lp_pt": -0.7068,
+   "cf_lp_pt": -4.6101
+  },
+  {
+   "item_id": "bio_0076",
+   "source": "famous_biographies",
+   "n_par": 6,
+   "n_cf": 4,
+   "par_lp_total": -1.1609,
+   "cf_lp_total": -16.2292,
+   "par_lp_pt": -0.1935,
+   "cf_lp_pt": -4.0573
+  },
+  {
+   "item_id": "bio_0077",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 3,
+   "par_lp_total": -1.9344,
+   "cf_lp_total": -18.075,
+   "par_lp_pt": -0.3869,
+   "cf_lp_pt": -6.025
+  },
+  {
+   "item_id": "bio_0079",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 3,
+   "par_lp_total": -5.1451,
+   "cf_lp_total": -14.971,
+   "par_lp_pt": -1.029,
+   "cf_lp_pt": -4.9903
+  },
+  {
+   "item_id": "bio_0080",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -2.0383,
+   "cf_lp_total": -16.3563,
+   "par_lp_pt": -0.6794,
+   "cf_lp_pt": -5.4521
+  },
+  {
+   "item_id": "bio_0081",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -0.8204,
+   "cf_lp_total": -14.2965,
+   "par_lp_pt": -0.2735,
+   "cf_lp_pt": -4.7655
+  },
+  {
+   "item_id": "bio_0082",
+   "source": "famous_biographies",
+   "n_par": 2,
+   "n_cf": 6,
+   "par_lp_total": -1.5179,
+   "cf_lp_total": -15.445,
+   "par_lp_pt": -0.7589,
+   "cf_lp_pt": -2.5742
+  },
+  {
+   "item_id": "bio_0083",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.7177,
+   "cf_lp_total": -15.1872,
+   "par_lp_pt": -0.2392,
+   "cf_lp_pt": -3.7968
+  },
+  {
+   "item_id": "bio_0085",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.6732,
+   "cf_lp_total": -21.1902,
+   "par_lp_pt": -0.2244,
+   "cf_lp_pt": -5.2976
+  },
+  {
+   "item_id": "bio_0086",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 3,
+   "par_lp_total": -1.8232,
+   "cf_lp_total": -6.8219,
+   "par_lp_pt": -0.6077,
+   "cf_lp_pt": -2.274
+  },
+  {
+   "item_id": "bio_0087",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -2.1767,
+   "cf_lp_total": -20.8759,
+   "par_lp_pt": -0.4353,
+   "cf_lp_pt": -4.1752
+  },
+  {
+   "item_id": "bio_0088",
+   "source": "famous_biographies",
+   "n_par": 1,
+   "n_cf": 3,
+   "par_lp_total": -2.3618,
+   "cf_lp_total": -12.0561,
+   "par_lp_pt": -2.3618,
+   "cf_lp_pt": -4.0187
+  },
+  {
+   "item_id": "bio_0089",
+   "source": "famous_biographies",
+   "n_par": 6,
+   "n_cf": 3,
+   "par_lp_total": -3.1287,
+   "cf_lp_total": -13.9566,
+   "par_lp_pt": -0.5214,
+   "cf_lp_pt": -4.6522
+  },
+  {
+   "item_id": "bio_0090",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -1.7646,
+   "cf_lp_total": -20.6392,
+   "par_lp_pt": -0.4412,
+   "cf_lp_pt": -6.8797
+  },
+  {
+   "item_id": "bio_0091",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 5,
+   "par_lp_total": -0.9031,
+   "cf_lp_total": -11.2963,
+   "par_lp_pt": -0.1806,
+   "cf_lp_pt": -2.2593
+  },
+  {
+   "item_id": "bio_0092",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -1.4422,
+   "cf_lp_total": -13.2317,
+   "par_lp_pt": -0.3606,
+   "cf_lp_pt": -4.4106
+  },
+  {
+   "item_id": "bio_0093",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 2,
+   "par_lp_total": -1.1854,
+   "cf_lp_total": -13.7655,
+   "par_lp_pt": -0.2963,
+   "cf_lp_pt": -6.8827
+  },
+  {
+   "item_id": "bio_0094",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -0.441,
+   "cf_lp_total": -13.8483,
+   "par_lp_pt": -0.147,
+   "cf_lp_pt": -3.4621
+  },
+  {
+   "item_id": "bio_0095",
+   "source": "famous_biographies",
+   "n_par": 7,
+   "n_cf": 5,
+   "par_lp_total": -2.1783,
+   "cf_lp_total": -14.574,
+   "par_lp_pt": -0.3112,
+   "cf_lp_pt": -2.9148
+  },
+  {
+   "item_id": "bio_0096",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -0.5177,
+   "cf_lp_total": -15.7836,
+   "par_lp_pt": -0.1294,
+   "cf_lp_pt": -5.2612
+  },
+  {
+   "item_id": "bio_0097",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 10,
+   "par_lp_total": -1.1294,
+   "cf_lp_total": -18.9892,
+   "par_lp_pt": -0.2823,
+   "cf_lp_pt": -1.8989
+  },
+  {
+   "item_id": "bio_0098",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 4,
+   "par_lp_total": -6.1736,
+   "cf_lp_total": -9.5549,
+   "par_lp_pt": -1.2347,
+   "cf_lp_pt": -2.3887
+  },
+  {
+   "item_id": "bio_0099",
+   "source": "famous_biographies",
+   "n_par": 2,
+   "n_cf": 3,
+   "par_lp_total": -0.4256,
+   "cf_lp_total": -16.1131,
+   "par_lp_pt": -0.2128,
+   "cf_lp_pt": -5.371
+  },
+  {
+   "item_id": "bio_0100",
+   "source": "famous_biographies",
+   "n_par": 6,
+   "n_cf": 3,
+   "par_lp_total": -1.9853,
+   "cf_lp_total": -14.8509,
+   "par_lp_pt": -0.3309,
+   "cf_lp_pt": -4.9503
+  },
+  {
+   "item_id": "bio_0101",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -2.1795,
+   "cf_lp_total": -17.856,
+   "par_lp_pt": -0.7265,
+   "cf_lp_pt": -4.464
+  },
+  {
+   "item_id": "bio_0102",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -1.3794,
+   "cf_lp_total": -14.7133,
+   "par_lp_pt": -0.3448,
+   "cf_lp_pt": -4.9044
+  },
+  {
+   "item_id": "bio_0104",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -1.4373,
+   "cf_lp_total": -16.9639,
+   "par_lp_pt": -0.4791,
+   "cf_lp_pt": -4.241
+  },
+  {
+   "item_id": "bio_0105",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 5,
+   "par_lp_total": -1.8559,
+   "cf_lp_total": -17.8748,
+   "par_lp_pt": -0.6186,
+   "cf_lp_pt": -3.575
+  },
+  {
+   "item_id": "bio_0106",
+   "source": "famous_biographies",
+   "n_par": 5,
+   "n_cf": 4,
+   "par_lp_total": -0.7721,
+   "cf_lp_total": -10.1206,
+   "par_lp_pt": -0.1544,
+   "cf_lp_pt": -2.5302
+  },
+  {
+   "item_id": "bio_0107",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 3,
+   "par_lp_total": -1.7581,
+   "cf_lp_total": -8.8074,
+   "par_lp_pt": -0.4395,
+   "cf_lp_pt": -2.9358
+  },
+  {
+   "item_id": "bio_0108",
+   "source": "famous_biographies",
+   "n_par": 4,
+   "n_cf": 4,
+   "par_lp_total": -2.6367,
+   "cf_lp_total": -13.8873,
+   "par_lp_pt": -0.6592,
+   "cf_lp_pt": -3.4718
+  },
+  {
+   "item_id": "bio_0109",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 4,
+   "par_lp_total": -1.3577,
+   "cf_lp_total": -15.0092,
+   "par_lp_pt": -0.4526,
+   "cf_lp_pt": -3.7523
+  },
+  {
+   "item_id": "bio_0110",
+   "source": "famous_biographies",
+   "n_par": 3,
+   "n_cf": 2,
+   "par_lp_total": -3.1056,
+   "cf_lp_total": -15.9119,
+   "par_lp_pt": -1.0352,
+   "cf_lp_pt": -7.956
+  }
+ ]
+}

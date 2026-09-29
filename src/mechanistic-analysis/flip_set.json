@@ -1,0 +1,6978 @@
+{
+ "tulu": {
+  "phases": {
+   "peak": 500,
+   "trough": 3150,
+   "recovery": 5000
+  },
+  "n_eligible": 405,
+  "groups": {
+   "stable_ctx": [
+    {
+     "item_id": "bio_0001",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0003",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0004",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0005",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0006",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0007",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0010",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0011",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0013",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0014",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0015",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0016",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0017",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0018",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0019",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0020",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0021",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0022",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0023",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0024",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0025",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0026",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0027",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0028",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0030",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0031",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0032",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0033",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0034",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "bio_0036",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0037",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0039",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "bio_0040",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0044",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0045",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0047",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0048",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0049",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "bio_0050",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0051",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0052",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0053",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0055",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0056",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0057",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0058",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0059",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0060",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0061",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0062",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0065",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0066",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0067",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0068",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "bio_0069",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0070",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0071",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0072",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0073",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0074",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0075",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0076",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0077",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0079",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0080",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0081",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0082",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0083",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0085",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0086",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0087",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0088",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0089",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0090",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0091",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0092",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0094",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0095",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0096",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0097",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0098",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0099",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0100",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0101",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0102",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0104",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0105",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0106",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0107",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0108",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0109",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0110",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0000",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0001",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0002",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0003",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0004",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0005",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0006",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0008",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0009",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0011",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0012",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0014",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0015",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0016",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0017",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0021",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0024",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0025",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0026",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0028",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0030",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0031",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0032",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0034",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0036",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0037",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0038",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0039",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0042",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0043",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0044",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0045",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0046",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0048",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0049",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0053",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0054",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0055",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0057",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0061",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0063",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0064",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0066",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0067",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0068",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0069",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0071",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0073",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0074",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0078",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0079",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0080",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0082",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0084",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0086",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0089",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0090",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0091",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0093",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0095",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0096",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0099",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0100",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0102",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0103",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0105",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0107",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0112",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0113",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0114",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0115",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0116",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0118",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0123",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0126",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0127",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0128",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0129",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0133",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0135",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0138",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0140",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0142",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0143",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0145",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0147",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0149",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0151",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0154",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0155",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0156",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0160",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0162",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0164",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0167",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0168",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0169",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0173",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0175",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0177",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0179",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0180",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0183",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0184",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0188",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0190",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0191",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0193",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0195",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0000",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0001",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0002",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0003",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0004",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0005",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0006",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0007",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0008",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0009",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0010",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0011",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0012",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0013",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0015",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0016",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0017",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0018",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0019",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0020",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0021",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0022",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0023",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0024",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0025",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0026",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0027",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0028",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0030",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0031",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0032",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0033",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0035",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0036",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0037",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0038",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0040",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0041",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0042",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0043",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0044",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0045",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0046",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0047",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0048",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0049",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0051",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0052",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0053",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0054",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0055",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0056",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0057",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0059",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0062",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0064",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0065",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0066",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0067",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0068",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0069",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0070",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0071",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0072",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0073",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0074",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0075",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0076",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0077",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0079",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0080",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0081",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0083",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0084",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0086",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0087",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0088",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0089",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0092",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0093",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0094",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0095",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0096",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0097",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0098",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0100",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0101",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0102",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0105",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0106",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0107",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0108",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0109",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0110",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0112",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0115",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX",
+      "recovery": "CTX"
+     },
+     "robust": true
+    }
+   ],
+   "flip_stuck": [
+    {
+     "item_id": "bio_0064",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0033",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0060",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0062",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0065",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0072",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0075",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0077",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0092",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0094",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0098",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0110",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0122",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0130",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0131",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0134",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0150",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0152",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0158",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0159",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0166",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0174",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0178",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0189",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0194",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "PAR"
+     },
+     "robust": true
+    }
+   ],
+   "flip_recovered": [
+    {
+     "item_id": "cap_0007",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0010",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0013",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0018",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0019",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0022",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0023",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0029",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0040",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0047",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0050",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0051",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0056",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0058",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0059",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0070",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0083",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0085",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0087",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0097",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0101",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0104",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0106",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0108",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0109",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0111",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0117",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0119",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0120",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0124",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0125",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0132",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0136",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0137",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0139",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0141",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0144",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0146",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0148",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0153",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0157",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0163",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0165",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0170",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0171",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0172",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0176",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0182",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0185",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0186",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0187",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0192",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0039",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "wf_0063",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0103",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR",
+      "recovery": "CTX"
+     },
+     "robust": false
+    }
+   ]
+  }
+ },
+ "alpaca": {
+  "phases": {
+   "peak": 100,
+   "trough": 700
+  },
+  "n_eligible": 402,
+  "groups": {
+   "stable_ctx": [
+    {
+     "item_id": "bio_0000",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0001",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0003",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "bio_0004",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0005",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0006",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0010",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0011",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0013",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0014",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0015",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0016",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0017",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0018",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0019",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0020",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0022",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0023",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0025",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0026",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0027",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0028",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0030",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0036",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0037",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0044",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "bio_0045",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0047",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0048",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0050",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0051",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0052",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0055",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0056",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0057",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0059",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0061",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0062",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0063",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0065",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0066",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0067",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0068",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0069",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0070",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0072",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0073",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0074",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0075",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0076",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0077",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0079",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0080",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0083",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "bio_0085",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0086",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0087",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0088",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0089",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0091",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0092",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0094",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0095",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0096",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0097",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0099",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0100",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0101",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0102",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "bio_0104",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0105",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0106",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0107",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0108",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "bio_0110",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0000",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0001",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0002",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0003",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0004",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0005",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0006",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0008",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0009",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0011",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0012",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0014",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0015",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0016",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0017",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0019",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0021",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0022",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0023",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0024",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0025",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0026",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0028",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0030",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0031",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0032",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0034",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0036",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0037",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0038",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0039",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0042",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0043",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0044",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0045",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0046",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0047",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0048",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0049",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0053",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0054",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0055",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0056",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0057",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0059",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0061",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0063",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0064",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0066",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0067",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0068",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0069",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0070",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0071",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0073",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0074",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0075",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0078",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0080",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0082",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0084",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0085",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0086",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0087",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0090",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0091",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0092",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0093",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0095",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0096",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0098",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0099",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0100",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0101",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0102",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0103",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0105",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0106",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0107",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0108",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0109",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0111",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0112",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0113",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0114",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0115",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0116",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0118",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0119",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0120",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0122",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0123",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0126",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0128",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0129",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0133",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0135",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0136",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0139",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0140",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0141",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0142",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0144",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0145",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0146",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0147",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0148",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0149",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0151",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0153",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0154",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0155",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0157",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0158",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0160",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0162",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0163",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0164",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0165",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0167",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0169",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0170",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0173",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0175",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0176",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0177",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0179",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0180",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0182",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0183",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0184",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0186",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0188",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0189",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0191",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0192",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0193",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0195",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0001",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0002",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0003",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0004",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0005",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0006",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0007",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0008",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0009",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0011",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0013",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0015",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0016",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0017",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0018",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0019",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0020",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0021",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0022",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0023",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0025",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0026",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0027",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0028",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0030",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0031",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0032",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0033",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0035",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0036",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0037",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0038",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0039",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0040",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0042",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0043",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0044",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0045",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0046",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0047",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0048",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0049",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0051",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0052",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0053",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0054",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0055",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0056",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0057",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0059",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0062",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0064",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0065",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0066",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0067",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0068",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0069",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0070",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0071",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0072",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0073",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0074",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0076",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0077",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0079",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0080",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0081",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0083",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0084",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0085",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0086",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0087",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0088",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0089",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0092",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0093",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0094",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0095",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0096",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0097",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0098",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "wf_0100",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0101",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0102",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0103",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0105",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0106",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0107",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0108",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0109",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0110",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0115",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "CTX"
+     },
+     "robust": true
+    }
+   ],
+   "flip": [
+    {
+     "item_id": "bio_0090",
+     "stratum": "bio",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0007",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0010",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0013",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0029",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0033",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0040",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0050",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0051",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0052",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0058",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0060",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0062",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0065",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0072",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0077",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0079",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0083",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0089",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0094",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0097",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0104",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0110",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0117",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0124",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0125",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0127",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0130",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0131",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0132",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0134",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0137",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0138",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0143",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0152",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0159",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0166",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0168",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0171",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0172",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0174",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "cap_0185",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0187",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "cap_0194",
+     "stratum": "cap",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0000",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0010",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    },
+    {
+     "item_id": "wf_0041",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": false
+    },
+    {
+     "item_id": "wf_0061",
+     "stratum": "wf",
+     "labels": {
+      "peak": "CTX",
+      "trough": "PAR"
+     },
+     "robust": true
+    }
+   ]
+  }
+ }
+}
