@@ -171,15 +171,45 @@ Generation tracks the logit sweep within ~10 points at every layer. Example (Arm
 sufficient to make the trough model generate the context answer again; the trough's changed computation
 lies in layers ~5–16, and its later layers produce the context answer when given the source representation.
 
+### 7b. Necessity: the trough's state breaks the healthy model at the same layers
+
+**Method.** Reverse direction on the same items: the trough's residual stream at layer `l` is put into the
+healthy model (peak, or recovery), which runs the remaining layers with its own weights.
+Damage `N(l) = (D_patched − D_healthy) / (D_trough − D_healthy)` (0 = unchanged, 1 = fully trough-like), plus the
+share of items where the corrupted healthy model *generates its own (parametric) answer*. Pre-registered:
+the first layer with median damage ≥ 0.5 lies within ±2 layers of the sufficiency restoration layer, in all three.
+Consistency check: unpatched leans equal the sufficiency run's for the same items (max difference 0.0000);
+damage 0.00 at layer 1 and 1.00 at layer 31.
+
+| | Damage ≥ 0.5 first at | Generates own answer ≥ 50% first at | Sufficiency layer |
+|---|---|---|---|
+| alpaca trough → peak (n = 36) | 12 | 14 (36% at 12, 81% at 14) | 12 |
+| tulu trough → peak (n = 59) | 10 | 8 (51%) | 8 |
+| tulu trough → recovery (n = 39) | 7 | 8 (62%) | 9 |
+
+Baselines: unpatched healthy model gives its own answer on 0–3% of items, unpatched trough on 100%; no
+garbled outputs (0% "other"). Pre-registered prediction: **holds** in all three.
+
+| Patched layer | 2 | 4 | 6 | 8 | 10 | 12 | 14 | 16 | 19–31 |
+|---|---|---|---|---|---|---|---|---|---|
+| tulu: peak generates own answer | 2% | 2% | 5% | 51% | 49% | 64% | 88% | 93% | 93–100% |
+| alpaca: peak generates own answer | 0% | 0% | 3% | 8% | 8% | 36% | 81% | 94% | 94–100% |
+| tulu: recovery generates own answer | 3% | 8% | 36% | 62% | 85% | 92% | 92% | 95% | 95–100% |
+
+**Claim:** the trough's computation up to layers ~8–14 is sufficient to make a healthy model answer from
+memory; together with 7, the same early-to-middle layer range is both sufficient to restore and sufficient to
+induce the flip, in logits and in generated text, in both runs and in the recovery.
+
 *Reproduce:* `activation_patching.ipynb` (Colab), data `activation-patching/`; figure `figures/patching.png`.
 
 ## 8. The mechanistic picture
 
 1. SFT's context-reliance drop and recovery are carried by country-capitals items, and largely the same items
    in two independent SFT runs.
-2. The change that makes these items flip is computed in the early-to-middle layers (~5–16): patching them
-   back is sufficient to restore context-following, in logits and in generated text, in both runs and in the
-   recovery.
+2. The change that makes these items flip is computed in the early-to-middle layers (~5–16): patching the
+   healthy model's state there into the trough restores context-following, and patching the trough's state
+   into the healthy model induces the flip — at the same layers, in logits and in generated text, in both runs
+   and in the recovery.
 3. That change becomes readable as an answer only at layers ~19+, where the trough model writes its own
    answer instead of the context answer.
 
